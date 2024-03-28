@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "我的第一篇Blog"
+date:   2024-03-29 00:22:42 +0800
+categories: jekyll update
+---
+这是我的第一篇Blog，我会在这里记录我的学习和生活。
+这篇Blog是用Jekyll搭建的，Jekyll是一个静态网站生成器，可以将Markdown文件转换成静态网站。
+同时，这篇Blog是在Github Copilot的帮助下编写的，Github Copilot是一个基于AI的代码提示工具，可以帮助我们更快地编写代码。
+
+愉快的夜晚！
+
+[我的Github地址]: https://github.com/JimmyWangJimmy/
