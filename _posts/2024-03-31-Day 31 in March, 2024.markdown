@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Day 31 in March, 2024"
+date:   2024-03-31 15:32:42 +0800
+categories: jekyll update
+---
+
+三月的最后一天，天气炎热，睡不着，中午醒来吃了的德克士，买了一升装的冰美式，打开电脑，等待去电影院看《坠落的审判》。
+
+![](https://github.com/JimmyWangJimmy/JimmyWangJimmy.github.io/raw/main/_posts/img/20240331153126.jpg)
