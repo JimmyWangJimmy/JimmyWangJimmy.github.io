@@ -3,9 +3,11 @@ layout: post
 title:  "Day 31 in March 2024"
 date:   2024-03-31 15:32:42 +0800
 categories: jekyll update
-encoding: UTF-8
 ---
 
+There is a problem related with utf-8 staff, and Chinese characters are not displayed correctly. I will try to fix it later.
+尝试使用中文
 
+问题解决：在VS Code中，打开文件，点击右下角的UTF-8，选择“Reopen with Encoding”，选择“UTF-8 with BOM”，然后保存文件。
 
 ![](https://github.com/JimmyWangJimmy/JimmyWangJimmy.github.io/raw/main/_posts/img/20240331153126.jpg)
