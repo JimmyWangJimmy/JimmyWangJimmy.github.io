@@ -76,3 +76,7 @@ const [votes, setVotes] = useState(anecdotes.map(() => 0))
 const copy = [...votes.slice(0, selected), votes[selected]+1,  ...votes.slice(selected+1)]
 ```
 
+###### 创建数组
+Array(anecdotes.length).fill(0)
+
+anecdotes.map(() => 0)
