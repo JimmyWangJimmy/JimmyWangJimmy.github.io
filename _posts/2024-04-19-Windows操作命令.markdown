@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Windows操作命令"
+date:   2024-04-19 00:59:42 +0800
+categories: jekyll update
+---
+###### 拷贝文件到指定位置
+```shell
+copy source target
+```
+eg:
+```shell
+copy E:\Source E:\Target    //将E盘下的Source文件夹拷贝到E盘下的Target文件夹
+```
+这样，最后的Target文件夹下就会有Source文件夹中的所有文件了。

@@ -8,7 +8,7 @@ categories: jekyll update
 - [Egghead Beginner Guide To React](https://egghead.io/courses/the-beginner-s-guide-to-react) 
 the new functional ones.
 
-#### ´´½¨ReactÓ¦ÓÃ³ÌĞò
+#### åˆ›å»ºReactåº”ç”¨ç¨‹åº
 ```shell
 npm create vite@latest filename -- --template react
 ```
@@ -22,9 +22,9 @@ npm install
 npm run dev
 ```
 
-ÒÆ³ı`App.css` `Index.css`ÎÄ¼ş `assets`ÎÄ¼ş¼Ğ
+ç§»é™¤`App.css` `Index.css`æ–‡ä»¶ `assets`æ–‡ä»¶å¤¹
 
-ĞŞ¸Ä`App.jsx`ÎÄ¼ş
+ä¿®æ”¹`App.jsx`æ–‡ä»¶
 ```jsx
 import { useState } from 'react'
 const App = () => {
@@ -40,7 +40,7 @@ const App = () => {
 }
 ```
 
-ĞŞ¸Ä`Main.jsx`ÎÄ¼ş
+ä¿®æ”¹`Main.jsx`æ–‡ä»¶
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
@@ -51,32 +51,64 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />)
 ```
 
 
-###### Ê¹ÓÃ Spread Syntax·½·¨
+###### ä½¿ç”¨ Spread Syntaxæ–¹æ³•
 
-¡¤[MDN Spread_syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+Â·[MDN Spread_syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 <br>
-Ê²Ã´Ê±ºòÓÃµ½Spread Syntax·½·¨£¿
+ä»€ä¹ˆæ—¶å€™ç”¨åˆ°Spread Syntaxæ–¹æ³•ï¼Ÿ
 ```text
-ÔÚÊ¹ÓÃconditional stateµÄÊ±ºò£¬½«Ò»¸öÊı×é×÷Îª×´Ì¬£¬±ÈÈç
+åœ¨ä½¿ç”¨conditional stateçš„æ—¶å€™ï¼Œå°†ä¸€ä¸ªæ•°ç»„ä½œä¸ºçŠ¶æ€ï¼Œæ¯”å¦‚
 const [state, setState] = useState([])
-´ËÊ±Èç¹ûÊ¹ÓÃsetStateÈ¥¸üĞÂ×´Ì¬£¬¾Í»áÉæ¼°µ½¶ÔÔ­stateÊı×éµÄ¸üĞÂ£¬µ«ÊÇÓÉÓÚconstµÄÏŞÖÆ£¬ÎÒÃÇÎŞ·¨Ö±½Ó¶Ôstate½øĞĞĞŞ¸Ä£¬ËùÒÔÎÒÃÇĞèÒªÊ¹ÓÃSpread Syntax·½·¨£¬½«Ô­stateÊı×éÕ¹¿ª£¬È»ºóÔÙ½øĞĞ¸üĞÂ¡£
-¾ßÌåµÄsetState·½·¨ÈçÏÂ£º
+æ­¤æ—¶å¦‚æœä½¿ç”¨setStateå»æ›´æ–°çŠ¶æ€ï¼Œå°±ä¼šæ¶‰åŠåˆ°å¯¹åŸstateæ•°ç»„çš„æ›´æ–°ï¼Œä½†æ˜¯ç”±äºconstçš„é™åˆ¶ï¼Œæˆ‘ä»¬æ— æ³•ç›´æ¥å¯¹stateè¿›è¡Œä¿®æ”¹ï¼Œæ‰€ä»¥æˆ‘ä»¬éœ€è¦ä½¿ç”¨Spread Syntaxæ–¹æ³•ï¼Œå°†åŸstateæ•°ç»„å±•å¼€ï¼Œç„¶åå†è¿›è¡Œæ›´æ–°ã€‚
+å…·ä½“çš„setStateæ–¹æ³•å¦‚ä¸‹ï¼š
 setState([...state, newItem])
 ```
 
-¾Ù¸öÀı×Ó£º
-ÎÒµÄ³õÊ¼×´Ì¬ÊÇÒ»¸ö¿ÕÊı×é
+ä¸¾ä¸ªä¾‹å­ï¼š
+æˆ‘çš„åˆå§‹çŠ¶æ€æ˜¯ä¸€ä¸ªç©ºæ•°ç»„
 ```jsx
 const [votes, setVotes] = useState(anecdotes.map(() => 0))
 ```
 
-ÕâÊÇ´´½¨Ò»¸öcopyÊı×éµÄ·½·¨£¬Ê¹ÓÃSpread Syntax·½·¨ºÍslice·½·¨
+è¿™æ˜¯åˆ›å»ºä¸€ä¸ªcopyæ•°ç»„çš„æ–¹æ³•ï¼Œä½¿ç”¨Spread Syntaxæ–¹æ³•å’Œsliceæ–¹æ³•
 
 ```jsx
 const copy = [...votes.slice(0, selected), votes[selected]+1,  ...votes.slice(selected+1)]
 ```
 
-###### ´´½¨Êı×é
+###### åˆ›å»ºæ•°ç»„
 Array(anecdotes.length).fill(0)
 
 anecdotes.map(() => 0)
+
+
+###### è¿è¡Œ`npm i`è§£å†³ `npm run dev`æŠ¥é”™:`'vite' ä¸æ˜¯å†…éƒ¨æˆ–å¤–éƒ¨å‘½ä»¤ï¼Œä¹Ÿä¸æ˜¯å¯è¿è¡Œçš„ç¨‹åºæˆ–æ‰¹å¤„ç†æ–‡ä»¶ã€‚`
+
+
+###### '{}'çš„ä½¿ç”¨æ³¨æ„
+æˆ‘çš„åˆå§‹çŠ¶æ€è®¾ç½®ä¸­æœ‰ä¸€ä¸ªæ•°ç»„
+```jsx
+  const [persons, setPersons] = useState([
+    { name: 'Arto Hellas' },{ name: 'Ada Lovelace' },{ name: 'Dan Abramov'}
+  ]) 
+```
+æˆ‘æƒ³è¦ä½¿ç”¨mapå‡½æ•°å°†å…¶ä¸­çš„nameå±æ€§å•ç‹¬æ„å»ºä¸€ä¸ªæ•°ç»„ï¼Œæ­£ç¡®çš„åšæ³•å¦‚ä¸‹ï¼š
+```jsx
+const personnames = persons.map(person => person.name)
+```
+æµè§ˆå™¨ä½¿ç”¨console.log(personnames)è¾“å‡ºç»“æœä¸ºï¼š
+```jsx
+(3) ['Arto Hellas', 'Ada Lovelace', 'Dan Abramov']
+```
+
+å¦‚æœä¸å°å¿ƒåŠ ä¸Šäº†ä¸€ä¸ªå¯æ¶çš„'{}'ï¼Œå°±ä¼šå‡ºç°ï¼š
+```jsx
+const personnames = persons.map(person => {person.name})
+```
+æµè§ˆå™¨ä½¿ç”¨console.log(personnames)è¾“å‡ºç»“æœä¸ºï¼š
+```jsx
+(3) [undefined, undefined, undefined]
+```
+
+åŸå› åœ¨äºï¼Œå½“æˆ‘ä»¬ä½¿ç”¨{}æ—¶ï¼Œæˆ‘ä»¬éœ€è¦åœ¨{}ä¸­ä½¿ç”¨returnå…³é”®å­—ï¼Œå¦åˆ™ä¼šè¿”å›undefinedã€‚
+æ›´æ·±å±‚çš„åŸå› æ˜¯ï¼š
