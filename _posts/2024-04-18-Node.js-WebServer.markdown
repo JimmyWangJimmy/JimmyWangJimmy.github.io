@@ -84,5 +84,68 @@ npm install cors
 1. 安装flyctl
 如果遇到无法识别pwsh,则需要安装最新powershell
 
-2.
+2. 登录fly
 ```bash
+fly auth login
+```
+
+3. 创建应用
+```bash
+fly init
+```
+
+注意在部署前进行以下修改：
+1.在`fly.toml`中添加环境变量（与后端的端口一致）
+```toml
+[env]
+PORT = "3000"
+```
+2.修改`index.js`文件中的端口号
+```javascript
+const PORT = process.env.PORT || 3000
+```
+
+4. 部署
+```bash
+fly deploy
+```
+
+5. 查看部署情况
+```bash
+flyctl ping -o personal
+``` 
+
+
+###### FullStack部署
+解决CORS(Cross-Origin Resource Sharing)
+
+1.backend 下载 cors
+```bash
+npm install cors
+```
+2.在`index.js`中引入cors
+```javascript
+const cors = require('cors')
+app.use(cors())
+``` 
+
+注意涉及到文件夹的部分最好在gitbash中操作。
+
+可以使用script命令来简化操作
+一个例子：package.json`中的scripts部分
+```json
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "build:ui": "rm -rf dist && cd E:/FullStackCamp/FullStackOpenCourse/part2/phonebook/part2phonebook/ && npm run build && cp -r dist E:/FullStackCampCP/FullStackOpenCourse/part3phonebookbackend",
+    "deploy": "fly deploy",
+    "deploy:full": "npm run build:ui && npm run deploy",
+    "logs:prod": "fly logs --app phonebook-backend"
+  },
+```
+
+注意利用express的中间件static来提供静态文件
+```javascript
+app.use(express.static('dist'))
+```
