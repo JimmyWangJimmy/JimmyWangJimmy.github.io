@@ -1,4 +1,9 @@
-
+---
+layout: post
+title:  "一次debug经历"
+date:   2024-04-23 15:32:42 +0800
+categories: jekyll update
+---
 1.MongoDB 
 连接时，注意`<password>`整个换成自己的database的user密码，比如123456，而不是写成`<123456>`。
 

@@ -13,3 +13,10 @@ eg:
 copy E:\Source E:\Target    //将E盘下的Source文件夹拷贝到E盘下的Target文件夹
 ```
 这样，最后的Target文件夹下就会有Source文件夹中的所有文件了。
+
+
+
+###### 文件夹打开CMD
+在文件夹地址栏输入cmd，回车即可打开cmd，此时的cmd路径就是当前文件夹的路径。
+
+###### 居然可以拖动文件夹到VS Code中打开 :( stupid me 

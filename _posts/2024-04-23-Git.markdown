@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "解决ERROR: Permission to .git denied to deploy key fatal: Could not read from remote repository."
+date:   2024-04-23 00:59:42 +0800
+categories: jekyll update
+---
+
+解决
+ERROR: Permission to .git denied to deploy key fatal: Could not read from remote repository.
+
+一种解决的可能：切换为https方式
+使用`git clone`命令时 使用了ssh，
+这时，使用
+```git
+git remote -v
+```
+会显示为
+
+```git
+origin  git@github.com:YourGithubUserName/RepositoryName.git (fetch)
+origin  git@github.com:YourGithubUserName/RepositoryName.git (push)
+```
+
+进行切换：
+```git
+ git remote set-url origin https://github.com/YourGithubUserName/RepositoryName.git
+ ```
+
+检查一下：
+```git
+git remote -v
+```
+
+如果显示为
+```
+origin  https://github.com/YourGithubUserName/RepositoryName.git (fetch)
+origin  https://github.com/YourGithubUserName/RepositoryName.git.git (push)
+```
+
+则切换成功。
+
+官方文档：[管理remote repository](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
