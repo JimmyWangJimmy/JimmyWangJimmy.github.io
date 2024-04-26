@@ -4,9 +4,11 @@ title:  "SpringBoot FullStack FrontEnd Vue"
 date:   2024-04-27 00:45:00 +0800
 categories: jekyll update
 ---
+前言：Draft版本。
 
-### Vue
-#### Vue的基本使用
+### <font color=Black size=6>Vue</font>
+
+#### <font color=RoyalBlue size=4>1.Vue的基本使用</font>
 事件绑定：
 v-on:click 等价于 @:click
 
@@ -26,7 +28,7 @@ key属性
 双向绑定与单向绑定
 v-model 与 :value
 
-#### Vue CLI的使用：
+#### <font color=RoyalBlue size=4>2.Vue CLI的使用：</font>
 npm install -g @vue/cli
 -g表示全局安装
 
@@ -53,7 +55,7 @@ Check the spelling of the name, or if a path was included, verify that the path 
 Error: command failed: yarn
 解决方案：npm install -g yarn
 
-#### Vue 构成
+#### <font color=RoyalBlue size=4>3.Vue 构成</font>
 
 1.组件
 组件是Vue的核心，可以理解为一个自定义标签，可以在一个页面中多次使用。
@@ -99,12 +101,12 @@ const store = new Vuex.Store({
 })
 实现了一个状态管理，count的值为0，点击按钮，count的值加1。
 
-#### VScode vue着色插件 vetur
+#### <font color=RoyalBlue size=4>4.插件：VScode vue着色插件 vetur</font>
 Vetur是一个专门为Vue.js开发者打造的插件，提供了丰富的语法高亮、智能感知、Emmet等功能。
 
 
 
-#### Element-UI ForVue2
+#### <font color=RoyalBlue size=4>5.Element-UI ForVue2</font>
 官网：[Element-UI for vue2](https://element.eleme.cn/#/zh-CN)
 项目中下载：
 ```shell
@@ -121,7 +123,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 ```
 
-#### 图标 Font Awesome
+#### <font color=RoyalBlue size=4>>图标 Font Awesome</font>
 [fontawesome中文](https://fontawesome.dashgame.com/)
 [Fontawesome英文](https://fontawesome.com/)
 安装：
@@ -150,7 +152,7 @@ fa-lg 大33%, fa-2x 大200%, fa-3x 大300%, fa-4x 大400%, fa-5x 大500%\
 样例：比原图大33%\
 `<i class="fa fa-user fa-lg"></i>`
 
-#### axios
+#### <font color=RoyalBlue size=4>5.axios</font>
 axios是一个基于promise的HTTP库，可以用在浏览器和node.js中。
 内部其实是对原生的XMLHttpRequest对象的封装。
 axios和ajax的关系：axios是对ajax的封装，使用axios就是使用ajax。
@@ -190,7 +192,7 @@ async function getData(){
     }
 }
 ```
-#### Vue生命周期
+#### <font color=RoyalBlue size=4>6.Vue生命周期</font>
 Vue实例有一个完整的生命周期，也就是从开始创建、初始化数据、编译模板、挂载DOM、渲染-更新-销毁等一系列过程，我们称这是Vue的生命周期。
 
 created和mounted:
@@ -274,7 +276,7 @@ export default {
 在浏览器中打开控制台，可以看到生命周期函数的执行顺序。
 
 
-#### VueRouter
+#### <font color=RoyalBlue size=4>7. VueRouter</font>
 VueRouter管理SPA项目的组件切换
 vue-router 版本 3.X对应vue版本2 4.X对应vue3
 1.VueRouter的安装和使用
@@ -391,7 +393,7 @@ router.beforeEach((to, from, next) => {
 ```
 这样就可以实现在访问main页面时，如果没有登录，就会跳转到login页面。
 
-#### Vuex-状态管理
+#### <font color=RoyalBlue size=4>8. Vuex-状态管理</font>
 Vuex是一个专为Vue.js应用程序开发的状态管理库。它采用集中式存储管理应用的所有组件的状态。
 能够支持多层嵌套的组件、兄弟组件之间传值。
 
