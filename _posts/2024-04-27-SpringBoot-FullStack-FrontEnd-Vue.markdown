@@ -1,94 +1,12 @@
 ---
 layout: post
-title:  "SpringBoot Full Stack"
-date:   2024-04-19 15:32:42 +0800
+title:  "SpringBoot FullStack FrontEnd Vue"
+date:   2024-04-27 00:45:00 +0800
 categories: jekyll update
 ---
-## Resouces
--[1天搞定SpringBoot+Vue全栈开发](https://www.bilibili.com/video/BV1nV4y1s7ZN/)
-
-## Spring Boot Full Stack
-
-### Spring Boot
-
-###### IDEA实现热启动
--TO BE DONE
-
-
-###### 使用Swagger 创建Restful风格API
-1.添加依赖
-swagger2  swagger-ui
-2.Apioperation（''）
-3.配置类
-4.访问http://localhost:8080/swagger-ui.html
-
-###### ORM
-ORM(Object Relational Mapping)对象关系映射
-解决面向对象和关系型数据库之间的不匹配问题
-MyBatis 数据持久层的框架
-
-依赖：
-1.MyBatis
-2.Mysql
-3.druid
-
-###### Mybatis-plus
-如果查询的数据库里不存在该字段，则加上注解：
-@TableField(exist = false)
-
-对于外表查询，可以使用：
-[多表查询](E:\MyGithubWeb\SpringBoot-FullStack\外表查询.png)
-
-以用户和订单为例。
-一个用户对应多个订单，一个订单对应唯一一个用户。
-
-在用户的实体类中，有orders这样的字段，但是数据库中并没有。可以通过
-在用户中查询该用户的所有订单，可以在UserMapper中这样写:
-查询所有用户和所有订单
-@Select("select * from t_user)
-@Results(
-    {
-        @Result(column="id", property="id"),
-        @Result(column="username", property="username"),
-        @Result(password="password", property="password"),
-        @Result(birthday="birthday", property="birthday"),
-        @Result(column="id", property="orders",
-            many=@Many(select="com.example.demo.mapper.OrderMapper.selectByuid")
-        )
-    }
-)
-List<User> selectAllUserAndOrders();
-调用OrderMapper中的selectByuid方法，传入用户的id，返回该用户的所有订单。
-
-再来看看OrderMapper
-@Select("select * from t_order where uid=#{uid}")
-List<Order> selectByuid(int uid);
-查询出来的值会交给上面的orders属性，完成赋值。
-
-总结一下：查询所有用户及他们自己的订单，首先在User实体类中加入属性orders，然后在UserMapper中写一个查询所有用户及他们的订单的方法，再在OrderMapper中写一个查询某个用户的所有订单的方法。
-
-条件查询 QueryWrapper
-@GETMapping("/user/find")
-public List<User> findByCond(){
-    QueryWrapper<User> queryWrapper= new QueryWrapper();
-    queryWrapper.eq("username","zhangsan");
-    return userMapper.selectList(queryWrapper);
-}
-
-分页查询：
-1.
-@GETMapping("/user/findByPage")
-public IPage findByPage(){
-    Page<User> page = new Page<>(0,2);
-    IPage ipage = userMapper.selectPage(page,null);
-    return ipage;
-}
-2.在配置类中
-添加分页拦截器
-
 
 ### Vue
-###### Vue的基本使用
+#### Vue的基本使用
 事件绑定：
 v-on:click 等价于 @:click
 
@@ -108,7 +26,7 @@ key属性
 双向绑定与单向绑定
 v-model 与 :value
 
-###### Vue CLI的使用：
+#### Vue CLI的使用：
 npm install -g @vue/cli
 -g表示全局安装
 
@@ -123,17 +41,20 @@ N
 
 删掉四个东西：
 1.components下的HelloWorld.vue
-2.App.vue中的<template>包裹的<div>中的内容
-删掉import
+2.App.vue中的`<template>`包裹的`<div>`中的内容
+<br>
+删掉import\
 删掉components
+<br>
 问题1：vue: The term 'vue' is not recognized as a name of a cmdlet, function, script file, or executable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.\
 解决方案：很有可能是node的问题，切换node版本重新配置了nvm：<a href="#nvm">nvm配置</a>
 问题2： ERROR  Error: command failed: yarn
 Error: command failed: yarn
 解决方案：npm install -g yarn
 
-###### Vue 构成
+#### Vue 构成
+
 1.组件
 组件是Vue的核心，可以理解为一个自定义标签，可以在一个页面中多次使用。
 2.指令
@@ -160,7 +81,7 @@ v-for="(item,index) in items"
 路由是Vue的特殊属性，可以在组件中添加，用来实现一些特殊的功能。比如router-link。
 举个例子：
 <router-link to="/home">Home</router-link>
-实现了一个路由，点击Home，跳转到home页面。
+实现了一个路由，点击Home，跳转到home页面。\
 7.状态管理
 状态管理是Vue的特殊属性，可以在组件中添加，用来实现一些特殊的功能。比如vuex。
 举个例子：
@@ -178,71 +99,88 @@ const store = new Vuex.Store({
 })
 实现了一个状态管理，count的值为0，点击按钮，count的值加1。
 
-###### VScode vue着色插件 vetur
+#### VScode vue着色插件 vetur
 Vetur是一个专门为Vue.js开发者打造的插件，提供了丰富的语法高亮、智能感知、Emmet等功能。
 
 
 
-###### Element-UI ForVue2
+#### Element-UI ForVue2
 官网：[Element-UI for vue2](https://element.eleme.cn/#/zh-CN)
 项目中下载：
+```shell
 npm install element-ui
+```
 main.js引入：
+```javascript  
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+```
 
 并使用全局注册：
+```
 Vue.use(ElementUI);
+```
 
-###### 图标 Font Awesome
+#### 图标 Font Awesome
 [fontawesome中文](https://fontawesome.dashgame.com/)
 [Fontawesome英文](https://fontawesome.com/)
 安装：
+```shell
 npm install font-awesome
+```
 在main.js中引入：
-
+```javascript
 import 'font-awesome/css/font-awesome.min.css'
+```
 
 使用图标：
-样例：
-<i class="fa fa-user"></i>
+样例：\
+`<i class="fa fa-user"></i>`\
 注意，所有的图标都是以fa开头的。
 
-好的，下面是一个握手的图标：
-fa-handshake-o
+好的，下面是一个握手的图标：\
+fa-handshake-o\
 直接复制下面的代码到需要的地方即可。
+```html
 <i class="fa fa-handshake-o"></i>
+```
 
 图标大小的调整：
-fa-lg 大33% fa-2x 大200% fa-3x 大300% fa-4x 大400% fa-5x 大500%
-样例：比原图大33%
-<i class="fa fa-user fa-lg"></i>
+fa-lg 大33%, fa-2x 大200%, fa-3x 大300%, fa-4x 大400%, fa-5x 大500%\
+样例：比原图大33%\
+`<i class="fa fa-user fa-lg"></i>`
 
-###### axios
+#### axios
 axios是一个基于promise的HTTP库，可以用在浏览器和node.js中。
 内部其实是对原生的XMLHttpRequest对象的封装。
 axios和ajax的关系：axios是对ajax的封装，使用axios就是使用ajax。
 
 
 下载：
+```shell
 npm install axios
+```
 
 导入：
 main.js中引入：
+```javascript
 import axios from 'axios'
-
+```
 或者组件导入
+```javascript
 import axios from 'axios'
-
+```
 使用：
+```javascript
 axios.get('url').then(res=>{
     console.log(res)
 }).catch(err=>{
     console.log(err)
 })
-
+```
 支持ES6的写法：Async/Await
 可以用同步的方式写异步代码。
+```javascript
 async function getData(){
     try{
         let res = await axios.get('url')
@@ -251,8 +189,8 @@ async function getData(){
         console.log(err)
     }
 }
-
-###### Vue生命周期
+```
+#### Vue生命周期
 Vue实例有一个完整的生命周期，也就是从开始创建、初始化数据、编译模板、挂载DOM、渲染-更新-销毁等一系列过程，我们称这是Vue的生命周期。
 
 created和mounted:
@@ -336,7 +274,7 @@ export default {
 在浏览器中打开控制台，可以看到生命周期函数的执行顺序。
 
 
-###### VueRouter
+#### VueRouter
 VueRouter管理SPA项目的组件切换
 vue-router 版本 3.X对应vue版本2 4.X对应vue3
 1.VueRouter的安装和使用
@@ -374,7 +312,7 @@ const router = new VueRouter({
     </div>
 </template>
 ```
-注意上面的<router-view></router-view>，这个标签是用来显示当前路由组件的。是一个占位符，也就是说当前路由匹配到的组件会显示在这里。
+注意上面的`<router-view></router-view>`，这个标签是用来显示当前路由组件的。是一个占位符，也就是说当前路由匹配到的组件会显示在这里。
 
 
 最后在main.js中导入router
@@ -401,7 +339,7 @@ new Vue({
 ```
 这样如果我们打开localhost:8080/，就会自动跳转到localhost:8080/discover。
 
-嵌套路由：可以在组件中使用<router-link>和<router-view>，这样就可以实现嵌套路由。
+嵌套路由：可以在组件中使用`<router-link>`和`<router-view>`，这样就可以实现嵌套路由。
 
 对于嵌套路由也需要在router/index.js中进行配置，如果路径一致，可以在该路径后面加children属性，然后再添加子路由。
 ```js
@@ -430,12 +368,13 @@ const router = new VueRouter({
 在router/index.js中添加props属性
 { path: '/my/:id', component: Product, props: true }
 在组件Product.vue中添加props属性
+```js
 <script>
 export default {
     name: 'Product',
     props: ['id']
 }
-
+```
 3.子路由
 4.导航守卫
 控制路由访问权限
@@ -452,17 +391,21 @@ router.beforeEach((to, from, next) => {
 ```
 这样就可以实现在访问main页面时，如果没有登录，就会跳转到login页面。
 
-###### Vuex-状态管理
+#### Vuex-状态管理
 Vuex是一个专为Vue.js应用程序开发的状态管理库。它采用集中式存储管理应用的所有组件的状态。
 能够支持多层嵌套的组件、兄弟组件之间传值。
 
 版本：vuex@3对应vue2，vuex@4对应vue3
 安装：
+```shell
 npm install vuex@3
+```
 
 我的理解：Vuex的关键是使用state作为全局状态，并将view和state进行了绑定。
+\
+\
+\
 如何修改state呢？
-
 
 比如一个组件中有一个按钮，点击按钮出发一个action，
 
@@ -477,6 +420,7 @@ Action可以用来异步操作
 Action不能直接修改State，而是通过提交mutation来修改，可以包含任意异步操作。
 比如下面的代码：通过commit来提交一个mutation，然后修改state中的count。
 (注意vuex3（适配vue2）创建store的方法是new Vuex.store, vuex4（适配vue3）对应的创建方法如下)
+```js
 const store = createStore({
     state: {
     count: 0
@@ -492,7 +436,7 @@ const store = createStore({
         }
     }   
 })
-
+```
 来总结一下：组件中想要修改state。
 第一步，分发action, this.$store.dispatch('increment')
 第二步，action中提交mutation，context.commit('increment')
@@ -519,19 +463,20 @@ Vue.use(Vuex)
 计算属性:简单的说，就是在组件里定义一个computed属性，返回this.$store.state.count，这样就可以在模板中直接使用{{count}}来显示state中的count值。
 
 也可以使用MapState辅助函数来简化计算属性的写法，分为两步。[mapState辅助函数](https://vuex.vuejs.org/zh/guide/state.html#mapstate-%E8%BE%85%E5%8A%A9%E5%87%BD%E6%95%B0)
-第一步，在组件的<script>中导入mapState
+第一步，在组件的`<script>`中导入mapState
 import { mapState } from 'vuex'
 第二部，在computed中使用mapState
 
 
 当映射的计算属性的名称与state的子节点名称相同时，可以直接传递一个字符串数组。
+```js
 computed:{
     mapState(['count'])
 }
 computed:{
     ...mapState(['count'])
 }
-
+```
 使用mapGetters,
 第一步，在store/index.js中定义getters
 第二步，在组件中导入mapGetters,如import { mapState, mapGetters } from 'vuex'
@@ -547,49 +492,3 @@ computed:{
 Module:
 > Vuex 允许我们将 store 分割成模块（module）。每个模块拥有自己的 state、mutation、action、getter、甚至是嵌套子模块——从上至下进行同样方式的分割
 
-
-###### NVM- Node Version Manager <a name="nvm">
-[安装nvm，并使用nvm安装nodejs及配置环境变量](https://blog.csdn.net/JJ_Smilewang/article/details/127823953)
-
-
-### 其他问题
-###### 解决跨域问题
-后端使用CORS解决跨域问题：
-
-CORS（Cross-Origin Resource Sharing）跨域资源共享，是一种机制，它使用额外的HTTP头来告诉浏览器，允许一个网页的访问另一个网站的资源。
-
-简单请求的服务器处理：
-在请求头中加一个Origin字段，表示请求的源地址。
-服务器在收到请求后，在响应头中加一个Access-Control-Allow-Origin字段，表示允许的源地址。
-
-非简单请求的服务器处理：
-浏览器会先发送一个OPTIONS请求，询问服务器是否允许跨域。（也称为预检请求Preflight request）
-markdown插入本地图片:
-![图片](E:\MyGithubWeb\SpringBoot-FullStack\跨域-非简单请求.png)
-
-后端可以使用SpringBoot解决跨域问题：
-可以通过配置类的方式解决跨域问题：
-addCorsMappings()
-也可以在Controller中使用注解@CrossOrigin解决跨域问题。
-
-网络请求可以用箭头函数解决this作用域的问题，this作用域和created()函数中的this作用域不一样，所以需要用箭头函数解决。
-用箭头函数解决this作用域的问题：
-例子：
-```javascript
-methods:{
-    getData(){
-        axios.get('url').then(res=>{
-            console.log(this)
-        })
-    }
-}
-```
-
-###### 设置Baseurl
-在main.js中设置axios的baseURL：
-```javascript
-axios.defaults.baseURL = 'http://localhost:8080'
-Vue.prototype.$http = axios
-```
-这样一来我们的使用中就可以
-this.$http.get(/user) 等价于 axios.get(http://localhost:8080/user)
