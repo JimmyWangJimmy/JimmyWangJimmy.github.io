@@ -6,85 +6,85 @@ categories: jekyll update
 ---
 
 ### Vue
-#### VueµÄ»ù±¾Ê¹ÓÃ
-ÊÂ¼ş°ó¶¨£º
-v-on:click µÈ¼ÛÓÚ @:click
+#### Vueçš„åŸºæœ¬ä½¿ç”¨
+äº‹ä»¶ç»‘å®šï¼š
+v-on:click ç­‰ä»·äº @:click
 
-Ìõ¼şäÖÈ¾£º
+æ¡ä»¶æ¸²æŸ“ï¼š
 v-if="bool"
-´«µİµÄÊÇÒ»¸öboolÖµ£¬Èç¹ûÎªtrue£¬ÔòäÖÈ¾£¬·ñÔò²»äÖÈ¾¡£
+ä¼ é€’çš„æ˜¯ä¸€ä¸ªboolå€¼ï¼Œå¦‚æœä¸ºtrueï¼Œåˆ™æ¸²æŸ“ï¼Œå¦åˆ™ä¸æ¸²æŸ“ã€‚
 v-show="bool"
 
-Á½ÕßµÄ²îÒì£ºÈç¹ûÎªfalse£¬v-if²»»áäÖÈ¾£¬v-show»áäÖÈ¾£¬Ö»ÊÇ²»ÏÔÊ¾¡£
+ä¸¤è€…çš„å·®å¼‚ï¼šå¦‚æœä¸ºfalseï¼Œv-ifä¸ä¼šæ¸²æŸ“ï¼Œv-showä¼šæ¸²æŸ“ï¼Œåªæ˜¯ä¸æ˜¾ç¤ºã€‚
 
-ÁĞ±íäÖÈ¾£º
+åˆ—è¡¨æ¸²æŸ“ï¼š
 v-for="(item,index) in items"
-itemsÊÇÒ»¸öÊı×é£¬itemÊÇÊı×éÖĞµÄÔªËØ£¬indexÊÇÔªËØµÄÏÂ±ê¡£
+itemsæ˜¯ä¸€ä¸ªæ•°ç»„ï¼Œitemæ˜¯æ•°ç»„ä¸­çš„å…ƒç´ ï¼Œindexæ˜¯å…ƒç´ çš„ä¸‹æ ‡ã€‚
 
-keyÊôĞÔ
+keyå±æ€§
 <li v-for="(item,index) in items" :key="uniquekey"></li>
-Ë«Ïò°ó¶¨Óëµ¥Ïò°ó¶¨
-v-model Óë :value
+åŒå‘ç»‘å®šä¸å•å‘ç»‘å®š
+v-model ä¸ :value
 
-#### Vue CLIµÄÊ¹ÓÃ£º
+#### Vue CLIçš„ä½¿ç”¨ï¼š
 npm install -g @vue/cli
--g±íÊ¾È«¾Ö°²×°
+-gè¡¨ç¤ºå…¨å±€å®‰è£…
 
 vue create projectname
 
 Manually select features
-È¡Ïû Linter / Formatter
+å–æ¶ˆ Linter / Formatter
 
 In package.json
 
 N
 
-É¾µôËÄ¸ö¶«Î÷£º
-1.componentsÏÂµÄHelloWorld.vue
-2.App.vueÖĞµÄ`<template>`°ü¹üµÄ`<div>`ÖĞµÄÄÚÈİ
+åˆ æ‰å››ä¸ªä¸œè¥¿ï¼š
+1.componentsä¸‹çš„HelloWorld.vue
+2.App.vueä¸­çš„`<template>`åŒ…è£¹çš„`<div>`ä¸­çš„å†…å®¹
 <br>
-É¾µôimport\
-É¾µôcomponents
+åˆ æ‰import\
+åˆ æ‰components
 <br>
-ÎÊÌâ1£ºvue: The term 'vue' is not recognized as a name of a cmdlet, function, script file, or executable program.
+é—®é¢˜1ï¼švue: The term 'vue' is not recognized as a name of a cmdlet, function, script file, or executable program.
 Check the spelling of the name, or if a path was included, verify that the path is correct and try again.\
-½â¾ö·½°¸£ººÜÓĞ¿ÉÄÜÊÇnodeµÄÎÊÌâ£¬ÇĞ»»node°æ±¾ÖØĞÂÅäÖÃÁËnvm£º<a href="#nvm">nvmÅäÖÃ</a>
-ÎÊÌâ2£º ERROR  Error: command failed: yarn
+è§£å†³æ–¹æ¡ˆï¼šå¾ˆæœ‰å¯èƒ½æ˜¯nodeçš„é—®é¢˜ï¼Œåˆ‡æ¢nodeç‰ˆæœ¬é‡æ–°é…ç½®äº†nvmï¼š<a href="#nvm">nvmé…ç½®</a>
+é—®é¢˜2ï¼š ERROR  Error: command failed: yarn
 Error: command failed: yarn
-½â¾ö·½°¸£ºnpm install -g yarn
+è§£å†³æ–¹æ¡ˆï¼šnpm install -g yarn
 
-#### Vue ¹¹³É
+#### Vue æ„æˆ
 
-1.×é¼ş
-×é¼şÊÇVueµÄºËĞÄ£¬¿ÉÒÔÀí½âÎªÒ»¸ö×Ô¶¨Òå±êÇ©£¬¿ÉÒÔÔÚÒ»¸öÒ³ÃæÖĞ¶à´ÎÊ¹ÓÃ¡£
-2.Ö¸Áî
-Ö¸ÁîÊÇVueµÄÌØÊâÊôĞÔ£¬¿ÉÒÔÔÚ±êÇ©ÉÏÌí¼Ó£¬ÓÃÀ´ÊµÏÖÒ»Ğ©ÌØÊâµÄ¹¦ÄÜ¡£±ÈÈçv-if,v-show,v-forµÈ¡£
-¾Ù¸öÀı×Ó£º
+1.ç»„ä»¶
+ç»„ä»¶æ˜¯Vueçš„æ ¸å¿ƒï¼Œå¯ä»¥ç†è§£ä¸ºä¸€ä¸ªè‡ªå®šä¹‰æ ‡ç­¾ï¼Œå¯ä»¥åœ¨ä¸€ä¸ªé¡µé¢ä¸­å¤šæ¬¡ä½¿ç”¨ã€‚
+2.æŒ‡ä»¤
+æŒ‡ä»¤æ˜¯Vueçš„ç‰¹æ®Šå±æ€§ï¼Œå¯ä»¥åœ¨æ ‡ç­¾ä¸Šæ·»åŠ ï¼Œç”¨æ¥å®ç°ä¸€äº›ç‰¹æ®Šçš„åŠŸèƒ½ã€‚æ¯”å¦‚v-if,v-show,v-forç­‰ã€‚
+ä¸¾ä¸ªä¾‹å­ï¼š
 v-if="bool"
 v-show="bool"
 v-for="(item,index) in items"
-3.ÊÂ¼ş
-ÊÂ¼şÊÇVueµÄÌØÊâÊôĞÔ£¬¿ÉÒÔÔÚ±êÇ©ÉÏÌí¼Ó£¬ÓÃÀ´ÊµÏÖÒ»Ğ©ÌØÊâµÄ¹¦ÄÜ¡£±ÈÈç@click,@changeµÈ¡£
-¾Ù¸öÀı×Ó£º
+3.äº‹ä»¶
+äº‹ä»¶æ˜¯Vueçš„ç‰¹æ®Šå±æ€§ï¼Œå¯ä»¥åœ¨æ ‡ç­¾ä¸Šæ·»åŠ ï¼Œç”¨æ¥å®ç°ä¸€äº›ç‰¹æ®Šçš„åŠŸèƒ½ã€‚æ¯”å¦‚@click,@changeç­‰ã€‚
+ä¸¾ä¸ªä¾‹å­ï¼š
 @click="handleClick"
 @change="handleChange"
-4.²å²Û
-²å²ÛÊÇVueµÄÌØÊâÊôĞÔ£¬¿ÉÒÔÔÚ×é¼şÖĞÌí¼Ó£¬ÓÃÀ´ÊµÏÖÒ»Ğ©ÌØÊâµÄ¹¦ÄÜ¡£±ÈÈçslot¡£
-¾Ù¸öÀı×Ó£º
+4.æ’æ§½
+æ’æ§½æ˜¯Vueçš„ç‰¹æ®Šå±æ€§ï¼Œå¯ä»¥åœ¨ç»„ä»¶ä¸­æ·»åŠ ï¼Œç”¨æ¥å®ç°ä¸€äº›ç‰¹æ®Šçš„åŠŸèƒ½ã€‚æ¯”å¦‚slotã€‚
+ä¸¾ä¸ªä¾‹å­ï¼š
 <slot></slot>
-5.¹ıÂËÆ÷
-¹ıÂËÆ÷ÊÇVueµÄÌØÊâÊôĞÔ£¬¿ÉÒÔÔÚ±êÇ©ÉÏÌí¼Ó£¬ÓÃÀ´ÊµÏÖÒ»Ğ©ÌØÊâµÄ¹¦ÄÜ¡£±ÈÈçfilter¡£
-¾Ù¸öÀı×Ó£º
+5.è¿‡æ»¤å™¨
+è¿‡æ»¤å™¨æ˜¯Vueçš„ç‰¹æ®Šå±æ€§ï¼Œå¯ä»¥åœ¨æ ‡ç­¾ä¸Šæ·»åŠ ï¼Œç”¨æ¥å®ç°ä¸€äº›ç‰¹æ®Šçš„åŠŸèƒ½ã€‚æ¯”å¦‚filterã€‚
+ä¸¾ä¸ªä¾‹å­ï¼š
 {{msg | filter}}
-ÊµÏÖÁËÒ»¸ö¹ıÂËÆ÷£¬½«msgµÄÖµ´«ÈëfilterÖĞ£¬È»ºó·µ»ØÒ»¸öĞÂµÄÖµ¡£
-6.Â·ÓÉ
-Â·ÓÉÊÇVueµÄÌØÊâÊôĞÔ£¬¿ÉÒÔÔÚ×é¼şÖĞÌí¼Ó£¬ÓÃÀ´ÊµÏÖÒ»Ğ©ÌØÊâµÄ¹¦ÄÜ¡£±ÈÈçrouter-link¡£
-¾Ù¸öÀı×Ó£º
+å®ç°äº†ä¸€ä¸ªè¿‡æ»¤å™¨ï¼Œå°†msgçš„å€¼ä¼ å…¥filterä¸­ï¼Œç„¶åè¿”å›ä¸€ä¸ªæ–°çš„å€¼ã€‚
+6.è·¯ç”±
+è·¯ç”±æ˜¯Vueçš„ç‰¹æ®Šå±æ€§ï¼Œå¯ä»¥åœ¨ç»„ä»¶ä¸­æ·»åŠ ï¼Œç”¨æ¥å®ç°ä¸€äº›ç‰¹æ®Šçš„åŠŸèƒ½ã€‚æ¯”å¦‚router-linkã€‚
+ä¸¾ä¸ªä¾‹å­ï¼š
 <router-link to="/home">Home</router-link>
-ÊµÏÖÁËÒ»¸öÂ·ÓÉ£¬µã»÷Home£¬Ìø×ªµ½homeÒ³Ãæ¡£\
-7.×´Ì¬¹ÜÀí
-×´Ì¬¹ÜÀíÊÇVueµÄÌØÊâÊôĞÔ£¬¿ÉÒÔÔÚ×é¼şÖĞÌí¼Ó£¬ÓÃÀ´ÊµÏÖÒ»Ğ©ÌØÊâµÄ¹¦ÄÜ¡£±ÈÈçvuex¡£
-¾Ù¸öÀı×Ó£º
+å®ç°äº†ä¸€ä¸ªè·¯ç”±ï¼Œç‚¹å‡»Homeï¼Œè·³è½¬åˆ°homeé¡µé¢ã€‚\
+7.çŠ¶æ€ç®¡ç†
+çŠ¶æ€ç®¡ç†æ˜¯Vueçš„ç‰¹æ®Šå±æ€§ï¼Œå¯ä»¥åœ¨ç»„ä»¶ä¸­æ·»åŠ ï¼Œç”¨æ¥å®ç°ä¸€äº›ç‰¹æ®Šçš„åŠŸèƒ½ã€‚æ¯”å¦‚vuexã€‚
+ä¸¾ä¸ªä¾‹å­ï¼š
 import Vuex from 'vuex'
 Vue.use(Vuex)
 const store = new Vuex.Store({
@@ -97,80 +97,80 @@ const store = new Vuex.Store({
         }
     }
 })
-ÊµÏÖÁËÒ»¸ö×´Ì¬¹ÜÀí£¬countµÄÖµÎª0£¬µã»÷°´Å¥£¬countµÄÖµ¼Ó1¡£
+å®ç°äº†ä¸€ä¸ªçŠ¶æ€ç®¡ç†ï¼Œcountçš„å€¼ä¸º0ï¼Œç‚¹å‡»æŒ‰é’®ï¼Œcountçš„å€¼åŠ 1ã€‚
 
-#### VScode vue×ÅÉ«²å¼ş vetur
-VeturÊÇÒ»¸ö×¨ÃÅÎªVue.js¿ª·¢Õß´òÔìµÄ²å¼ş£¬Ìá¹©ÁË·á¸»µÄÓï·¨¸ßÁÁ¡¢ÖÇÄÜ¸ĞÖª¡¢EmmetµÈ¹¦ÄÜ¡£
+#### VScode vueç€è‰²æ’ä»¶ vetur
+Veturæ˜¯ä¸€ä¸ªä¸“é—¨ä¸ºVue.jså¼€å‘è€…æ‰“é€ çš„æ’ä»¶ï¼Œæä¾›äº†ä¸°å¯Œçš„è¯­æ³•é«˜äº®ã€æ™ºèƒ½æ„ŸçŸ¥ã€Emmetç­‰åŠŸèƒ½ã€‚
 
 
 
 #### Element-UI ForVue2
-¹ÙÍø£º[Element-UI for vue2](https://element.eleme.cn/#/zh-CN)
-ÏîÄ¿ÖĞÏÂÔØ£º
+å®˜ç½‘ï¼š[Element-UI for vue2](https://element.eleme.cn/#/zh-CN)
+é¡¹ç›®ä¸­ä¸‹è½½ï¼š
 ```shell
 npm install element-ui
 ```
-main.jsÒıÈë£º
+main.jså¼•å…¥ï¼š
 ```javascript  
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 ```
 
-²¢Ê¹ÓÃÈ«¾Ö×¢²á£º
+å¹¶ä½¿ç”¨å…¨å±€æ³¨å†Œï¼š
 ```
 Vue.use(ElementUI);
 ```
 
-#### Í¼±ê Font Awesome
-[fontawesomeÖĞÎÄ](https://fontawesome.dashgame.com/)
-[FontawesomeÓ¢ÎÄ](https://fontawesome.com/)
-°²×°£º
+#### å›¾æ ‡ Font Awesome
+[fontawesomeä¸­æ–‡](https://fontawesome.dashgame.com/)
+[Fontawesomeè‹±æ–‡](https://fontawesome.com/)
+å®‰è£…ï¼š
 ```shell
 npm install font-awesome
 ```
-ÔÚmain.jsÖĞÒıÈë£º
+åœ¨main.jsä¸­å¼•å…¥ï¼š
 ```javascript
 import 'font-awesome/css/font-awesome.min.css'
 ```
 
-Ê¹ÓÃÍ¼±ê£º
-ÑùÀı£º\
+ä½¿ç”¨å›¾æ ‡ï¼š
+æ ·ä¾‹ï¼š\
 `<i class="fa fa-user"></i>`\
-×¢Òâ£¬ËùÓĞµÄÍ¼±ê¶¼ÊÇÒÔfa¿ªÍ·µÄ¡£
+æ³¨æ„ï¼Œæ‰€æœ‰çš„å›¾æ ‡éƒ½æ˜¯ä»¥faå¼€å¤´çš„ã€‚
 
-ºÃµÄ£¬ÏÂÃæÊÇÒ»¸öÎÕÊÖµÄÍ¼±ê£º\
+å¥½çš„ï¼Œä¸‹é¢æ˜¯ä¸€ä¸ªæ¡æ‰‹çš„å›¾æ ‡ï¼š\
 fa-handshake-o\
-Ö±½Ó¸´ÖÆÏÂÃæµÄ´úÂëµ½ĞèÒªµÄµØ·½¼´¿É¡£
+ç›´æ¥å¤åˆ¶ä¸‹é¢çš„ä»£ç åˆ°éœ€è¦çš„åœ°æ–¹å³å¯ã€‚
 ```html
 <i class="fa fa-handshake-o"></i>
 ```
 
-Í¼±ê´óĞ¡µÄµ÷Õû£º
-fa-lg ´ó33%, fa-2x ´ó200%, fa-3x ´ó300%, fa-4x ´ó400%, fa-5x ´ó500%\
-ÑùÀı£º±ÈÔ­Í¼´ó33%\
+å›¾æ ‡å¤§å°çš„è°ƒæ•´ï¼š
+fa-lg å¤§33%, fa-2x å¤§200%, fa-3x å¤§300%, fa-4x å¤§400%, fa-5x å¤§500%\
+æ ·ä¾‹ï¼šæ¯”åŸå›¾å¤§33%\
 `<i class="fa fa-user fa-lg"></i>`
 
 #### axios
-axiosÊÇÒ»¸ö»ùÓÚpromiseµÄHTTP¿â£¬¿ÉÒÔÓÃÔÚä¯ÀÀÆ÷ºÍnode.jsÖĞ¡£
-ÄÚ²¿ÆäÊµÊÇ¶ÔÔ­ÉúµÄXMLHttpRequest¶ÔÏóµÄ·â×°¡£
-axiosºÍajaxµÄ¹ØÏµ£ºaxiosÊÇ¶ÔajaxµÄ·â×°£¬Ê¹ÓÃaxios¾ÍÊÇÊ¹ÓÃajax¡£
+axiosæ˜¯ä¸€ä¸ªåŸºäºpromiseçš„HTTPåº“ï¼Œå¯ä»¥ç”¨åœ¨æµè§ˆå™¨å’Œnode.jsä¸­ã€‚
+å†…éƒ¨å…¶å®æ˜¯å¯¹åŸç”Ÿçš„XMLHttpRequestå¯¹è±¡çš„å°è£…ã€‚
+axioså’Œajaxçš„å…³ç³»ï¼šaxiosæ˜¯å¯¹ajaxçš„å°è£…ï¼Œä½¿ç”¨axioså°±æ˜¯ä½¿ç”¨ajaxã€‚
 
 
-ÏÂÔØ£º
+ä¸‹è½½ï¼š
 ```shell
 npm install axios
 ```
 
-µ¼Èë£º
-main.jsÖĞÒıÈë£º
+å¯¼å…¥ï¼š
+main.jsä¸­å¼•å…¥ï¼š
 ```javascript
 import axios from 'axios'
 ```
-»òÕß×é¼şµ¼Èë
+æˆ–è€…ç»„ä»¶å¯¼å…¥
 ```javascript
 import axios from 'axios'
 ```
-Ê¹ÓÃ£º
+ä½¿ç”¨ï¼š
 ```javascript
 axios.get('url').then(res=>{
     console.log(res)
@@ -178,8 +178,8 @@ axios.get('url').then(res=>{
     console.log(err)
 })
 ```
-Ö§³ÖES6µÄĞ´·¨£ºAsync/Await
-¿ÉÒÔÓÃÍ¬²½µÄ·½Ê½Ğ´Òì²½´úÂë¡£
+æ”¯æŒES6çš„å†™æ³•ï¼šAsync/Await
+å¯ä»¥ç”¨åŒæ­¥çš„æ–¹å¼å†™å¼‚æ­¥ä»£ç ã€‚
 ```javascript
 async function getData(){
     try{
@@ -190,26 +190,26 @@ async function getData(){
     }
 }
 ```
-#### VueÉúÃüÖÜÆÚ
-VueÊµÀıÓĞÒ»¸öÍêÕûµÄÉúÃüÖÜÆÚ£¬Ò²¾ÍÊÇ´Ó¿ªÊ¼´´½¨¡¢³õÊ¼»¯Êı¾İ¡¢±àÒëÄ£°å¡¢¹ÒÔØDOM¡¢äÖÈ¾-¸üĞÂ-Ïú»ÙµÈÒ»ÏµÁĞ¹ı³Ì£¬ÎÒÃÇ³ÆÕâÊÇVueµÄÉúÃüÖÜÆÚ¡£
+#### Vueç”Ÿå‘½å‘¨æœŸ
+Vueå®ä¾‹æœ‰ä¸€ä¸ªå®Œæ•´çš„ç”Ÿå‘½å‘¨æœŸï¼Œä¹Ÿå°±æ˜¯ä»å¼€å§‹åˆ›å»ºã€åˆå§‹åŒ–æ•°æ®ã€ç¼–è¯‘æ¨¡æ¿ã€æŒ‚è½½DOMã€æ¸²æŸ“-æ›´æ–°-é”€æ¯ç­‰ä¸€ç³»åˆ—è¿‡ç¨‹ï¼Œæˆ‘ä»¬ç§°è¿™æ˜¯Vueçš„ç”Ÿå‘½å‘¨æœŸã€‚
 
-createdºÍmounted:
+createdå’Œmounted:
 
 
-º¯ÊıÃû	ÃèÊö
-beforeCreate	ÔÚÊµÀı³õÊ¼»¯Ö®ºó£¬Êı¾İ¹Û²â(data observer)ºÍevent/watcherÊÂ¼şÅäÖÃÖ®Ç°±»µ÷ÓÃ¡£
-created	ÊµÀıÒÑ¾­´´½¨Íê³ÉÖ®ºó±»µ÷ÓÃ¡£ÔÚÕâÒ»²½£¬ÊµÀıÒÑÍê³ÉÒÔÏÂµÄÅäÖÃ£ºÊı¾İ¹Û²â(data observer)£¬ÊôĞÔºÍ·½·¨µÄÔËËã£¬watch/eventÊÂ¼ş»Øµ÷¡£È»¶ø£¬¹ÒÔØ½×¶Î»¹Ã»¿ªÊ¼£¬$elÊôĞÔÄ¿Ç°²»¿É¼û¡£
-beforeMount	ÔÚ¹ÒÔØ¿ªÊ¼Ö®Ç°±»µ÷ÓÃ£ºÏà¹ØµÄrenderº¯ÊıÊ×´Î±»µ÷ÓÃ¡£
-mounted	el±»ĞÂ´´½¨µÄvm.$elÌæ»»£¬²¢¹ÒÔØµ½ÊµÀıÉÏÈ¥Ö®ºóµ÷ÓÃ¸Ã¹³×Ó¡£
-beforeUpdate	Êı¾İ¸üĞÂÊ±µ÷ÓÃ£¬·¢ÉúÔÚĞéÄâDOMÖØĞÂäÖÈ¾ºÍ´ò²¹¶¡Ö®Ç°¡£
-updated	ÓÉÓÚÊı¾İ¸ü¸Äµ¼ÖÂµÄĞéÄâDOMÖØĞÂäÖÈ¾ºÍ´ò²¹¶¡£¬ÔÚÕâÖ®ºó»áµ÷ÓÃ¸Ã¹³×Ó¡£
-beforeDestroy	ÊµÀıÏú»ÙÖ®Ç°µ÷ÓÃ¡£ÔÚÕâÒ»²½£¬ÊµÀıÈÔÈ»ÍêÈ«¿ÉÓÃ¡£
-destroyed	VueÊµÀıÏú»Ùºóµ÷ÓÃ¡£µ÷ÓÃºó£¬VueÊµÀıÖ¸Ê¾µÄËùÓĞ¶«Î÷¶¼»á½â°ó¶¨£¬ËùÓĞµÄÊÂ¼ş¼àÌıÆ÷»á±»ÒÆ³ı£¬ËùÓĞµÄ×ÓÊµÀıÒ²»á±»Ïú»Ù¡£
-activated	keep-alive×é¼ş¼¤»îÊ±µ÷ÓÃ¡£
-deactivated	keep-alive×é¼şÍ£ÓÃÊ±µ÷ÓÃ¡£
+å‡½æ•°å	æè¿°
+beforeCreate	åœ¨å®ä¾‹åˆå§‹åŒ–ä¹‹åï¼Œæ•°æ®è§‚æµ‹(data observer)å’Œevent/watcheräº‹ä»¶é…ç½®ä¹‹å‰è¢«è°ƒç”¨ã€‚
+created	å®ä¾‹å·²ç»åˆ›å»ºå®Œæˆä¹‹åè¢«è°ƒç”¨ã€‚åœ¨è¿™ä¸€æ­¥ï¼Œå®ä¾‹å·²å®Œæˆä»¥ä¸‹çš„é…ç½®ï¼šæ•°æ®è§‚æµ‹(data observer)ï¼Œå±æ€§å’Œæ–¹æ³•çš„è¿ç®—ï¼Œwatch/eventäº‹ä»¶å›è°ƒã€‚ç„¶è€Œï¼ŒæŒ‚è½½é˜¶æ®µè¿˜æ²¡å¼€å§‹ï¼Œ$elå±æ€§ç›®å‰ä¸å¯è§ã€‚
+beforeMount	åœ¨æŒ‚è½½å¼€å§‹ä¹‹å‰è¢«è°ƒç”¨ï¼šç›¸å…³çš„renderå‡½æ•°é¦–æ¬¡è¢«è°ƒç”¨ã€‚
+mounted	elè¢«æ–°åˆ›å»ºçš„vm.$elæ›¿æ¢ï¼Œå¹¶æŒ‚è½½åˆ°å®ä¾‹ä¸Šå»ä¹‹åè°ƒç”¨è¯¥é’©å­ã€‚
+beforeUpdate	æ•°æ®æ›´æ–°æ—¶è°ƒç”¨ï¼Œå‘ç”Ÿåœ¨è™šæ‹ŸDOMé‡æ–°æ¸²æŸ“å’Œæ‰“è¡¥ä¸ä¹‹å‰ã€‚
+updated	ç”±äºæ•°æ®æ›´æ”¹å¯¼è‡´çš„è™šæ‹ŸDOMé‡æ–°æ¸²æŸ“å’Œæ‰“è¡¥ä¸ï¼Œåœ¨è¿™ä¹‹åä¼šè°ƒç”¨è¯¥é’©å­ã€‚
+beforeDestroy	å®ä¾‹é”€æ¯ä¹‹å‰è°ƒç”¨ã€‚åœ¨è¿™ä¸€æ­¥ï¼Œå®ä¾‹ä»ç„¶å®Œå…¨å¯ç”¨ã€‚
+destroyed	Vueå®ä¾‹é”€æ¯åè°ƒç”¨ã€‚è°ƒç”¨åï¼ŒVueå®ä¾‹æŒ‡ç¤ºçš„æ‰€æœ‰ä¸œè¥¿éƒ½ä¼šè§£ç»‘å®šï¼Œæ‰€æœ‰çš„äº‹ä»¶ç›‘å¬å™¨ä¼šè¢«ç§»é™¤ï¼Œæ‰€æœ‰çš„å­å®ä¾‹ä¹Ÿä¼šè¢«é”€æ¯ã€‚
+activated	keep-aliveç»„ä»¶æ¿€æ´»æ—¶è°ƒç”¨ã€‚
+deactivated	keep-aliveç»„ä»¶åœç”¨æ—¶è°ƒç”¨ã€‚
 
-¾Ù¸öÀı×Ó£º
-´´½¨Ò»¸öHelloWorld.vue×é¼ş£¬È»ºóÔÚ×é¼şÖĞÌí¼ÓÉúÃüÖÜÆÚº¯Êı¡£
+ä¸¾ä¸ªä¾‹å­ï¼š
+åˆ›å»ºä¸€ä¸ªHelloWorld.vueç»„ä»¶ï¼Œç„¶ååœ¨ç»„ä»¶ä¸­æ·»åŠ ç”Ÿå‘½å‘¨æœŸå‡½æ•°ã€‚
 ```vue
 <template>
     <div>
@@ -250,7 +250,7 @@ h1{
 }
 </style>
 ```
-ÔÚApp.vueÖĞÒıÈëHelloWorld.vue×é¼ş¡£
+åœ¨App.vueä¸­å¼•å…¥HelloWorld.vueç»„ä»¶ã€‚
 ```vue
 <template>
     <div id="app">
@@ -271,27 +271,27 @@ export default {
 }
 </style>
 ```
-ÔÚä¯ÀÀÆ÷ÖĞ´ò¿ª¿ØÖÆÌ¨£¬¿ÉÒÔ¿´µ½ÉúÃüÖÜÆÚº¯ÊıµÄÖ´ĞĞË³Ğò¡£
+åœ¨æµè§ˆå™¨ä¸­æ‰“å¼€æ§åˆ¶å°ï¼Œå¯ä»¥çœ‹åˆ°ç”Ÿå‘½å‘¨æœŸå‡½æ•°çš„æ‰§è¡Œé¡ºåºã€‚
 
 
 #### VueRouter
-VueRouter¹ÜÀíSPAÏîÄ¿µÄ×é¼şÇĞ»»
-vue-router °æ±¾ 3.X¶ÔÓ¦vue°æ±¾2 4.X¶ÔÓ¦vue3
-1.VueRouterµÄ°²×°ºÍÊ¹ÓÃ
-Ö¸¶¨°æ±¾£º
+VueRouterç®¡ç†SPAé¡¹ç›®çš„ç»„ä»¶åˆ‡æ¢
+vue-router ç‰ˆæœ¬ 3.Xå¯¹åº”vueç‰ˆæœ¬2 4.Xå¯¹åº”vue3
+1.VueRouterçš„å®‰è£…å’Œä½¿ç”¨
+æŒ‡å®šç‰ˆæœ¬ï¼š
 npm install vue-router@3
 
-ÔÚÏîÄ¿¸ùÄ¿Â¼ÏÂĞÂ½¨routerÎÄ¼ş¼Ğ£¬È»ºóÔÚrouterÎÄ¼ş¼ĞÏÂĞÂ½¨index.jsÎÄ¼ş¡£Ğ´ÈëÈçÏÂÄÚÈİ:
+åœ¨é¡¹ç›®æ ¹ç›®å½•ä¸‹æ–°å»ºrouteræ–‡ä»¶å¤¹ï¼Œç„¶ååœ¨routeræ–‡ä»¶å¤¹ä¸‹æ–°å»ºindex.jsæ–‡ä»¶ã€‚å†™å…¥å¦‚ä¸‹å†…å®¹:
 ```js
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 ```
-µ½ÕâÀï¾ÍÍê³ÉÁËvue-routerµÄ×¢²á£¬½ÓÏÂÀ´Òª½«×é¼şºÍÂ·ÓÉ½øĞĞ¹ØÁª¡£
+åˆ°è¿™é‡Œå°±å®Œæˆäº†vue-routerçš„æ³¨å†Œï¼Œæ¥ä¸‹æ¥è¦å°†ç»„ä»¶å’Œè·¯ç”±è¿›è¡Œå…³è”ã€‚
 
-ĞÂ½¨Èı¸ö×é¼ş£ºHome.vue¡¢About.vue¡¢Contact.vue
+æ–°å»ºä¸‰ä¸ªç»„ä»¶ï¼šHome.vueã€About.vueã€Contact.vue
 
-ÔÚindex.jsÖĞÏÈÓÃimportµ¼ÈëÕâÈı¸ö×é¼ş£¬È»ºóÊ¹ÓÃÏÂÃæµÄÃüÁî´´½¨Â·ÓÉ
+åœ¨index.jsä¸­å…ˆç”¨importå¯¼å…¥è¿™ä¸‰ä¸ªç»„ä»¶ï¼Œç„¶åä½¿ç”¨ä¸‹é¢çš„å‘½ä»¤åˆ›å»ºè·¯ç”±
 ```js
 const router = new VueRouter({
     routes : [
@@ -301,47 +301,47 @@ const router = new VueRouter({
 ]
 })
 ```
-ÔÚapp.vueÖĞÒıÈëvue-router
+åœ¨app.vueä¸­å¼•å…¥vue-router
 ```vue
 <template>
     <div id="app">
-        <router-link to="/discover">·¢ÏÖÒôÀÖ</router-link>
-        <router-link to="/friend">¹Ø×¢</router-link>
-        <router-link to="/my">ÎÒµÄÒôÀÖ</router-link>
+        <router-link to="/discover">å‘ç°éŸ³ä¹</router-link>
+        <router-link to="/friend">å…³æ³¨</router-link>
+        <router-link to="/my">æˆ‘çš„éŸ³ä¹</router-link>
         <router-view></router-view>
     </div>
 </template>
 ```
-×¢ÒâÉÏÃæµÄ`<router-view></router-view>`£¬Õâ¸ö±êÇ©ÊÇÓÃÀ´ÏÔÊ¾µ±Ç°Â·ÓÉ×é¼şµÄ¡£ÊÇÒ»¸öÕ¼Î»·û£¬Ò²¾ÍÊÇËµµ±Ç°Â·ÓÉÆ¥Åäµ½µÄ×é¼ş»áÏÔÊ¾ÔÚÕâÀï¡£
+æ³¨æ„ä¸Šé¢çš„`<router-view></router-view>`ï¼Œè¿™ä¸ªæ ‡ç­¾æ˜¯ç”¨æ¥æ˜¾ç¤ºå½“å‰è·¯ç”±ç»„ä»¶çš„ã€‚æ˜¯ä¸€ä¸ªå ä½ç¬¦ï¼Œä¹Ÿå°±æ˜¯è¯´å½“å‰è·¯ç”±åŒ¹é…åˆ°çš„ç»„ä»¶ä¼šæ˜¾ç¤ºåœ¨è¿™é‡Œã€‚
 
 
-×îºóÔÚmain.jsÖĞµ¼Èërouter
+æœ€ååœ¨main.jsä¸­å¯¼å…¥router
 ```js
 import router from './router/index'
 ```
-Èç¹ûrouterÏÂµÄÎÄ¼şÃûÎªindex£¬ÄÇÃ´¿ÉÒÔ²»ÓÃĞ´£¬Ò²¾ÍÊÇÉÏÃæµÄµ¼ÈëµÈ¼ÛÓÚ£º
+å¦‚æœrouterä¸‹çš„æ–‡ä»¶åä¸ºindexï¼Œé‚£ä¹ˆå¯ä»¥ä¸ç”¨å†™ï¼Œä¹Ÿå°±æ˜¯ä¸Šé¢çš„å¯¼å…¥ç­‰ä»·äºï¼š
 ```js
 import router from './router'
 ```
 
-Í¬Ê±ÔÚnew VueÖĞÌí¼ÓrouterÊôĞÔ
+åŒæ—¶åœ¨new Vueä¸­æ·»åŠ routerå±æ€§
 ```js
 new Vue({
     router,
     render: h => h(App),
 }).$mount('#app')
 ```
-ÕâÑù¾ÍÍê³ÉÁËvue-routerµÄ°²×°ºÍÊ¹ÓÃ¡£
+è¿™æ ·å°±å®Œæˆäº†vue-routerçš„å®‰è£…å’Œä½¿ç”¨ã€‚
 
-ÖØ¶¨Ïò£ºÔÚÂ·ÓÉÖĞÌí¼ÓredirectÊôĞÔ
+é‡å®šå‘ï¼šåœ¨è·¯ç”±ä¸­æ·»åŠ redirectå±æ€§
 ```js
 { path: '/', redirect: '/discover' }
 ```
-ÕâÑùÈç¹ûÎÒÃÇ´ò¿ªlocalhost:8080/£¬¾Í»á×Ô¶¯Ìø×ªµ½localhost:8080/discover¡£
+è¿™æ ·å¦‚æœæˆ‘ä»¬æ‰“å¼€localhost:8080/ï¼Œå°±ä¼šè‡ªåŠ¨è·³è½¬åˆ°localhost:8080/discoverã€‚
 
-Ç¶Ì×Â·ÓÉ£º¿ÉÒÔÔÚ×é¼şÖĞÊ¹ÓÃ`<router-link>`ºÍ`<router-view>`£¬ÕâÑù¾Í¿ÉÒÔÊµÏÖÇ¶Ì×Â·ÓÉ¡£
+åµŒå¥—è·¯ç”±ï¼šå¯ä»¥åœ¨ç»„ä»¶ä¸­ä½¿ç”¨`<router-link>`å’Œ`<router-view>`ï¼Œè¿™æ ·å°±å¯ä»¥å®ç°åµŒå¥—è·¯ç”±ã€‚
 
-¶ÔÓÚÇ¶Ì×Â·ÓÉÒ²ĞèÒªÔÚrouter/index.jsÖĞ½øĞĞÅäÖÃ£¬Èç¹ûÂ·¾¶Ò»ÖÂ£¬¿ÉÒÔÔÚ¸ÃÂ·¾¶ºóÃæ¼ÓchildrenÊôĞÔ£¬È»ºóÔÙÌí¼Ó×ÓÂ·ÓÉ¡£
+å¯¹äºåµŒå¥—è·¯ç”±ä¹Ÿéœ€è¦åœ¨router/index.jsä¸­è¿›è¡Œé…ç½®ï¼Œå¦‚æœè·¯å¾„ä¸€è‡´ï¼Œå¯ä»¥åœ¨è¯¥è·¯å¾„åé¢åŠ childrenå±æ€§ï¼Œç„¶åå†æ·»åŠ å­è·¯ç”±ã€‚
 ```js
 const router = new VueRouter({
     routes : [
@@ -357,17 +357,17 @@ const router = new VueRouter({
 })
 ```
 
-¶¯Ì¬Â·ÓÉ* ÕâÒ»²¿·Ö»¹ÓĞÎÊÌâ£¬ÎŞ·¨ÊµÏÖÌø×ª£¬²»ÏÔÊ¾×é¼ş
+åŠ¨æ€è·¯ç”±* è¿™ä¸€éƒ¨åˆ†è¿˜æœ‰é—®é¢˜ï¼Œæ— æ³•å®ç°è·³è½¬ï¼Œä¸æ˜¾ç¤ºç»„ä»¶
 
 { path: '/my/:id', component: Product }
 
-Í¨¹ı{{$route.params.id}}»ñÈ¡id
+é€šè¿‡{{$route.params.id}}è·å–id
 
-2.²ÎÊı´«µİ
-Í¨¹ıprops´«µİ²ÎÊı
-ÔÚrouter/index.jsÖĞÌí¼ÓpropsÊôĞÔ
+2.å‚æ•°ä¼ é€’
+é€šè¿‡propsä¼ é€’å‚æ•°
+åœ¨router/index.jsä¸­æ·»åŠ propså±æ€§
 { path: '/my/:id', component: Product, props: true }
-ÔÚ×é¼şProduct.vueÖĞÌí¼ÓpropsÊôĞÔ
+åœ¨ç»„ä»¶Product.vueä¸­æ·»åŠ propså±æ€§
 ```js
 <script>
 export default {
@@ -375,11 +375,11 @@ export default {
     props: ['id']
 }
 ```
-3.×ÓÂ·ÓÉ
-4.µ¼º½ÊØÎÀ
-¿ØÖÆÂ·ÓÉ·ÃÎÊÈ¨ÏŞ
-![µ¼º½ÊØÎÀ](./images/µ¼º½ÊØÎÀ.png)
-±ÈÈç×¢²áÒ»¸öÈ«¾ÖÇ°ÖÃÊØÎÀ
+3.å­è·¯ç”±
+4.å¯¼èˆªå®ˆå«
+æ§åˆ¶è·¯ç”±è®¿é—®æƒé™
+![å¯¼èˆªå®ˆå«](./images/å¯¼èˆªå®ˆå«.png)
+æ¯”å¦‚æ³¨å†Œä¸€ä¸ªå…¨å±€å‰ç½®å®ˆå«
 ```js
 router.beforeEach((to, from, next) => {
     if (to.path === '/main' && !isAuthenticated) {
@@ -389,37 +389,37 @@ router.beforeEach((to, from, next) => {
     }
 })
 ```
-ÕâÑù¾Í¿ÉÒÔÊµÏÖÔÚ·ÃÎÊmainÒ³ÃæÊ±£¬Èç¹ûÃ»ÓĞµÇÂ¼£¬¾Í»áÌø×ªµ½loginÒ³Ãæ¡£
+è¿™æ ·å°±å¯ä»¥å®ç°åœ¨è®¿é—®mainé¡µé¢æ—¶ï¼Œå¦‚æœæ²¡æœ‰ç™»å½•ï¼Œå°±ä¼šè·³è½¬åˆ°loginé¡µé¢ã€‚
 
-#### Vuex-×´Ì¬¹ÜÀí
-VuexÊÇÒ»¸ö×¨ÎªVue.jsÓ¦ÓÃ³ÌĞò¿ª·¢µÄ×´Ì¬¹ÜÀí¿â¡£Ëü²ÉÓÃ¼¯ÖĞÊ½´æ´¢¹ÜÀíÓ¦ÓÃµÄËùÓĞ×é¼şµÄ×´Ì¬¡£
-ÄÜ¹»Ö§³Ö¶à²ãÇ¶Ì×µÄ×é¼ş¡¢ĞÖµÜ×é¼şÖ®¼ä´«Öµ¡£
+#### Vuex-çŠ¶æ€ç®¡ç†
+Vuexæ˜¯ä¸€ä¸ªä¸“ä¸ºVue.jsåº”ç”¨ç¨‹åºå¼€å‘çš„çŠ¶æ€ç®¡ç†åº“ã€‚å®ƒé‡‡ç”¨é›†ä¸­å¼å­˜å‚¨ç®¡ç†åº”ç”¨çš„æ‰€æœ‰ç»„ä»¶çš„çŠ¶æ€ã€‚
+èƒ½å¤Ÿæ”¯æŒå¤šå±‚åµŒå¥—çš„ç»„ä»¶ã€å…„å¼Ÿç»„ä»¶ä¹‹é—´ä¼ å€¼ã€‚
 
-°æ±¾£ºvuex@3¶ÔÓ¦vue2£¬vuex@4¶ÔÓ¦vue3
-°²×°£º
+ç‰ˆæœ¬ï¼švuex@3å¯¹åº”vue2ï¼Œvuex@4å¯¹åº”vue3
+å®‰è£…ï¼š
 ```shell
 npm install vuex@3
 ```
 
-ÎÒµÄÀí½â£ºVuexµÄ¹Ø¼üÊÇÊ¹ÓÃstate×÷ÎªÈ«¾Ö×´Ì¬£¬²¢½«viewºÍstate½øĞĞÁË°ó¶¨¡£
+æˆ‘çš„ç†è§£ï¼šVuexçš„å…³é”®æ˜¯ä½¿ç”¨stateä½œä¸ºå…¨å±€çŠ¶æ€ï¼Œå¹¶å°†viewå’Œstateè¿›è¡Œäº†ç»‘å®šã€‚
 \
 \
 \
-ÈçºÎĞŞ¸ÄstateÄØ£¿
+å¦‚ä½•ä¿®æ”¹stateå‘¢ï¼Ÿ
 
-±ÈÈçÒ»¸ö×é¼şÖĞÓĞÒ»¸ö°´Å¥£¬µã»÷°´Å¥³ö·¢Ò»¸öaction£¬
+æ¯”å¦‚ä¸€ä¸ªç»„ä»¶ä¸­æœ‰ä¸€ä¸ªæŒ‰é’®ï¼Œç‚¹å‡»æŒ‰é’®å‡ºå‘ä¸€ä¸ªactionï¼Œ
 
-ÕâÀïÃæµÄadd¾ÍÊÇmutationÖĞµÄÒ»¸ö·½·¨£¬Í¨¹ıcommitÀ´Ìá½»£¬È»ºóstateÖĞµÄcount¾Í»á¼Ó1¡£
+è¿™é‡Œé¢çš„addå°±æ˜¯mutationä¸­çš„ä¸€ä¸ªæ–¹æ³•ï¼Œé€šè¿‡commitæ¥æäº¤ï¼Œç„¶åstateä¸­çš„countå°±ä¼šåŠ 1ã€‚
 $this.store.commit('add')
 
-Getter£¬¿ÉÒÔÓÃÀ´Î¬»¤StateÅÉÉúµÄÒ»Ğ©×´Ì¬£¬±ÈÈç¶ÔstateÖĞµÄÊı¾İ½øĞĞ¹ıÂË¡¢ÅÅĞòµÈ²Ù×÷¡£
+Getterï¼Œå¯ä»¥ç”¨æ¥ç»´æŠ¤Stateæ´¾ç”Ÿçš„ä¸€äº›çŠ¶æ€ï¼Œæ¯”å¦‚å¯¹stateä¸­çš„æ•°æ®è¿›è¡Œè¿‡æ»¤ã€æ’åºç­‰æ“ä½œã€‚
 
-×é¼şÖĞµ÷ÓÃgetter£º$this.store.getters.·½·¨Ãû
+ç»„ä»¶ä¸­è°ƒç”¨getterï¼š$this.store.getters.æ–¹æ³•å
 
-Action¿ÉÒÔÓÃÀ´Òì²½²Ù×÷
-Action²»ÄÜÖ±½ÓĞŞ¸ÄState£¬¶øÊÇÍ¨¹ıÌá½»mutationÀ´ĞŞ¸Ä£¬¿ÉÒÔ°üº¬ÈÎÒâÒì²½²Ù×÷¡£
-±ÈÈçÏÂÃæµÄ´úÂë£ºÍ¨¹ıcommitÀ´Ìá½»Ò»¸ömutation£¬È»ºóĞŞ¸ÄstateÖĞµÄcount¡£
-(×¢Òâvuex3£¨ÊÊÅävue2£©´´½¨storeµÄ·½·¨ÊÇnew Vuex.store, vuex4£¨ÊÊÅävue3£©¶ÔÓ¦µÄ´´½¨·½·¨ÈçÏÂ)
+Actionå¯ä»¥ç”¨æ¥å¼‚æ­¥æ“ä½œ
+Actionä¸èƒ½ç›´æ¥ä¿®æ”¹Stateï¼Œè€Œæ˜¯é€šè¿‡æäº¤mutationæ¥ä¿®æ”¹ï¼Œå¯ä»¥åŒ…å«ä»»æ„å¼‚æ­¥æ“ä½œã€‚
+æ¯”å¦‚ä¸‹é¢çš„ä»£ç ï¼šé€šè¿‡commitæ¥æäº¤ä¸€ä¸ªmutationï¼Œç„¶åä¿®æ”¹stateä¸­çš„countã€‚
+(æ³¨æ„vuex3ï¼ˆé€‚é…vue2ï¼‰åˆ›å»ºstoreçš„æ–¹æ³•æ˜¯new Vuex.store, vuex4ï¼ˆé€‚é…vue3ï¼‰å¯¹åº”çš„åˆ›å»ºæ–¹æ³•å¦‚ä¸‹)
 ```js
 const store = createStore({
     state: {
@@ -430,45 +430,45 @@ const store = createStore({
             state.count++
         }
     },
-    actions£º{
+    actionsï¼š{
         increment(context) {
             context.commit('increment')
         }
     }   
 })
 ```
-À´×Ü½áÒ»ÏÂ£º×é¼şÖĞÏëÒªĞŞ¸Ästate¡£
-µÚÒ»²½£¬·Ö·¢action, this.$store.dispatch('increment')
-µÚ¶ş²½£¬actionÖĞÌá½»mutation£¬context.commit('increment')
-µÚÈı²½£¬mutationÖĞĞŞ¸Ästate£¬state.count++
+æ¥æ€»ç»“ä¸€ä¸‹ï¼šç»„ä»¶ä¸­æƒ³è¦ä¿®æ”¹stateã€‚
+ç¬¬ä¸€æ­¥ï¼Œåˆ†å‘action, this.$store.dispatch('increment')
+ç¬¬äºŒæ­¥ï¼Œactionä¸­æäº¤mutationï¼Œcontext.commit('increment')
+ç¬¬ä¸‰æ­¥ï¼Œmutationä¸­ä¿®æ”¹stateï¼Œstate.count++
 [vuex](https://vuex.vuejs.org/vuex.png)
 
-Ò»¸öÏîÄ¿demo£º
-ÏÈ´´½¨Ò»¸övue2ÏîÄ¿£¬ÔÙ°²×°vuex3
+ä¸€ä¸ªé¡¹ç›®demoï¼š
+å…ˆåˆ›å»ºä¸€ä¸ªvue2é¡¹ç›®ï¼Œå†å®‰è£…vuex3
 ```js
 npm install vuex@3
 ```
-ĞÂ½¨Ò»¸östoreÎÄ¼ş¼Ğ£¨vuex¶¼ÔÚÕâÀï£©£¬ĞÂ½¨index.jsÎÄ¼ş
-µ¼Èëvue,µ¼Èëvuex
+æ–°å»ºä¸€ä¸ªstoreæ–‡ä»¶å¤¹ï¼ˆvuexéƒ½åœ¨è¿™é‡Œï¼‰ï¼Œæ–°å»ºindex.jsæ–‡ä»¶
+å¯¼å…¥vue,å¯¼å…¥vuex
 Vue.use(Vuex)
-È»ºó´´½¨Ò»¸ösotre¡££¨ÌáÊ¾£ºconst store = {new Vue.Store({...})}£©
-ÔÙÊ¹ÓÃexportµ¼³ö¡£
+ç„¶ååˆ›å»ºä¸€ä¸ªsotreã€‚ï¼ˆæç¤ºï¼šconst store = {new Vue.Store({...})}ï¼‰
+å†ä½¿ç”¨exportå¯¼å‡ºã€‚
 
-ÔÚmain.jsÖĞµ¼Èëstore²¢¹ÒÔØ
+åœ¨main.jsä¸­å¯¼å…¥storeå¹¶æŒ‚è½½
 
-ÔÚ×é¼şÖĞ¿ÉÒÔÓÃÕâÑùµÄ·½Ê½¶ÁÈ¡£º  {{ this.$store.state.count }}
+åœ¨ç»„ä»¶ä¸­å¯ä»¥ç”¨è¿™æ ·çš„æ–¹å¼è¯»å–ï¼š  {{ this.$store.state.count }}
 
-Èç¹ûÒª´´½¨Ò»¸öaction£¬±ÈÈçÉèÖÃÒ»¸öbutton£¬µã»÷ºó@click=:"add"£¬ÔÚ±¾×é¼şmethodsÀïĞ´Ò»¸öadd·½·¨£¬ÔÚadd·½·¨ÀïÃæµ÷ÓÃstateÖĞmutationsÖĞµÄincrement·½·¨À´ĞŞ¸Ästate£¬Èçthis.$store.commit('increment')
+å¦‚æœè¦åˆ›å»ºä¸€ä¸ªactionï¼Œæ¯”å¦‚è®¾ç½®ä¸€ä¸ªbuttonï¼Œç‚¹å‡»å@click=:"add"ï¼Œåœ¨æœ¬ç»„ä»¶methodsé‡Œå†™ä¸€ä¸ªaddæ–¹æ³•ï¼Œåœ¨addæ–¹æ³•é‡Œé¢è°ƒç”¨stateä¸­mutationsä¸­çš„incrementæ–¹æ³•æ¥ä¿®æ”¹stateï¼Œå¦‚this.$store.commit('increment')
 
-¼ÆËãÊôĞÔ:¼òµ¥µÄËµ£¬¾ÍÊÇÔÚ×é¼şÀï¶¨ÒåÒ»¸öcomputedÊôĞÔ£¬·µ»Øthis.$store.state.count£¬ÕâÑù¾Í¿ÉÒÔÔÚÄ£°åÖĞÖ±½ÓÊ¹ÓÃ{{count}}À´ÏÔÊ¾stateÖĞµÄcountÖµ¡£
+è®¡ç®—å±æ€§:ç®€å•çš„è¯´ï¼Œå°±æ˜¯åœ¨ç»„ä»¶é‡Œå®šä¹‰ä¸€ä¸ªcomputedå±æ€§ï¼Œè¿”å›this.$store.state.countï¼Œè¿™æ ·å°±å¯ä»¥åœ¨æ¨¡æ¿ä¸­ç›´æ¥ä½¿ç”¨{{count}}æ¥æ˜¾ç¤ºstateä¸­çš„countå€¼ã€‚
 
-Ò²¿ÉÒÔÊ¹ÓÃMapState¸¨Öúº¯ÊıÀ´¼ò»¯¼ÆËãÊôĞÔµÄĞ´·¨£¬·ÖÎªÁ½²½¡£[mapState¸¨Öúº¯Êı](https://vuex.vuejs.org/zh/guide/state.html#mapstate-%E8%BE%85%E5%8A%A9%E5%87%BD%E6%95%B0)
-µÚÒ»²½£¬ÔÚ×é¼şµÄ`<script>`ÖĞµ¼ÈëmapState
+ä¹Ÿå¯ä»¥ä½¿ç”¨MapStateè¾…åŠ©å‡½æ•°æ¥ç®€åŒ–è®¡ç®—å±æ€§çš„å†™æ³•ï¼Œåˆ†ä¸ºä¸¤æ­¥ã€‚[mapStateè¾…åŠ©å‡½æ•°](https://vuex.vuejs.org/zh/guide/state.html#mapstate-%E8%BE%85%E5%8A%A9%E5%87%BD%E6%95%B0)
+ç¬¬ä¸€æ­¥ï¼Œåœ¨ç»„ä»¶çš„`<script>`ä¸­å¯¼å…¥mapState
 import { mapState } from 'vuex'
-µÚ¶ş²¿£¬ÔÚcomputedÖĞÊ¹ÓÃmapState
+ç¬¬äºŒéƒ¨ï¼Œåœ¨computedä¸­ä½¿ç”¨mapState
 
 
-µ±Ó³ÉäµÄ¼ÆËãÊôĞÔµÄÃû³ÆÓëstateµÄ×Ó½ÚµãÃû³ÆÏàÍ¬Ê±£¬¿ÉÒÔÖ±½Ó´«µİÒ»¸ö×Ö·û´®Êı×é¡£
+å½“æ˜ å°„çš„è®¡ç®—å±æ€§çš„åç§°ä¸stateçš„å­èŠ‚ç‚¹åç§°ç›¸åŒæ—¶ï¼Œå¯ä»¥ç›´æ¥ä¼ é€’ä¸€ä¸ªå­—ç¬¦ä¸²æ•°ç»„ã€‚
 ```js
 computed:{
     mapState(['count'])
@@ -477,10 +477,10 @@ computed:{
     ...mapState(['count'])
 }
 ```
-Ê¹ÓÃmapGetters,
-µÚÒ»²½£¬ÔÚstore/index.jsÖĞ¶¨Òågetters
-µÚ¶ş²½£¬ÔÚ×é¼şÖĞµ¼ÈëmapGetters,Èçimport { mapState, mapGetters } from 'vuex'
-µÚÈı²½£¬ÔÚ×é¼şÖĞ¼ÆËãÊôĞÔÖĞÊ¹ÓÃÕ¹¿ªmapGetters,¿ÉÒÔÍ¨¹ıÕ¹¿ªÓï·¨Õ¹¿ª¡£Í¬Ê±Òª×¢Òâ£¬¸Õ²ÅµÄmapStateµÄÒ²¿ÉÒÔ½øĞĞÕ¹¿ª¡£
+ä½¿ç”¨mapGetters,
+ç¬¬ä¸€æ­¥ï¼Œåœ¨store/index.jsä¸­å®šä¹‰getters
+ç¬¬äºŒæ­¥ï¼Œåœ¨ç»„ä»¶ä¸­å¯¼å…¥mapGetters,å¦‚import { mapState, mapGetters } from 'vuex'
+ç¬¬ä¸‰æ­¥ï¼Œåœ¨ç»„ä»¶ä¸­è®¡ç®—å±æ€§ä¸­ä½¿ç”¨å±•å¼€mapGetters,å¯ä»¥é€šè¿‡å±•å¼€è¯­æ³•å±•å¼€ã€‚åŒæ—¶è¦æ³¨æ„ï¼Œåˆšæ‰çš„mapStateçš„ä¹Ÿå¯ä»¥è¿›è¡Œå±•å¼€ã€‚
 ```js
  computed: {
     ...mapState([
@@ -490,5 +490,5 @@ computed:{
   }
 ```
 Module:
-> Vuex ÔÊĞíÎÒÃÇ½« store ·Ö¸î³ÉÄ£¿é£¨module£©¡£Ã¿¸öÄ£¿éÓµÓĞ×Ô¼ºµÄ state¡¢mutation¡¢action¡¢getter¡¢ÉõÖÁÊÇÇ¶Ì××ÓÄ£¿é¡ª¡ª´ÓÉÏÖÁÏÂ½øĞĞÍ¬Ñù·½Ê½µÄ·Ö¸î
+> Vuex å…è®¸æˆ‘ä»¬å°† store åˆ†å‰²æˆæ¨¡å—ï¼ˆmoduleï¼‰ã€‚æ¯ä¸ªæ¨¡å—æ‹¥æœ‰è‡ªå·±çš„ stateã€mutationã€actionã€getterã€ç”šè‡³æ˜¯åµŒå¥—å­æ¨¡å—â€”â€”ä»ä¸Šè‡³ä¸‹è¿›è¡ŒåŒæ ·æ–¹å¼çš„åˆ†å‰²
 

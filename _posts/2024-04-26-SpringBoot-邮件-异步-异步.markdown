@@ -1,18 +1,19 @@
+
 https://blog.csdn.net/weixin_45821811/article/details/119685108
 
 https://blog.csdn.net/an1090239782/article/details/107173504
 
 
-¶¨Ê±·¢ËÍ£ºhttps://blog.csdn.net/weixin_60387745/article/details/129344695
+å®šæ—¶å‘é€ï¼šhttps://blog.csdn.net/weixin_60387745/article/details/129344695
 https://blog.csdn.net/qq_41740469/article/details/113432921
-Ö÷ÒªÊÇ@enableScheduling×¢½â£¬È»ºóÔÚĞèÒª¶¨Ê±Ö´ĞĞµÄ·½·¨ÉÏ¼ÓÉÏ@Scheduled×¢½â¼´¿É
+ä¸»è¦æ˜¯@enableSchedulingæ³¨è§£ï¼Œç„¶ååœ¨éœ€è¦å®šæ—¶æ‰§è¡Œçš„æ–¹æ³•ä¸ŠåŠ ä¸Š@Scheduledæ³¨è§£å³å¯
 
-163ÓÊÏäSMTP»ñÈ¡£º
+163é‚®ç®±SMTPè·å–ï¼š
 XHBOMEXDDILSBBMI
 
-¿ª·¢¹ı³ÌÖĞÊ¹ÓÃSwagger2
-ÕâÀïÓÃµÄÊÇ±ğÈË·â×°ÁËµÄÒ»¸ö¹¤¾ßÀà£¬Ö±½ÓÒıÈë¼´¿É
+å¼€å‘è¿‡ç¨‹ä¸­ä½¿ç”¨Swagger2
+è¿™é‡Œç”¨çš„æ˜¯åˆ«äººå°è£…äº†çš„ä¸€ä¸ªå·¥å…·ç±»ï¼Œç›´æ¥å¼•å…¥å³å¯
 
 http://localhost:8080/doc.html
 
-¿ÉÒÔ¼ÓÈë£ºÒì²½¡¢Å×³öÒì³£´¦Àí¡¢¶¨Ê±·¢ËÍ
+å¯ä»¥åŠ å…¥ï¼šå¼‚æ­¥ã€æŠ›å‡ºå¼‚å¸¸å¤„ç†ã€å®šæ—¶å‘é€
