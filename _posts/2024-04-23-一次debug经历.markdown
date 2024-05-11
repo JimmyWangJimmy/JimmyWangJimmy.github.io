@@ -1,32 +1,34 @@
 ---
 layout: post
-title:  "Ò»´Îdebug¾­Àú"
+title:  "ä¸€æ¬¡debugç»åŽ†"
 date:   2024-04-23 15:32:42 +0800
 categories: jekyll update
 ---
-1.MongoDB 
-Á¬½ÓÊ±£¬×¢Òâ`<password>`Õû¸ö»»³É×Ô¼ºµÄdatabaseµÄuserÃÜÂë£¬±ÈÈç123456£¬¶ø²»ÊÇÐ´³É`<123456>`¡£
+å…ˆæ¢nodeç‰ˆæœ¬ï¼Œå†çœ‹dnsï¼Œå†å¤šè¿è¡Œå‡ æ¬¡ï¼Œé‡å¯ä¸€ä¸‹ç”µè„‘â€”â€”>è§£å†³é—®é¢˜
 
-¿ÉÒÔÊ¹ÓÃ${password}À´ÒýÓÃ»·¾³±äÁ¿¡£
+1.MongoDB 
+è¿žæŽ¥æ—¶ï¼Œæ³¨æ„`<password>`æ•´ä¸ªæ¢æˆè‡ªå·±çš„databaseçš„userå¯†ç ï¼Œæ¯”å¦‚123456ï¼Œè€Œä¸æ˜¯å†™æˆ`<123456>`ã€‚
+
+å¯ä»¥ä½¿ç”¨${password}æ¥å¼•ç”¨çŽ¯å¢ƒå˜é‡ã€‚
 ```
 const password = process.argv[2]
 ```
-ÕâÑùÔÚÊäÈë`node filename.js yourpassword`Ê±£¬¿ÉÒÔÖ±½ÓÒýÓÃ
+è¿™æ ·åœ¨è¾“å…¥`node filename.js yourpassword`æ—¶ï¼Œå¯ä»¥ç›´æŽ¥å¼•ç”¨
 
 
-2.±¾µØDNSÅäÖÃ
+2.æœ¬åœ°DNSé…ç½®
 ```
 Windows:
 
-´ò¿ª¿ØÖÆÃæ°å¡£
-×ªµ½¡°ÍøÂçºÍ Internet¡±¡£
-µã»÷¡°ÍøÂçºÍ¹²ÏíÖÐÐÄ¡±¡£
-ÔÚ×ó²àÃæ°åÖÐ£¬Ñ¡Ôñ¡°¸ü¸ÄÊÊÅäÆ÷ÉèÖÃ¡±¡£
-ÓÒ¼üµã»÷Äãµ±Ç°ÕýÔÚÊ¹ÓÃµÄÍøÂçÁ¬½Ó£¬È»ºóÑ¡Ôñ¡°ÊôÐÔ¡±¡£
-ÔÚÊôÐÔ´°¿ÚÖÐ£¬ÕÒµ½²¢Ñ¡Ôñ¡°Internet Ð­Òé°æ±¾ 4 (TCP/IPv4)¡±¡£
-µã»÷¡°ÊôÐÔ¡±¡£
-ÔÚ IPv4 ÊôÐÔ´°¿ÚÖÐ£¬Ñ¡Ôñ¡°Ê¹ÓÃÒÔÏÂ DNS ·þÎñÆ÷µØÖ·¡±¡£
-ÔÚÊ×Ñ¡ DNS ·þÎñÆ÷×Ö¶ÎÖÐÊäÈë 8.8.8.8£¬ÔÚ±¸ÓÃ DNS ·þÎñÆ÷×Ö¶ÎÖÐÊäÈë 8.8.4.4¡£
-µã»÷¡°È·¶¨¡±±£´æ¸ü¸Ä¡£
-ÖØÐÂÆô¶¯ÄãµÄ¼ÆËã»ú»òÕßË¢ÐÂÄãµÄÍøÂçÁ¬½Ó¡£
+æ‰“å¼€æŽ§åˆ¶é¢æ¿ã€‚
+è½¬åˆ°â€œç½‘ç»œå’Œ Internetâ€ã€‚
+ç‚¹å‡»â€œç½‘ç»œå’Œå…±äº«ä¸­å¿ƒâ€ã€‚
+åœ¨å·¦ä¾§é¢æ¿ä¸­ï¼Œé€‰æ‹©â€œæ›´æ”¹é€‚é…å™¨è®¾ç½®â€ã€‚
+å³é”®ç‚¹å‡»ä½ å½“å‰æ­£åœ¨ä½¿ç”¨çš„ç½‘ç»œè¿žæŽ¥ï¼Œç„¶åŽé€‰æ‹©â€œå±žæ€§â€ã€‚
+åœ¨å±žæ€§çª—å£ä¸­ï¼Œæ‰¾åˆ°å¹¶é€‰æ‹©â€œInternet åè®®ç‰ˆæœ¬ 4 (TCP/IPv4)â€ã€‚
+ç‚¹å‡»â€œå±žæ€§â€ã€‚
+åœ¨ IPv4 å±žæ€§çª—å£ä¸­ï¼Œé€‰æ‹©â€œä½¿ç”¨ä»¥ä¸‹ DNS æœåŠ¡å™¨åœ°å€â€ã€‚
+åœ¨é¦–é€‰ DNS æœåŠ¡å™¨å­—æ®µä¸­è¾“å…¥ 8.8.8.8ï¼Œåœ¨å¤‡ç”¨ DNS æœåŠ¡å™¨å­—æ®µä¸­è¾“å…¥ 8.8.4.4ã€‚
+ç‚¹å‡»â€œç¡®å®šâ€ä¿å­˜æ›´æ”¹ã€‚
+é‡æ–°å¯åŠ¨ä½ çš„è®¡ç®—æœºæˆ–è€…åˆ·æ–°ä½ çš„ç½‘ç»œè¿žæŽ¥ã€‚
 ```
