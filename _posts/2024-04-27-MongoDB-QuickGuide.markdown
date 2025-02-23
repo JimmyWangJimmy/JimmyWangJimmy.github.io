@@ -267,3 +267,37 @@ noteSchema.set('toJSON', {
   }
 })
 ```
+
+###### Fly.io部署后连接数据库失败解决
+
+在fly.io部署nodejs应用时，连接数据库失败，报错如下：
+```
+2024-05-21T05:20:26.277 app[1852e32c4e6368] nrt [info] > node index.js
+
+2024-05-21T05:20:26.769 app[1852e32c4e6368] nrt [info] connecting to undefined
+
+2024-05-21T05:20:26.786 app[1852e32c4e6368] nrt [info] Server running on port 3000
+
+2024-05-21T05:20:26.786 app[1852e32c4e6368] nrt [info] error connecting to MongoDB: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+```
+
+说明数据库未设置
+运行fly secrets set 命令解决
+```
+fly secrets set MONGODB_URI='mongodb://<username>:<password>@<host>:<port>/<database>'
+```
+
+
+###### Eslint
+
+```
+npm install eslint --save-dev
+```
+
+```
+npm init @eslint/config@0.4.2
+```
+
+```
+npm install --save-dev @stylistic/eslint-plugin-js
+```

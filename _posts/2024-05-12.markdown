@@ -1,0 +1,10 @@
+FLy.io
+
+windows°²×°
+```
+pwsh -Command "iwr https://fly.io/install.ps1 -useb | iex"
+```
+
+```
+fly auth login
+```

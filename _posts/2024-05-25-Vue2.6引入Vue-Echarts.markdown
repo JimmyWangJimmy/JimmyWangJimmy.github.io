@@ -1,0 +1,18 @@
+
+如果Vue版本2.5 2.7
+先运行下面的命令
+```
+npm install echartd vue-echarts
+```
+
+
+```bash
+npm i - D @vue/composition-api
+```
+-D 表示 --save-dev
+
+只用于开发环境的依赖，不会被打包到生产环境中
+
+```bash
+
+vue-echarts@6.7.2 对 Vue 的版本有如下要求：^2.6.12 || ^3.1.1，这意味着 Vue 的版本需要在 2.6.12 或更高版本之间，但低于 3.1.1

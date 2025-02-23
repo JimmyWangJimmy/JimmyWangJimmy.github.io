@@ -1,0 +1,92 @@
+
+首先，运行npm init命令为应用创建一个模版
+create a new template for our application with the npm init command
+```
+npm init
+```
+之后，在命令行中填写对应的信息，如作者、入口文件等。
+在test command一栏填写
+```
+echo \"Error: no test specified\" && exit 1
+````
+最后，就生成了package.json文件。在script中可以自定义命令，我们加入启动命令
+```
+ "start": "node index.js",
+```
+这样，未来运行npm start命令时，就会执行node index.js命令。
+
+接下来创建index.js文件，作为应用的入口文件。并写入一些简单代码，运行npm start命令查看是否启动成功。
+```
+console.log('Hello World');
+```
+在命令行中启动，显示Hello World，即启动成功。
+
+接下来，我们引入express框架，用于构建应用。Node有内置的web server模块http，但是express对其进行了封装，提供了更好的抽象，更方便的构建应用。
+```
+- Many libraries have been developed to ease server-side development with Node, by offering a more pleasing interface to work with the built-in http module. These libraries aim to provide a better abstraction for general use cases we usually require to build a backend server. By far the most popular library intended for this purpose is Express.
+```
+引入express
+```
+npm install express
+```
+查看package.json，引入成功：
+```
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+```
+
+开发环境配置-热部署：为了开发更便捷，在开发环境中引入nodemeon实现热部署。即在代码发生变化时，自动重启服务器。
+```
+npm install --save-dev nodemon
+```
+在package.json中查看，显示如下内容，即为成功。
+```
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+```
+最后加入命令
+```
+"dev": "nodemon index.js",
+```
+
+cors跨域配置：在开发过程中，前端和后端可能会部署在不同的服务器上，这时候就会涉及到跨域问题。为了解决这个问题，我们引入cors库。
+```
+npm install cors
+```
+
+
+
+数据库配置-MongoDB：
+We will instead use the Mongoose library that offers a higher-level API.
+
+Mongoose could be described as an object document mapper (ODM), and saving JavaScript objects as Mongo documents is straightforward with this library.
+```
+npm install mongoose
+```
+在mongodb cloud 中获取connection url
+```
+mongodb+srv://Jimmy:<password>@cluster0.3xjxr71.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+```
+
+
+测试：
+添加blog
+创建add_blog.rest文件
+```
+POST http://localhost:3003/api/blogs HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Test",
+  "author": "Test",
+  "url": "Test",
+  "likes": 0
+}
+```
+
+获取所有blog
+```
+GET http://localhost:3003/api/blogs
+```
