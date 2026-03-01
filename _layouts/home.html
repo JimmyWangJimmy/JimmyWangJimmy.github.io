@@ -3,9 +3,6 @@ layout: default
 ---
 {% assign featured_posts = site.posts | slice: 0, 3 %}
 {% assign latest_posts = site.posts | slice: 0, 9 %}
-{% assign troubleshooting_posts = site.posts | where_exp: "post", "post.categories contains '故障排查' or post.title contains '排障' or post.title contains 'MCP' or post.title contains 'debug'" | slice: 0, 3 %}
-{% assign project_posts = site.posts | where_exp: "post", "post.title contains '项目' or post.title contains '实录' or post.title contains 'FullStack' or post.title contains 'Vue' or post.title contains 'SpringBoot'" | slice: 0, 3 %}
-{% assign note_posts = site.posts | where_exp: "post", "post.title contains 'Node' or post.title contains 'React' or post.title contains 'Git' or post.title contains 'CSS' or post.title contains 'Algorithm'" | slice: 0, 3 %}
 
 <div class="home-shell">
   <section class="hero">
@@ -78,7 +75,7 @@ layout: default
         <h3>故障排查</h3>
         <p>围绕 OpenClaw、MCP、环境变量、网络代理、工具链异常等真实问题，尽量写到根因而不是停在表面现象。</p>
         <ul>
-          {% for post in troubleshooting_posts %}
+          {% for post in site.posts limit:3 %}
           <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
@@ -87,7 +84,7 @@ layout: default
         <h3>项目实录</h3>
         <p>记录真实项目里的技术选型、前后端联调、结构设计和工程推进，不只写“做了什么”，更写“为什么这么做”。</p>
         <ul>
-          {% for post in project_posts %}
+          {% for post in site.posts offset:3 limit:3 %}
           <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
@@ -96,7 +93,7 @@ layout: default
         <h3>学习笔记</h3>
         <p>把常用技术拆成短笔记，覆盖 Node.js、React、Git、CSS、算法等，适合作为日常查阅的轻量知识库。</p>
         <ul>
-          {% for post in note_posts %}
+          {% for post in site.posts offset:6 limit:3 %}
           <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
