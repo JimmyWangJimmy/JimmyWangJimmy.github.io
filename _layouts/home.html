@@ -3,6 +3,7 @@ layout: default
 ---
 {% assign featured_posts = site.posts | slice: 0, 3 %}
 {% assign latest_posts = site.posts | slice: 0, 9 %}
+{% assign default_cover = '/_posts/img/post_placeholder_cover.svg' | relative_url %}
 
 <div class="home-shell">
   <section class="hero">
@@ -53,6 +54,10 @@ layout: default
     <div class="feature-grid">
       {% for post in featured_posts %}
       <article class="feature-card">
+        {% assign cover = post.cover | default: default_cover %}
+        <a class="card-cover-link" href="{{ post.url | relative_url }}">
+          <div class="card-cover" style="background-image: linear-gradient(180deg, rgba(15, 23, 42, 0.08), rgba(15, 23, 42, 0.18)), url('{{ cover | relative_url }}');"></div>
+        </a>
         <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
         <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
@@ -112,6 +117,10 @@ layout: default
     <div class="post-grid">
       {% for post in latest_posts %}
       <article class="post-card">
+        {% assign cover = post.cover | default: default_cover %}
+        <a class="card-cover-link" href="{{ post.url | relative_url }}">
+          <div class="card-cover compact-cover" style="background-image: linear-gradient(180deg, rgba(15, 23, 42, 0.08), rgba(15, 23, 42, 0.18)), url('{{ cover | relative_url }}');"></div>
+        </a>
         <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
         <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>

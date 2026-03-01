@@ -3,6 +3,7 @@ layout: post
 title: "彻底终结 MCP 连接地狱：Windows 环境下的路径排查与环境优化实战"
 date:   2025-02-24 14:30:00 +0800
 categories: windows nodejs mcp 故障排查
+cover: /_posts/img/mcp_cover.png
 ---
 
 ![MCP连接故障排查封面](./img/mcp_cover.png)

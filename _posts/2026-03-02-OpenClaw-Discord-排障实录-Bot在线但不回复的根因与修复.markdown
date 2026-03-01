@@ -3,6 +3,7 @@ layout: post
 title: "OpenClaw Discord 排障实录：Bot 在线但不回复的根因与修复"
 date:   2026-03-02 03:40:00 +0800
 categories: openclaw discord nodejs 故障排查
+cover: /_posts/img/openclaw_discord_troubleshooting_cover.svg
 ---
 
 ![OpenClaw Discord 排障封面](./img/openclaw_discord_troubleshooting_cover.svg)

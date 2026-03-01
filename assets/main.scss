@@ -282,6 +282,24 @@ body {
   padding: 24px;
 }
 
+.card-cover-link {
+  display: block;
+  margin: -24px -24px 18px;
+}
+
+.card-cover {
+  width: calc(100% + 48px);
+  height: 220px;
+  border-radius: 26px 26px 18px 18px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid rgba(23, 33, 43, 0.08);
+}
+
+.compact-cover {
+  height: 180px;
+}
+
 .feature-card h3,
 .topic-card h3,
 .post-card h3 {
@@ -439,5 +457,13 @@ a:hover {
   .inline-heading {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .card-cover {
+    height: 190px;
+  }
+
+  .compact-cover {
+    height: 160px;
   }
 }
