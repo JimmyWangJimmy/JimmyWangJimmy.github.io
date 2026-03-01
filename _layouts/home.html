@@ -1,0 +1,125 @@
+---
+layout: default
+---
+{% assign featured_posts = site.posts | slice: 0, 3 %}
+{% assign latest_posts = site.posts | slice: 0, 9 %}
+{% assign troubleshooting_posts = site.posts | where_exp: "post", "post.categories contains '故障排查' or post.title contains '排障' or post.title contains 'MCP' or post.title contains 'debug'" | slice: 0, 3 %}
+{% assign project_posts = site.posts | where_exp: "post", "post.title contains '项目' or post.title contains '实录' or post.title contains 'FullStack' or post.title contains 'Vue' or post.title contains 'SpringBoot'" | slice: 0, 3 %}
+{% assign note_posts = site.posts | where_exp: "post", "post.title contains 'Node' or post.title contains 'React' or post.title contains 'Git' or post.title contains 'CSS' or post.title contains 'Algorithm'" | slice: 0, 3 %}
+
+<div class="home-shell">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Jimmy Wang · Full-Stack / AI Tooling / Troubleshooting</p>
+      <h1>一个偏工程实践的个人技术博客</h1>
+      <p class="hero-lead">
+        这里主要记录全栈开发、AI 工具链、真实排障案例和项目复盘。重点不是概念堆砌，而是把问题拆开、定位、修掉。
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#featured">先看精选文章</a>
+        <a class="button button-secondary" href="{{ '/archive/' | relative_url }}">查看全部文章</a>
+      </div>
+      <ul class="hero-metrics">
+        <li>
+          <strong>{{ site.posts | size }}</strong>
+          <span>篇文章</span>
+        </li>
+        <li>
+          <strong>3</strong>
+          <span>类核心内容</span>
+        </li>
+        <li>
+          <strong>2026</strong>
+          <span>持续更新中</span>
+        </li>
+      </ul>
+    </div>
+    <div class="hero-panel">
+      <div class="signal-card">
+        <p class="signal-label">最近更新</p>
+        <h2><a href="{{ featured_posts[0].url | relative_url }}">{{ featured_posts[0].title }}</a></h2>
+        <p>{{ featured_posts[0].excerpt | strip_html | strip_newlines | truncate: 130 }}</p>
+        <div class="signal-meta">
+          <span>{{ featured_posts[0].date | date: "%Y-%m-%d" }}</span>
+          <span>{{ featured_posts[0].categories | join: " · " }}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="featured">
+    <div class="section-heading">
+      <p class="section-kicker">Featured</p>
+      <h2>精选文章</h2>
+      <p>先从这几篇看，能最快理解我这个博客的内容密度和写作方向。</p>
+    </div>
+    <div class="feature-grid">
+      {% for post in featured_posts %}
+      <article class="feature-card">
+        <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+        {% if post.categories.size > 0 %}
+        <p class="post-tags">{{ post.categories | join: " · " }}</p>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <p class="section-kicker">Topics</p>
+      <h2>内容分区</h2>
+      <p>不是单纯按时间倒序，而是按问题类型组织，方便快速找到真正有用的内容。</p>
+    </div>
+    <div class="topic-grid">
+      <section class="topic-card">
+        <h3>故障排查</h3>
+        <p>围绕 OpenClaw、MCP、环境变量、网络代理、工具链异常等真实问题，尽量写到根因而不是停在表面现象。</p>
+        <ul>
+          {% for post in troubleshooting_posts %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+      <section class="topic-card">
+        <h3>项目实录</h3>
+        <p>记录真实项目里的技术选型、前后端联调、结构设计和工程推进，不只写“做了什么”，更写“为什么这么做”。</p>
+        <ul>
+          {% for post in project_posts %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+      <section class="topic-card">
+        <h3>学习笔记</h3>
+        <p>把常用技术拆成短笔记，覆盖 Node.js、React、Git、CSS、算法等，适合作为日常查阅的轻量知识库。</p>
+        <ul>
+          {% for post in note_posts %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading inline-heading">
+      <div>
+        <p class="section-kicker">Latest</p>
+        <h2>最近文章</h2>
+      </div>
+      <a class="text-link" href="{{ '/archive/' | relative_url }}">查看完整归档</a>
+    </div>
+    <div class="post-grid">
+      {% for post in latest_posts %}
+      <article class="post-card">
+        <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+</div>
