@@ -1,6 +1,6 @@
 FLy.io
 
-windows°²×°
+windowså®‰è£…
 ```
 pwsh -Command "iwr https://fly.io/install.ps1 -useb | iex"
 ```

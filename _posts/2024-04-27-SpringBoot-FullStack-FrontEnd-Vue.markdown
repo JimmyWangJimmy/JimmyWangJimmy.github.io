@@ -363,7 +363,7 @@ const router = new VueRouter({
 
 { path: '/my/:id', component: Product }
 
-通过{{$route.params.id}}获取id
+通过{% raw %}{{$route.params.id}}{% endraw %}获取id
 
 2.参数传递
 通过props传递参数
@@ -458,7 +458,7 @@ Vue.use(Vuex)
 
 在main.js中导入store并挂载
 
-在组件中可以用这样的方式读取：  {{ this.$store.state.count }}
+在组件中可以用这样的方式读取： {% raw %}{{ this.$store.state.count }}{% endraw %}
 
 如果要创建一个action，比如设置一个button，点击后@click=:"add"，在本组件methods里写一个add方法，在add方法里面调用state中mutations中的increment方法来修改state，如this.$store.commit('increment')
 
@@ -493,4 +493,3 @@ computed:{
 ```
 Module:
 > Vuex 允许我们将 store 分割成模块（module）。每个模块拥有自己的 state、mutation、action、getter、甚至是嵌套子模块——从上至下进行同样方式的分割
-
