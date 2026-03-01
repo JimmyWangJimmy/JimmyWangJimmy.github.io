@@ -1,0 +1,11 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="720" fill="#1F2937"/>
+<rect x="120" y="100" width="960" height="520" rx="30" fill="#111827" stroke="#4B5563"/>
+<text x="170" y="240" fill="#FCA5A5" font-size="30" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">Debugging Story</text>
+<text x="170" y="330" fill="#F9FAFB" font-size="66" font-weight="700" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">一次 debug 经历</text>
+<text x="170" y="410" fill="#D1D5DB" font-size="34" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">Error Trace · Root Cause · Fix Path</text>
+<path d="M760 230L950 420" stroke="#F87171" stroke-width="18" stroke-linecap="round"/>
+<path d="M950 230L760 420" stroke="#F87171" stroke-width="18" stroke-linecap="round"/>
+<rect x="720" y="470" width="260" height="56" rx="16" fill="#14532D"/>
+<text x="850" y="507" text-anchor="middle" fill="#DCFCE7" font-size="28" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">Root Cause Fixed</text>
+</svg>

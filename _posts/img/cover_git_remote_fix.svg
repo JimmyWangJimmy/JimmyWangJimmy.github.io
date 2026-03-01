@@ -1,0 +1,13 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="720" fill="#0F172A"/>
+<rect x="120" y="110" width="960" height="500" rx="30" fill="#111827" stroke="#475569"/>
+<text x="170" y="240" fill="#FCA5A5" font-size="30" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">Git Remote / Deploy Key</text>
+<text x="170" y="330" fill="#F8FAFC" font-size="60" font-weight="700" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">Permission Denied</text>
+<text x="170" y="404" fill="#CBD5E1" font-size="34" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">SSH to HTTPS migration and repository access fix</text>
+<rect x="720" y="220" width="280" height="64" rx="16" fill="#1E293B"/>
+<text x="860" y="262" text-anchor="middle" fill="#FCA5A5" font-size="28" font-family="Courier New, monospace">git@github.com:repo.git</text>
+<path d="M780 340H940" stroke="#38BDF8" stroke-width="14" stroke-linecap="round"/>
+<path d="M905 312L940 340L905 368" stroke="#38BDF8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="700" y="408" width="320" height="64" rx="16" fill="#082F49"/>
+<text x="860" y="450" text-anchor="middle" fill="#BAE6FD" font-size="28" font-family="Courier New, monospace">https://github.com/repo.git</text>
+</svg>

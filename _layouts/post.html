@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  {% if page.cover %}
+  <header class="post-hero">
+    <div class="post-hero-cover" style="background-image: linear-gradient(180deg, rgba(15, 23, 42, 0.12), rgba(15, 23, 42, 0.28)), url('{{ page.cover | relative_url }}');"></div>
+    <div class="post-hero-body">
+      <p class="post-meta">
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: "%Y-%m-%d" }}
+        </time>
+        {% if page.categories %}
+        <span class="post-meta-sep">·</span>
+        <span>{{ page.categories | join: " · " }}</span>
+        {% endif %}
+      </p>
+      <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+      {% if page.subtitle %}
+      <p class="post-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    </div>
+  </header>
+  {% else %}
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%Y-%m-%d" }}
+      </time>
+      {% if page.author %}
+        • {% for author in page.author %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+      {% endif %}
+    </p>
+  </header>
+  {% endif %}
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

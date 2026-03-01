@@ -3,6 +3,7 @@ layout: post
 title:  "SpringBoot FullStack FrontEnd Vue"
 date:   2024-04-27 00:45:00 +0800
 categories: jekyll update
+cover: /_posts/img/cover_springboot_vue.svg
 ---
 前言：Draft版本。
 

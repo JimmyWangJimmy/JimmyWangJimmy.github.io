@@ -3,6 +3,7 @@ layout: post
 title:  "Mongoose Module Set"
 date:   2024-05-11 17:32:42 +0800
 categories: jekyll update
+cover: /_posts/img/cover_mongoose_module_set.svg
 ---
 
 在根目录下创建一个`models`文件夹，并在其下创建一个名为`note.js`的文件，用来保存与mongoose相关的内容。

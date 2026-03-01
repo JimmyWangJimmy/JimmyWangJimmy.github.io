@@ -3,6 +3,7 @@ layout: post
 title:  "一次debug经历"
 date:   2024-04-23 15:32:42 +0800
 categories: jekyll update
+cover: /_posts/img/cover_debug_story.svg
 ---
 先换node版本，再看dns，再多运行几次，重启一下电脑——>解决问题
 
