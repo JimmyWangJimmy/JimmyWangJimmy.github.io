@@ -5,7 +5,15 @@ date:   2026-03-02 03:40:00 +0800
 categories: openclaw discord nodejs 故障排查
 ---
 
+![OpenClaw Discord 排障封面](./img/openclaw_discord_troubleshooting_cover.svg)
+
+*一类非常典型的“半通半断”故障：Bot 已在线、消息能进模型，但最终回复没有成功发回 Discord。*
+
 > **核心结论：这不是一个单点故障，而是四层问题叠加。真正最隐蔽的根因是，OpenClaw 当前链路里 Discord 的入站与登录可以走代理，但最终出站回复没有完整继承代理，导致“能登录、能收消息、模型也跑了，但发不出去”。**
+
+> **适合谁看：** 正在把 OpenClaw 接入 Discord、已经看到 bot 在线、但 `@bot hello` 没有任何回复的人。
+
+> **你会得到什么：** 一套可以复用的排障顺序，一份最小可用修复配置，以及一段让 OpenClaw 自己快速自查的提示词。
 
 最近把 OpenClaw 接到 Discord 时，遇到一个非常典型、也非常容易误判的问题：
 
