@@ -20,34 +20,34 @@ layout: default
     </div>
   </section>
 
-  {% if page.pillar == '阅读与思考' and current_pillar.featured_posts %}
+  {% if current_pillar.featured_posts %}
   <section class="section">
     <div class="section-heading">
       <p class="section-kicker">Editor’s Pick</p>
       <h2>先从这几篇开始</h2>
-      <p>如果你第一次进这个栏目，先看这几篇会更容易理解这一栏的气质和写作方向。</p>
+      <p>如果你第一次进这个栏目，先看这几篇会更容易理解这一栏的气质、问题意识和内容边界。</p>
     </div>
-    <div class="reading-showcase">
-      <div class="reading-feature-grid">
+    <div class="pillar-showcase">
+      <div class="pillar-feature-grid">
         {% for target_title in current_pillar.featured_posts %}
           {% for post in site.posts %}
             {% if post.title == target_title %}
               {% assign cover = post.cover | default: '/_posts/img/post_placeholder_cover.svg' %}
-              <article class="reading-feature-card">
+              <article class="pillar-feature-card">
                 <a class="card-cover-link" href="{{ post.url | relative_url }}">
                   <div class="card-cover" style="background-image: linear-gradient(180deg, rgba(15, 23, 42, 0.08), rgba(15, 23, 42, 0.18)), url('{{ cover | relative_url }}');"></div>
                 </a>
                 <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
                 <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-                <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 140 }}</p>
+                <p>{{ post.summary | default: post.excerpt | strip_html | strip_newlines | truncate: 140 }}</p>
               </article>
             {% endif %}
           {% endfor %}
         {% endfor %}
       </div>
-      <aside class="reading-side-notes">
+      <aside class="pillar-side-notes">
         {% for note in current_pillar.side_notes %}
-        <section class="reading-note-card">
+        <section class="pillar-note-card">
           <h3>{{ note.title }}</h3>
           <p>{{ note.body }}</p>
         </section>
@@ -75,7 +75,7 @@ layout: default
             </a>
             <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-            <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
+            <p>{{ post.summary | default: post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
           </article>
         {% endif %}
       {% endfor %}

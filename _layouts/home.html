@@ -36,7 +36,7 @@ layout: default
       <div class="signal-card">
         <p class="signal-label">最近更新</p>
         <h2><a href="{{ featured_posts[0].url | relative_url }}">{{ featured_posts[0].title }}</a></h2>
-        <p>{{ featured_posts[0].excerpt | strip_html | strip_newlines | truncate: 130 }}</p>
+        <p>{{ featured_posts[0].summary | default: featured_posts[0].excerpt | strip_html | strip_newlines | truncate: 130 }}</p>
         <div class="signal-meta">
           <span>{{ featured_posts[0].date | date: "%Y-%m-%d" }}</span>
           <span>{{ featured_posts[0].categories | join: " · " }}</span>
@@ -60,7 +60,7 @@ layout: default
         </a>
         <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+        <p>{{ post.summary | default: post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
         {% if post.categories.size > 0 %}
         <p class="post-tags">{{ post.categories | join: " · " }}</p>
         {% endif %}
@@ -113,7 +113,7 @@ layout: default
         </a>
         <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
+        <p>{{ post.summary | default: post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
       </article>
       {% endfor %}
     </div>

@@ -7,6 +7,17 @@
     - 真实排障实录
     - 根因定位与修复
     - 环境、代理、工具链问题
+  featured_posts:
+    - OpenClaw Discord 排障实录：Bot 在线但不回复的根因与修复
+    - 彻底终结 MCP 连接地狱：Windows 环境下的路径排查与环境优化实战
+    - 解决ERROR: Permission to .git denied to deploy key fatal: Could not read from remote repository.
+  side_notes:
+    - title: 这一栏写什么
+      body: 从表面现象到根因定位，再到最小可用修复，重点是把故障真正拆开，而不是停在经验口令。
+    - title: 适合怎么读
+      body: 如果你正卡在某个问题上，先找相近症状；如果你在搭环境，这一栏也适合当避坑手册看。
+    - title: 后面会继续补什么
+      body: 环境、代理、权限、链路、部署和数据清洗类问题都会继续往这里收拢。
   project_links:
     - title: financial-penalty-api
       url: https://github.com/JimmyWangJimmy/financial-penalty-api
@@ -24,6 +35,17 @@
     - AI 工具链与工作流
     - Agent / MCP / OpenClaw 实践
     - 人机协作的边界与方法
+  featured_posts:
+    - OpenClaw Discord 排障实录：Bot 在线但不回复的根因与修复
+    - 彻底终结 MCP 连接地狱：Windows 环境下的路径排查与环境优化实战
+    - Spring AI Demo
+  side_notes:
+    - title: 这一栏关注什么
+      body: 不是 AI 新闻，也不是空泛观点，而是 AI 工具、Agent、MCP 和真实工作流如何接进日常开发。
+    - title: 适合怎么读
+      body: 先看工具怎么落地，再看它和现实环境、代理、权限、协作方式之间的摩擦。
+    - title: 后面会继续补什么
+      body: OpenClaw、知识库、Agent 项目、金融审计 AI 实践，以及与 AI 协作的方法论。
   project_links:
     - title: OpenClaw-KnowHowHub
       url: https://github.com/JimmyWangJimmy/OpenClaw-KnowHowHub

@@ -4,6 +4,7 @@ title: "OpenClaw Discord 排障实录：Bot 在线但不回复的根因与修复
 date:   2026-03-02 03:40:00 +0800
 categories: openclaw discord nodejs 故障排查
 cover: /_posts/img/openclaw_discord_troubleshooting_cover.svg
+summary: Bot 在线、消息能进模型却回不出去，根因不是单点故障，而是配置 schema、guild allowlist、代理和常驻方式四层叠加。
 pillars:
   - 拆问题
   - 与AI共生
