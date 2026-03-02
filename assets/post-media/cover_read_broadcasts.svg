@@ -1,0 +1,11 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F7F3EC"/>
+  <rect x="90" y="90" width="1420" height="720" rx="34" fill="#FFF9F1" stroke="#E0D2C0" stroke-width="2"/>
+  <rect x="170" y="210" width="1260" height="120" rx="22" fill="#EAF0FA"/>
+  <rect x="170" y="374" width="1260" height="120" rx="22" fill="#E7F6F1"/>
+  <rect x="170" y="538" width="1260" height="120" rx="22" fill="#F8EDDF"/>
+  <text x="216" y="286" fill="#2F4E87" font-size="40" font-family="Avenir Next, PingFang SC, sans-serif">想读《主动投资组合管理》</text>
+  <text x="216" y="450" fill="#0E6B63" font-size="40" font-family="Avenir Next, PingFang SC, sans-serif">想读《因子投资：方法与实践》</text>
+  <text x="216" y="614" fill="#9B5A18" font-size="40" font-family="Avenir Next, PingFang SC, sans-serif">想读《大衰退》 / 《实战AI大模型》</text>
+  <text x="228" y="760" fill="#102231" font-size="60" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">几条想读广播背后，其实是同一个问题意识</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EFE8"/>
+  <rect x="72" y="72" width="1456" height="756" rx="34" fill="#FCFBF7" stroke="#DDD3C8" stroke-width="2"/>
+  <rect x="118" y="120" width="548" height="660" rx="28" fill="#1E3A5F"/>
+  <rect x="718" y="120" width="700" height="660" rx="28" fill="#E8E2D7"/>
+  <rect x="782" y="204" width="572" height="158" rx="22" fill="#C8D7E7"/>
+  <rect x="782" y="402" width="572" height="138" rx="22" fill="#D8C4A3"/>
+  <rect x="782" y="580" width="572" height="126" rx="22" fill="#F7F3EC" stroke="#D9D0C5"/>
+  <text x="164" y="210" fill="#D8E6F4" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" letter-spacing="4">HUMAN + AI / WRITING</text>
+  <text x="164" y="326" fill="#FFFFFF" font-size="82" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">我的第一篇 Blog</text>
+  <text x="164" y="410" fill="#C8D9EA" font-size="38" font-family="Avenir Next, PingFang SC, sans-serif">不是开场白，而是我和 AI 一起写东西的很早起点</text>
+  <text x="164" y="610" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">Jekyll</text>
+  <text x="164" y="664" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">Copilot</text>
+  <text x="164" y="718" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">写作开始变成协作过程</text>
+  <text x="832" y="304" fill="#38556C" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">很多大的变化，最早都以很轻的方式发生</text>
+  <text x="832" y="490" fill="#5D4A35" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">不是替我写完，而是让我更敢开始</text>
+  <text x="832" y="654" fill="#5B5751" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">当 AI 第一次进入写作，它往往先解决的只是启动阻力</text>
+</svg>

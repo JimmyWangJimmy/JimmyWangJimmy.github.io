@@ -3,7 +3,7 @@ layout: post
 title: "从《银行职员日记》到《金融案鉴》：我为什么越来越在意制度里的普通人"
 date: 2024-09-14 20:10:00 +0800
 categories: 阅读 金融 思考
-cover: /_posts/img/cover_bank_staff_cases.svg
+cover: /assets/post-media/cover_bank_staff_cases.svg
 summary: 比起宏观结论，我越来越在意制度是如何落到普通人身上的，《银行职员日记》和《金融案鉴》刚好把这条线照得很具体。
 pillars:
   - 阅读与思考
@@ -26,7 +26,7 @@ pillars:
 《银行职员日记》这种书对我来说有价值，正因为它会把这种落地过程拉得很近。你不再只是看制度，而是看制度里的人怎么生活，怎么适应，怎么在日常里消化那些并不由他决定、却实实在在影响他的结构。
 
 <figure class="article-figure">
-  <img src="/_posts/img/diagram_institution_people.svg" alt="制度如何落到普通人身上的结构图，展示制度、组织、压力与普通人之间的传导关系" />
+  <img src="/assets/post-media/diagram_institution_people.svg" alt="制度如何落到普通人身上的结构图，展示制度、组织、压力与普通人之间的传导关系" />
   <figcaption>我现在越来越在意的，不只是制度本身对不对，而是它总要怎样经过组织、压力和判断，最终落到普通人的日常里。</figcaption>
 </figure>
 

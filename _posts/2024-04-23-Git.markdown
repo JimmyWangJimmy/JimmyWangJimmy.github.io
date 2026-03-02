@@ -3,7 +3,7 @@ layout: post
 title:  "解决ERROR: Permission to .git denied to deploy key fatal: Could not read from remote repository."
 date:   2024-04-23 00:59:42 +0800
 categories: jekyll update
-cover: /_posts/img/cover_git_remote_fix.svg
+cover: /assets/post-media/cover_git_remote_fix.svg
 pillars:
   - 拆问题
 ---

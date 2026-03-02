@@ -1,0 +1,30 @@
+<svg width="1600" height="960" viewBox="0 0 1600 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="960" rx="40" fill="#F6F2EB"/>
+  <rect x="56" y="56" width="1488" height="848" rx="32" fill="#FFFDF9" stroke="#E5DBCF" stroke-width="2"/>
+  <text x="108" y="140" fill="#102231" font-size="52" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">OpenClaw Discord 故障分层图</text>
+  <text x="108" y="188" fill="#5B6A77" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">这次不是单点故障，而是从本地 gateway 到出站代理的四层链路依次出问题。</text>
+
+  <rect x="126" y="360" width="260" height="160" rx="28" fill="#FBEFEF" stroke="#E2B9B9" stroke-width="2"/>
+  <text x="170" y="430" fill="#8B3F3F" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">1. Gateway 常驻</text>
+  <text x="170" y="474" fill="#5F6F7B" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">本地 18789 是否稳定监听</text>
+
+  <rect x="470" y="360" width="260" height="160" rx="28" fill="#F8EDDF" stroke="#E1BE91" stroke-width="2"/>
+  <text x="514" y="430" fill="#9B5A18" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">2. Schema 配置</text>
+  <text x="514" y="474" fill="#5F6F7B" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">非法字段会让 provider 直接起不来</text>
+
+  <rect x="814" y="360" width="260" height="160" rx="28" fill="#EAF0FA" stroke="#AEC2E7" stroke-width="2"/>
+  <text x="858" y="430" fill="#2F4E87" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">3. Guild 策略</text>
+  <text x="858" y="474" fill="#5F6F7B" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">allowlist 未放行时群消息被拒绝</text>
+
+  <rect x="1158" y="360" width="260" height="160" rx="28" fill="#E7F6F1" stroke="#9DD4C7" stroke-width="2"/>
+  <text x="1202" y="430" fill="#0E6B63" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">4. 出站代理</text>
+  <text x="1202" y="474" fill="#5F6F7B" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">能收消息，但回复发不出去</text>
+
+  <path d="M386 440H454" stroke="#C38C8C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M730 440H798" stroke="#D1A56E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1074 440H1142" stroke="#8FAEE0" stroke-width="6" stroke-linecap="round"/>
+
+  <rect x="412" y="642" width="776" height="116" rx="30" fill="#102231"/>
+  <text x="474" y="708" fill="#FFFFFF" font-size="36" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">最终现象：</text>
+  <text x="690" y="708" fill="#D7E0E8" font-size="32" font-family="Avenir Next, PingFang SC, sans-serif">Bot 在线、消息进模型、日志无模型报错，但回复没有发回 Discord。</text>
+</svg>

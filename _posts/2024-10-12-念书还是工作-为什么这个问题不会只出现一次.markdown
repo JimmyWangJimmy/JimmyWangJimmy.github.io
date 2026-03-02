@@ -3,7 +3,7 @@ layout: post
 title: "念书，还是工作？为什么这个问题不会只出现一次"
 date: 2024-10-12 20:20:00 +0800
 categories: 阅读 选择 思考
-cover: /_posts/img/cover_study_or_work.svg
+cover: /assets/post-media/cover_study_or_work.svg
 summary: “念书还是工作”看起来像一次性的岔路口，但很多人后来会发现，这个问题会在不同阶段反复回来，只是换了外观。
 pillars:
   - 阅读与思考

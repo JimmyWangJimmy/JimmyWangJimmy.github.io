@@ -1,0 +1,17 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F3EFE8"/>
+  <rect x="70" y="72" width="1460" height="756" rx="34" fill="#FCFBF8" stroke="#DDD4CA" stroke-width="2"/>
+  <rect x="118" y="120" width="560" height="660" rx="28" fill="#2F3440"/>
+  <path d="M770 120H1418V780H770L846 640L922 518L1002 420L1086 320L1188 220L1288 120H770Z" fill="#E6DBCF"/>
+  <path d="M916 120H1418V780H846L924 648L1006 540L1096 428L1194 314L1310 120H916Z" fill="#C3A38C"/>
+  <text x="164" y="214" fill="#DCE4EA" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" letter-spacing="4">READING / FILM</text>
+  <text x="164" y="324" fill="#FFFFFF" font-size="94" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">坠落的审判</text>
+  <text x="164" y="412" fill="#C9D4DA" font-size="36" font-family="Avenir Next, PingFang SC, sans-serif">判断一个人，为什么远比判断一件事更难</text>
+  <text x="164" y="612" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">事实</text>
+  <text x="164" y="668" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">关系</text>
+  <text x="164" y="724" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">叙述里的偏向与摇摆</text>
+  <text x="818" y="276" fill="#5B493A" font-size="54" font-family="Georgia, PingFang SC, serif" font-weight="700">Judgment</text>
+  <text x="818" y="352" fill="#6E6054" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">不是寻找一个干净结论，而是承认复杂性不会自动消失</text>
+  <circle cx="1276" cy="640" r="96" fill="#2F3440" fill-opacity="0.08"/>
+  <circle cx="1188" cy="688" r="34" fill="#C3A38C" fill-opacity="0.32"/>
+</svg>

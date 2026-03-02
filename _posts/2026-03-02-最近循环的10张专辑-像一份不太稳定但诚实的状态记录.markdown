@@ -3,7 +3,7 @@ layout: post
 title: "最近循环的 10 张专辑，像一份不太稳定但诚实的状态记录"
 date: 2026-02-20 10:40:00 +0800
 categories: 阅读 思考 音乐
-cover: /_posts/img/cover_music_state_record.svg
+cover: /assets/post-media/cover_music_state_record.svg
 summary: 有时候播放列表比日记更诚实，这 10 张反复循环的专辑，像一份能把这个阶段气压显影出来的状态记录。
 pillars:
   - 阅读与思考
@@ -20,7 +20,7 @@ pillars:
 如果硬要说这是一个什么样的列表，大概不是“我最近最喜欢的 10 张专辑”，而更像“最近我在什么样的气压里生活”。
 
 <figure class="article-figure">
-  <img src="/_posts/img/diagram_music_state_spectrum.svg" alt="播放列表里的状态光谱图，展示几张专辑如何共同构成一个阶段的内部气候" />
+  <img src="/assets/post-media/diagram_music_state_spectrum.svg" alt="播放列表里的状态光谱图，展示几张专辑如何共同构成一个阶段的内部气候" />
   <figcaption>这些专辑并不属于同一风格，但能共同拼出一个状态光谱：更慢、更收束、更古典，也更愿意留白。</figcaption>
 </figure>
 

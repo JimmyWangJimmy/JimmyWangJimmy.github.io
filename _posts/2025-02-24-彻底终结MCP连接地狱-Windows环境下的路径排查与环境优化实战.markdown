@@ -3,14 +3,14 @@ layout: post
 title: "彻底终结 MCP 连接地狱：Windows 环境下的路径排查与环境优化实战"
 date:   2025-02-24 14:30:00 +0800
 categories: windows nodejs mcp 故障排查
-cover: /_posts/img/mcp_cover.png
+cover: /assets/post-media/mcp_cover.png
 summary: NVM 路径隔离让 IDE 插件找不到 MCP 包，表面像“配置没写对”，根因却在 Windows 脚本执行链路和 Node 版本管理。
 pillars:
   - 拆问题
   - 与AI共生
 ---
 
-![MCP连接故障排查封面](./img/mcp_cover.png)
+![MCP连接故障排查封面](/assets/post-media/mcp_cover.png)
 *VS Code MCP 连接状态对比：红色错误 vs 绿色成功*
 
 > **核心问题：NVM导致的路径隔离使IDE插件无法正确解析MCP包位置；解决方案：绕过npx，直接使用Node.js执行MCP包的绝对路径。**
@@ -18,7 +18,7 @@ pillars:
 > 本文旨在为团队成员或博客读者提供一个"避坑指南"。在 Windows 环境下，开发工具的链路由于环境变量、路径转义和 Node.js 版本管理器的存在，变得异常脆弱。
 
 <figure class="article-figure">
-  <img src="/_posts/img/diagram_mcp_windows_path_flow.svg" alt="Windows MCP 连接故障链路图，展示 npx、NVM、STDIO 和绝对路径修复之间的关系" />
+  <img src="/assets/post-media/diagram_mcp_windows_path_flow.svg" alt="Windows MCP 连接故障链路图，展示 npx、NVM、STDIO 和绝对路径修复之间的关系" />
   <figcaption>这类红点故障最容易让人误会成“插件抽风”。把执行链路拆开后就会发现，真正的问题藏在 Windows 包装脚本、NVM 路径和 STDIO 杂音之间。</figcaption>
 </figure>
 

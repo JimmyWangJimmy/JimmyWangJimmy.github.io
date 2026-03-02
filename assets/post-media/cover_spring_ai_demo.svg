@@ -1,0 +1,11 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="720" fill="#111827"/>
+<rect x="120" y="110" width="960" height="500" rx="30" fill="#0F172A" stroke="#3B82F6" stroke-opacity="0.4"/>
+<circle cx="260" cy="240" r="100" fill="#2563EB" fill-opacity="0.22"/>
+<circle cx="920" cy="470" r="140" fill="#22C55E" fill-opacity="0.18"/>
+<text x="170" y="250" fill="#93C5FD" font-size="32" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">Spring AI</text>
+<text x="170" y="338" fill="#F8FAFC" font-size="68" font-weight="700" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">Demo</text>
+<text x="170" y="414" fill="#CBD5E1" font-size="34" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">Prompting · Integration · Prototype Flow</text>
+<rect x="700" y="220" width="220" height="220" rx="110" fill="#0B3B35" stroke="#22C55E"/>
+<path d="M765 332C800 292 824 278 860 262C855 304 840 335 805 380C794 365 780 349 765 332Z" fill="#A7F3D0"/>
+</svg>

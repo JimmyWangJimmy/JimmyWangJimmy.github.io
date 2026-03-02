@@ -17,7 +17,7 @@ pillars:
 对我来说，公考这件事最重要的部分，后来也越来越不在“考”本身，而在它把一些平时比较抽象的问题一下子拉得很具体。
 
 <figure class="article-figure">
-  <img src="/_posts/img/diagram_choice_tradeoff_map.svg" alt="公考经历里的选择权衡图，展示确定性、机会成本与真正的问题之间的关系" />
+  <img src="/assets/post-media/diagram_choice_tradeoff_map.svg" alt="公考经历里的选择权衡图，展示确定性、机会成本与真正的问题之间的关系" />
   <figcaption>这段经历最后逼我反复回到同一个问题：不是哪条路更体面，而是我愿意把真实时间押在哪一种生活上。</figcaption>
 </figure>
 

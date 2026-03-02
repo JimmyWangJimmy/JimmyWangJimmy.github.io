@@ -1,0 +1,35 @@
+<svg width="1600" height="920" viewBox="0 0 1600 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="920" rx="40" fill="#F7F3EC"/>
+  <rect x="56" y="56" width="1488" height="808" rx="32" fill="#FFFCF8" stroke="#E6DDD1" stroke-width="2"/>
+  <text x="110" y="138" fill="#102231" font-size="52" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">最近输入结构图</text>
+  <text x="110" y="188" fill="#5B6A77" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">金融、AI、传记并列出现，但最终都在回答同一个问题：如何理解复杂系统，并校准自己。</text>
+
+  <rect x="120" y="270" width="360" height="240" rx="28" fill="#E7F6F1" stroke="#9CD4C7" stroke-width="2"/>
+  <text x="156" y="336" fill="#0D6A62" font-size="42" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">金融</text>
+  <text x="156" y="390" fill="#27424D" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">看系统、风险、信号和噪音</text>
+  <text x="156" y="436" fill="#4D626D" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">• 因子投资</text>
+  <text x="156" y="470" fill="#4D626D" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">• 主动投资组合管理</text>
+  <text x="156" y="504" fill="#4D626D" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">• 大衰退</text>
+
+  <rect x="620" y="270" width="360" height="240" rx="28" fill="#E9F0FA" stroke="#AFC4E8" stroke-width="2"/>
+  <text x="656" y="336" fill="#294C87" font-size="42" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">AI</text>
+  <text x="656" y="390" fill="#27424D" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">看工具、结构和工作流接入</text>
+  <text x="656" y="436" fill="#4D626D" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">• 实战AI大模型</text>
+  <text x="656" y="470" fill="#4D626D" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">• scikit-learn</text>
+  <text x="656" y="504" fill="#4D626D" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">• 我看见的世界</text>
+
+  <rect x="1120" y="270" width="360" height="240" rx="28" fill="#F9EDE2" stroke="#E6C7A1" stroke-width="2"/>
+  <text x="1156" y="336" fill="#9B5A18" font-size="42" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">传记 / 文学</text>
+  <text x="1156" y="390" fill="#27424D" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">看人的处境、节奏和局限</text>
+  <text x="1156" y="436" fill="#4D626D" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">• 杜甫传</text>
+  <text x="1156" y="470" fill="#4D626D" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">• 斯通纳</text>
+  <text x="1156" y="504" fill="#4D626D" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">• 现实选择类议题</text>
+
+  <path d="M300 542C300 616 514 628 748 628" stroke="#87BFB2" stroke-width="5" stroke-linecap="round"/>
+  <path d="M800 542C800 616 800 628 800 628" stroke="#90ADD9" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1300 542C1300 616 1086 628 852 628" stroke="#D7B184" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="430" y="640" width="740" height="170" rx="32" fill="#102231"/>
+  <text x="486" y="712" fill="#FFFFFF" font-size="42" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">共同指向</text>
+  <text x="486" y="760" fill="#D7E0E8" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">理解复杂系统，判断工具如何进入现实，并保留对人的处境的感受。</text>
+</svg>

@@ -19,7 +19,7 @@ pillars:
 不是因为事情本身有多严重，而是因为它会突然把你从惯性里拽出来，让你意识到，原来有些东西已经被拖了很久，原来身体、生活和注意力并不会永远配合一个人继续“先这样吧”。
 
 <figure class="article-figure">
-  <img src="/_posts/img/diagram_life_structure_shift.svg" alt="从身体小问题到生活结构暴露的过程图" />
+  <img src="/assets/post-media/diagram_life_structure_shift.svg" alt="从身体小问题到生活结构暴露的过程图" />
   <figcaption>真正被照出来的不是一个小症状，而是从拖延到回看节奏、再到重新整理生活方式的整个过程。</figcaption>
 </figure>
 

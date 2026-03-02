@@ -1,0 +1,14 @@
+<svg width="1600" height="920" viewBox="0 0 1600 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="920" rx="40" fill="#F7F3EC"/>
+  <rect x="56" y="56" width="1488" height="808" rx="32" fill="#FFFCF8" stroke="#E6DDD1" stroke-width="2"/>
+  <text x="110" y="140" fill="#102231" font-size="52" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">2023 年度塑形图</text>
+  <text x="110" y="188" fill="#5B6A77" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">回看一年，不只是看结果，而是看哪些东西在悄悄塑形一个人的时间感、节奏和判断。</text>
+  <circle cx="800" cy="504" r="128" fill="#102231"/>
+  <text x="734" y="494" fill="#FFFFFF" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">一年如何</text>
+  <text x="710" y="540" fill="#FFFFFF" font-size="46" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">塑形一个人</text>
+  <rect x="684" y="214" width="232" height="104" rx="24" fill="#E7F6F1" stroke="#9DD4C7" stroke-width="2"/><text x="758" y="278" fill="#0E6B63" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">时间</text>
+  <rect x="1100" y="392" width="232" height="104" rx="24" fill="#EAF0FA" stroke="#AEC2E7" stroke-width="2"/><text x="1174" y="456" fill="#2F4E87" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">压力</text>
+  <rect x="980" y="708" width="232" height="104" rx="24" fill="#F8EDDF" stroke="#E1BE91" stroke-width="2"/><text x="1054" y="772" fill="#9B5A18" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">兴趣</text>
+  <rect x="388" y="708" width="232" height="104" rx="24" fill="#F2EAF8" stroke="#CDB1E0" stroke-width="2"/><text x="462" y="772" fill="#6E3C95" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">身体</text>
+  <rect x="268" y="392" width="232" height="104" rx="24" fill="#FCEFE7" stroke="#E5C0A8" stroke-width="2"/><text x="342" y="456" fill="#A05B2A" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">选择</text>
+</svg>

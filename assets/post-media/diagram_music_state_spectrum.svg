@@ -1,0 +1,48 @@
+<svg width="1600" height="920" viewBox="0 0 1600 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="920" rx="40" fill="#F7F3EC"/>
+  <rect x="56" y="56" width="1488" height="808" rx="32" fill="#FFFCF8" stroke="#E6DDD1" stroke-width="2"/>
+  <text x="108" y="140" fill="#102231" font-size="52" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">播放列表里的状态光谱</text>
+  <text x="108" y="188" fill="#5B6A77" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">这些专辑不是同一风格流派，但合起来构成了一种很清楚的内部气候。</text>
+
+  <rect x="132" y="286" width="1336" height="108" rx="54" fill="url(#g1)"/>
+  <text x="132" y="254" fill="#5B6A77" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">更含着、更慢、更收束</text>
+  <text x="1276" y="254" fill="#5B6A77" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">更游离、更古典、更留白</text>
+
+  <circle cx="258" cy="340" r="26" fill="#8C4B4B"/>
+  <text x="222" y="458" fill="#8C4B4B" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">心事谁人知</text>
+  <line x1="258" y1="366" x2="258" y2="418" stroke="#BE8A8A" stroke-width="4"/>
+
+  <circle cx="462" cy="340" r="26" fill="#9D6A2A"/>
+  <text x="426" y="520" fill="#9D6A2A" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">唐人诗意</text>
+  <line x1="462" y1="366" x2="462" y2="480" stroke="#D3AB73" stroke-width="4"/>
+
+  <circle cx="680" cy="340" r="26" fill="#2F4E87"/>
+  <text x="628" y="580" fill="#2F4E87" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">Zen Breakfast</text>
+  <line x1="680" y1="366" x2="680" y2="540" stroke="#95B0DA" stroke-width="4"/>
+
+  <circle cx="912" cy="340" r="26" fill="#0E6B63"/>
+  <text x="846" y="458" fill="#0E6B63" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">李白集</text>
+  <line x1="912" y1="366" x2="912" y2="418" stroke="#8BC4B8" stroke-width="4"/>
+
+  <circle cx="1138" cy="340" r="26" fill="#6E3C95"/>
+  <text x="1022" y="520" fill="#6E3C95" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">阿淘的歌 - 離開台灣八百米</text>
+  <line x1="1138" y1="366" x2="1138" y2="480" stroke="#B78CD1" stroke-width="4"/>
+
+  <circle cx="1328" cy="340" r="26" fill="#7C5C39"/>
+  <text x="1248" y="580" fill="#7C5C39" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">绍公帖 / 武王帖</text>
+  <line x1="1328" y1="366" x2="1328" y2="540" stroke="#CBAA84" stroke-width="4"/>
+
+  <rect x="380" y="676" width="840" height="116" rx="30" fill="#102231"/>
+  <text x="442" y="742" fill="#FFFFFF" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">共同状态：</text>
+  <text x="640" y="742" fill="#D7E0E8" font-size="32" font-family="Avenir Next, PingFang SC, sans-serif">想慢下来，想收回来，想给自己留一点内部气候。</text>
+
+  <defs>
+    <linearGradient id="g1" x1="132" y1="340" x2="1468" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6D8D5"/>
+      <stop offset="0.25" stop-color="#F4E0C7"/>
+      <stop offset="0.5" stop-color="#DCE8F6"/>
+      <stop offset="0.75" stop-color="#DDF0E8"/>
+      <stop offset="1" stop-color="#EFE3F7"/>
+    </linearGradient>
+  </defs>
+</svg>

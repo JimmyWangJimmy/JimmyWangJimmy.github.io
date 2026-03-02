@@ -1,0 +1,10 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="720" fill="#1B1B2F"/>
+<circle cx="190" cy="160" r="140" fill="#F59E0B" fill-opacity="0.18"/>
+<circle cx="980" cy="560" r="180" fill="#34D399" fill-opacity="0.16"/>
+<rect x="120" y="110" width="960" height="500" rx="30" fill="#111827" fill-opacity="0.78" stroke="#374151"/>
+<text x="170" y="250" fill="#F8FAFC" font-size="68" font-weight="700" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">2025年，又一春</text>
+<text x="170" y="330" fill="#D1D5DB" font-size="34" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">年度回顾 · 个人记录 · 节点思考</text>
+<path d="M170 410C250 350 360 350 430 410C500 470 610 470 680 410C750 350 860 350 950 430" stroke="#A7F3D0" stroke-width="12" stroke-linecap="round"/>
+<text x="170" y="520" fill="#9CA3AF" font-size="28" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">A reflective note on work, growth, and continuity.</text>
+</svg>

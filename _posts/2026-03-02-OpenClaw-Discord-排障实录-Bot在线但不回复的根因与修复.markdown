@@ -3,14 +3,14 @@ layout: post
 title: "OpenClaw Discord 排障实录：Bot 在线但不回复的根因与修复"
 date:   2026-03-02 03:40:00 +0800
 categories: openclaw discord nodejs 故障排查
-cover: /_posts/img/openclaw_discord_troubleshooting_cover.svg
+cover: /assets/post-media/openclaw_discord_troubleshooting_cover.svg
 summary: Bot 在线、消息能进模型却回不出去，根因不是单点故障，而是配置 schema、guild allowlist、代理和常驻方式四层叠加。
 pillars:
   - 拆问题
   - 与AI共生
 ---
 
-![OpenClaw Discord 排障封面](./img/openclaw_discord_troubleshooting_cover.svg)
+![OpenClaw Discord 排障封面](/assets/post-media/openclaw_discord_troubleshooting_cover.svg)
 
 *一类非常典型的“半通半断”故障：Bot 已在线、消息能进模型，但最终回复没有成功发回 Discord。*
 
@@ -37,7 +37,7 @@ pillars:
 如果你也遇到“bot 在线但不回复”的问题，这篇可以直接当 runbook 用。
 
 <figure class="article-figure">
-  <img src="/_posts/img/diagram_openclaw_discord_flow.svg" alt="OpenClaw Discord 故障分层图，展示 gateway、schema、guild 策略和出站代理四层问题" />
+  <img src="/assets/post-media/diagram_openclaw_discord_flow.svg" alt="OpenClaw Discord 故障分层图，展示 gateway、schema、guild 策略和出站代理四层问题" />
   <figcaption>这次最容易误判的地方，是每一层看起来都像“快好了”。只有把链路分层，才会发现它其实是四层问题叠加。</figcaption>
 </figure>
 

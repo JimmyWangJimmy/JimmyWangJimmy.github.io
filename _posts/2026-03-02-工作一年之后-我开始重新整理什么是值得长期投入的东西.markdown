@@ -3,7 +3,7 @@ layout: post
 title: "工作一年之后，我开始重新整理什么是值得长期投入的东西"
 date: 2025-07-06 10:20:00 +0800
 categories: 阅读 思考 复盘
-cover: /_posts/img/cover_long_term_investment.svg
+cover: /assets/post-media/cover_long_term_investment.svg
 summary: 工作一年之后，真正值得长期投入的东西慢慢变得更清楚了：判断力、表达、身体、兴趣，以及一套自己的工作方式。
 pillars:
   - 阅读与思考
@@ -20,7 +20,7 @@ pillars:
 我越来越觉得，工作一年之后最重要的收获，不是学会了多少具体技能，而是开始重新整理：到底什么东西值得长期投入。
 
 <figure class="article-figure">
-  <img src="/_posts/img/diagram_long_term_investment_map.svg" alt="长期投入地图，展示判断力、表达力、身体感、兴趣面和工作方式之间的关系" />
+  <img src="/assets/post-media/diagram_long_term_investment_map.svg" alt="长期投入地图，展示判断力、表达力、身体感、兴趣面和工作方式之间的关系" />
   <figcaption>把这一年的感受压成图之后会更直观：真正值得长期投入的，不是更多技巧，而是这五类会慢慢塑造人的基础能力。</figcaption>
 </figure>
 

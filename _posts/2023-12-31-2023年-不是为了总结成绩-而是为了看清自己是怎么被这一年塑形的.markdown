@@ -3,7 +3,7 @@ layout: post
 title: "2023年：不是为了总结成绩，而是为了看清自己是怎么被这一年塑形的"
 date: 2023-12-31 21:10:00 +0800
 categories: 年度 复盘 思考
-cover: /_posts/img/cover_2023_reflection.svg
+cover: /assets/post-media/cover_2023_reflection.svg
 summary: 回头看 2023，不只是为了给一年打分，而是为了看清自己在时间、压力、兴趣和选择中，到底被什么悄悄塑形。
 pillars:
   - 阅读与思考
@@ -18,7 +18,7 @@ pillars:
 很多变化并不会在发生时大张旗鼓。它们只是通过日常一点点进入生活：时间怎么被切碎，精力怎么被使用，焦虑从哪里来，兴趣为什么会退后，某些判断又为什么会慢慢变得更坚定。
 
 <figure class="article-figure">
-  <img src="/_posts/img/diagram_2023_shaping_map.svg" alt="2023 年度塑形图，展示时间、压力、兴趣、身体和选择如何共同塑形一个人" />
+  <img src="/assets/post-media/diagram_2023_shaping_map.svg" alt="2023 年度塑形图，展示时间、压力、兴趣、身体和选择如何共同塑形一个人" />
   <figcaption>这类年度回看真正值得看的，不只是结果，而是哪些缓慢变量在持续塑形一个人的时间感、节奏感和判断方式。</figcaption>
 </figure>
 

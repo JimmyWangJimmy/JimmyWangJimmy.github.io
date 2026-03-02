@@ -1,0 +1,29 @@
+<svg width="1600" height="920" viewBox="0 0 1600 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="920" rx="40" fill="#F7F3EC"/>
+  <rect x="56" y="56" width="1488" height="808" rx="32" fill="#FFFCF8" stroke="#E6DDD1" stroke-width="2"/>
+  <text x="108" y="140" fill="#102231" font-size="52" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">公考经历里的选择权衡图</text>
+  <text x="108" y="188" fill="#5B6A77" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">真正重要的不是“考不考”，而是这条路径如何逼人重新理解稳定、机会和代价。</text>
+
+  <line x1="270" y1="730" x2="1320" y2="730" stroke="#9AA6B1" stroke-width="3"/>
+  <line x1="270" y1="730" x2="270" y2="220" stroke="#9AA6B1" stroke-width="3"/>
+  <text x="1160" y="780" fill="#4D626D" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">确定性</text>
+  <text x="120" y="250" fill="#4D626D" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif" transform="rotate(-90 120 250)">机会成本</text>
+
+  <rect x="350" y="290" width="350" height="180" rx="28" fill="#F9E8E8" stroke="#E0B6B6" stroke-width="2"/>
+  <text x="392" y="358" fill="#923E3E" font-size="38" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">更开放的路径</text>
+  <text x="392" y="412" fill="#5E6D79" font-size="25" font-family="Avenir Next, PingFang SC, sans-serif">可能性多，但不确定更高</text>
+  <text x="392" y="448" fill="#5E6D79" font-size="25" font-family="Avenir Next, PingFang SC, sans-serif">需要更强的自我判断</text>
+
+  <rect x="910" y="500" width="350" height="180" rx="28" fill="#E7F4EE" stroke="#9CCDBE" stroke-width="2"/>
+  <text x="952" y="568" fill="#0E6B63" font-size="38" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">更稳定的路径</text>
+  <text x="952" y="622" fill="#5E6D79" font-size="25" font-family="Avenir Next, PingFang SC, sans-serif">秩序感更强，评价更明确</text>
+  <text x="952" y="658" fill="#5E6D79" font-size="25" font-family="Avenir Next, PingFang SC, sans-serif">但会占用真实的人生份额</text>
+
+  <circle cx="800" cy="446" r="118" fill="#102231"/>
+  <text x="732" y="432" fill="#FFFFFF" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">真正的题目</text>
+  <text x="706" y="476" fill="#FFFFFF" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">我愿意把时间</text>
+  <text x="712" y="514" fill="#FFFFFF" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">押在什么地方</text>
+
+  <path d="M704 420L646 396" stroke="#A87070" stroke-width="5" stroke-linecap="round"/>
+  <path d="M900 478L958 536" stroke="#7EB7A8" stroke-width="5" stroke-linecap="round"/>
+</svg>

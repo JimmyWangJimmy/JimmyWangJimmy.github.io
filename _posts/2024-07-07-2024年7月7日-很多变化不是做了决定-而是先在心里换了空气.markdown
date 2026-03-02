@@ -3,7 +3,7 @@ layout: post
 title: "2024年7月7日：很多变化不是做了决定，而是先在心里换了空气"
 date: 2024-07-07 20:10:00 +0800
 categories: 日记 状态 思考
-cover: /_posts/img/cover_july_seventh.svg
+cover: /assets/post-media/cover_july_seventh.svg
 summary: 有些阶段变化不是从明确决定开始的，而是先从心里的空气变了开始，等回头看时，生活已经在别的轨道上。
 pillars:
   - 阅读与思考

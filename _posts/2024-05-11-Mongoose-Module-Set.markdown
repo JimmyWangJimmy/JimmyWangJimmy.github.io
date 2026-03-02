@@ -3,7 +3,7 @@ layout: post
 title:  "Mongoose Module Set"
 date:   2024-05-11 17:32:42 +0800
 categories: jekyll update
-cover: /_posts/img/cover_mongoose_module_set.svg
+cover: /assets/post-media/cover_mongoose_module_set.svg
 pillars:
   - 拆问题
 ---

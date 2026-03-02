@@ -1,0 +1,11 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F5F1E9"/>
+  <rect x="88" y="88" width="1424" height="724" rx="34" fill="#102231"/>
+  <path d="M804 260V640" stroke="#D6A55F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M804 260L544 560" stroke="#D6A55F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M804 260L1064 560" stroke="#D6A55F" stroke-width="8" stroke-linecap="round"/>
+  <text x="434" y="630" fill="#D8E0E7" font-size="54" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">念书</text>
+  <text x="1020" y="630" fill="#D8E0E7" font-size="54" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">工作</text>
+  <text x="188" y="226" fill="#F7F4EF" font-size="78" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">念书，还是工作？</text>
+  <text x="188" y="294" fill="#D8E0E7" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif">为什么这个问题不会只出现一次</text>
+</svg>

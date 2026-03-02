@@ -1,0 +1,18 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F3EFE9"/>
+  <rect x="70" y="72" width="1460" height="756" rx="34" fill="#FCFBF8" stroke="#DDD3C8" stroke-width="2"/>
+  <rect x="118" y="120" width="610" height="660" rx="28" fill="#3B2F39"/>
+  <path d="M826 226C876 190 928 172 982 172C1036 172 1080 188 1114 220C1148 252 1165 294 1165 346C1165 398 1148 439 1114 469C1080 499 1036 514 982 514C955 514 928 510 902 502V646C902 687 888 721 860 748C832 775 794 788 746 788C698 788 660 775 632 748C604 721 590 687 590 646C590 599 605 560 635 530C665 500 704 485 752 485C779 485 804 490 826 500V226Z" fill="#D2B78C"/>
+  <circle cx="1216" cy="290" r="72" fill="#BBA4B6" fill-opacity="0.55"/>
+  <circle cx="1336" cy="402" r="38" fill="#8A7384" fill-opacity="0.55"/>
+  <circle cx="1268" cy="548" r="118" fill="#E8DDD1"/>
+  <text x="166" y="214" fill="#E8DEE6" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" letter-spacing="4">READING / THINKING</text>
+  <text x="166" y="322" fill="#FFFFFF" font-size="86" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">最近循环的 10 张专辑</text>
+  <text x="166" y="404" fill="#D8CAD4" font-size="40" font-family="Avenir Next, PingFang SC, sans-serif">像一份不太稳定但诚实的状态记录</text>
+  <text x="166" y="540" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">心事谁人知</text>
+  <text x="166" y="592" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">唐人诗意</text>
+  <text x="166" y="644" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">Zen Breakfast</text>
+  <text x="166" y="696" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">阿淘的歌 - 離開台灣八百米</text>
+  <text x="980" y="642" fill="#4F3C48" font-size="54" font-family="Georgia, PingFang SC, serif" font-weight="700">Playlist as Mood</text>
+  <text x="980" y="716" fill="#6F5A67" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">有时候播放列表，比写下来的日记更诚实</text>
+</svg>
