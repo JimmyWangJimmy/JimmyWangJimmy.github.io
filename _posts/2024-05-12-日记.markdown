@@ -4,6 +4,7 @@ title: "有些学习日记，真正记录的不是知识点，而是状态"
 date: 2024-05-12 21:00:00 +0800
 categories: 日记 学习 思考
 summary: 学习日记最容易流于“今天学了什么”，但真正值得留下来的，往往是那个阶段为什么还在学、怎么学，以及人在其中是什么状态。
+cover: /_posts/img/cover_learning_state.svg
 pillars:
   - 阅读与思考
 ---
