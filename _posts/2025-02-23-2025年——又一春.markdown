@@ -4,6 +4,8 @@ title:  "2025年——又一春."
 date:   2025-02-23 21:25:00 +0800
 categories: jekyll update
 cover: /_posts/img/cover_2025_reflection.svg
+pillars:
+  - 阅读与思考
 ---
 
 2025年，又一春。

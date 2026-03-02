@@ -1,0 +1,53 @@
+- key: 拆问题
+  title: 拆问题
+  kicker: Debugging
+  description: 从故障、代理、环境、配置到链路，把现实里不工作的东西拆开、定位、修好。
+  path: /chai-wen-ti/
+  highlights:
+    - 真实排障实录
+    - 根因定位与修复
+    - 环境、代理、工具链问题
+  project_links:
+    - title: financial-penalty-api
+      url: https://github.com/JimmyWangJimmy/financial-penalty-api
+      note: 从数据采集、清洗到 API 服务的一整条工程链路。
+    - title: JimmyWangJimmy.github.io
+      url: https://github.com/JimmyWangJimmy/JimmyWangJimmy.github.io
+      note: 博客本身也是一条持续演化的排障与重构记录。
+
+- key: 与AI共生
+  title: 与AI共生
+  kicker: Human + AI
+  description: 不把 AI 当口号，而是记录它如何真正进入我的开发、写作、知识管理和工作流。
+  path: /yu-ai-gong-sheng/
+  highlights:
+    - AI 工具链与工作流
+    - Agent / MCP / OpenClaw 实践
+    - 人机协作的边界与方法
+  project_links:
+    - title: OpenClaw-KnowHowHub
+      url: https://github.com/JimmyWangJimmy/OpenClaw-KnowHowHub
+      note: 把 OpenClaw 作为公共知识入口，而不是单纯聊天框。
+    - title: EagleEyeLite
+      url: https://github.com/JimmyWangJimmy/EagleEyeLite
+      note: 围绕金融审计的 RAG / OCR / Agent 链路实验。
+    - title: EagleEye
+      url: https://github.com/JimmyWangJimmy/EagleEye
+      note: 面向复杂金融文本的智能审计系统。
+    - title: PrometheusTrap
+      url: https://github.com/JimmyWangJimmy/PrometheusTrap
+      note: AI + Web3 语境下，把自然语言本身当作攻击面来思考。
+
+- key: 阅读与思考
+  title: 阅读与思考
+  kicker: Reading
+  description: 书、影、音、复盘和一些慢一点的判断，用来保留技术之外的节奏与深度。
+  path: /yue-du-yu-si-kao/
+  highlights:
+    - 读书与观影札记
+    - 月度输入与状态切片
+    - 方法论与长期判断
+  project_links:
+    - title: 豆瓣主页
+      url: https://www.douban.com/people/189701523/
+      note: 公开的书、影、音和阶段性输入来源。

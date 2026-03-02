@@ -3,6 +3,8 @@ layout: post
 title:  "Day 31 in March 2024"
 date:   2024-03-31 15:32:42 +0800
 categories: jekyll update
+pillars:
+  - 拆问题
 ---
 
 There is a problem related with utf-8 staff, and Chinese characters are not displayed correctly. I will try to fix it later.

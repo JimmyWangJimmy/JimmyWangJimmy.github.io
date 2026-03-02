@@ -6,7 +6,7 @@ permalink: /archive/
 
 <div class="archive-shell">
   <p class="archive-intro">
-    这里按时间列出所有文章。内容主要覆盖故障排查、项目实录、学习笔记和一些阶段性记录。
+    这里按时间列出所有文章。站点的正式结构现在是“拆问题 / 与AI共生 / 阅读与思考”，如果你想按主题而不是按日期看，建议直接从栏目页进入。
   </p>
 
   <div class="archive-grid">

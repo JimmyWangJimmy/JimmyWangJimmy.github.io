@@ -1,0 +1,70 @@
+---
+layout: default
+---
+{% assign current_pillar = nil %}
+{% for item in site.data.pillars %}
+  {% if item.key == page.pillar %}
+    {% assign current_pillar = item %}
+  {% endif %}
+{% endfor %}
+
+<div class="pillar-shell">
+  <section class="pillar-hero">
+    <p class="eyebrow">{{ current_pillar.kicker }}</p>
+    <h1>{{ current_pillar.title }}</h1>
+    <p class="pillar-lead">{{ current_pillar.description }}</p>
+    <div class="pillar-highlights">
+      {% for point in current_pillar.highlights %}
+      <span>{{ point }}</span>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <p class="section-kicker">Posts</p>
+      <h2>相关文章</h2>
+      <p>先看已经写出来的内容，后续这栏会继续补齐成系列。</p>
+    </div>
+    <div class="post-grid">
+      {% assign pillar_count = 0 %}
+      {% for post in site.posts %}
+        {% if post.pillars and post.pillars contains page.pillar %}
+          {% assign pillar_count = pillar_count | plus: 1 %}
+          {% assign cover = post.cover | default: '/_posts/img/post_placeholder_cover.svg' %}
+          <article class="post-card">
+            <a class="card-cover-link" href="{{ post.url | relative_url }}">
+              <div class="card-cover compact-cover" style="background-image: linear-gradient(180deg, rgba(15, 23, 42, 0.08), rgba(15, 23, 42, 0.18)), url('{{ cover | relative_url }}');"></div>
+            </a>
+            <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% if pillar_count == 0 %}
+    <div class="pillar-empty">
+      <p>这一栏已经确定方向，但正式文章还在补写。当前可以先看下面的项目线索。</p>
+    </div>
+    {% endif %}
+  </section>
+
+  {% if current_pillar.project_links %}
+  <section class="section">
+    <div class="section-heading">
+      <p class="section-kicker">Sources</p>
+      <h2>项目与素材线索</h2>
+      <p>这部分不一定已经写成文章，但会持续转化为这个栏目里的新内容。</p>
+    </div>
+    <div class="resource-grid">
+      {% for link in current_pillar.project_links %}
+      <article class="resource-card">
+        <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
+        <p>{{ link.note }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</div>

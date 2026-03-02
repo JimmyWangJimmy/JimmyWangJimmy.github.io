@@ -4,6 +4,8 @@ title:  "Spring AI Demo"
 date:   2024-04-24 23:11:42 +0800
 categories: jekyll update
 cover: /_posts/img/cover_spring_ai_demo.svg
+pillars:
+  - 与AI共生
 ---
 
 Spring AI 是一个为AI工程设计的应用框架。它的目标是将Spring生态系统设计原则（如可移植性和模块化设计）应用于AI领域，并推广使用POJO作为应用程序的构建块。

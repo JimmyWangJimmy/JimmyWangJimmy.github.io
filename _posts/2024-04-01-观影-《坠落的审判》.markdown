@@ -3,6 +3,8 @@ layout: post
 title:  "坠落的审判"
 date:   2024-04-01 00:59:42 +0800
 categories: jekyll update
+pillars:
+  - 阅读与思考
 ---
 
 今天看了坠落的审判
