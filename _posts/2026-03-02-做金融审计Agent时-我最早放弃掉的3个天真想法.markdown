@@ -4,6 +4,7 @@ title: "做金融审计 Agent 时，我最早放弃掉的 3 个天真想法"
 date: 2026-03-02 12:10:00 +0800
 categories: AI Agent 审计
 summary: 真正开始做财务审计 Agent 后，很快就会发现：不是把 PDF 丢给模型、把全部规则塞进去、让它一次性给结论，就算进入了可用阶段。
+cover: /_posts/img/cover_audit_agent_myths.svg
 pillars:
   - 与AI共生
 ---

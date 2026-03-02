@@ -4,6 +4,7 @@ title: "为什么很多环境问题看起来随机，其实都指向同一类脆
 date: 2026-03-02 11:30:00 +0800
 categories: 工程化 排障 环境
 summary: 很多环境问题看起来像偶发、玄学、重启就好，但根因往往并不随机，而是系统边界、路径解析、代理、权限和运行上下文之间的脆弱耦合。
+cover: /_posts/img/cover_env_fragility.svg
 pillars:
   - 拆问题
 ---

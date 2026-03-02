@@ -1,0 +1,16 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F5F0E9"/>
+  <rect x="72" y="72" width="1456" height="756" rx="34" fill="#FDFBF7" stroke="#DDD3C6" stroke-width="2"/>
+  <rect x="118" y="120" width="472" height="660" rx="28" fill="#8D1F25"/>
+  <rect x="620" y="120" width="448" height="660" rx="28" fill="#0F766E"/>
+  <rect x="1098" y="120" width="320" height="660" rx="28" fill="#EFE6D7"/>
+  <text x="168" y="206" fill="#F8DADB" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" letter-spacing="4">HUMAN + AI</text>
+  <text x="168" y="324" fill="#FFFFFF" font-size="78" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">为什么我开始把</text>
+  <text x="168" y="404" fill="#FFFFFF" font-size="78" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">OpenClaw 写成一本书</text>
+  <text x="168" y="482" fill="#F3C8CB" font-size="36" font-family="Avenir Next, PingFang SC, sans-serif">而不是继续堆链接</text>
+  <text x="666" y="216" fill="#D6F2EE" font-size="44" font-family="Georgia, PingFang SC, serif" font-weight="700">Cookbook</text>
+  <text x="666" y="268" fill="#D6F2EE" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">给要现在把事情做成的人</text>
+  <text x="1160" y="216" fill="#4D4135" font-size="44" font-family="Georgia, PingFang SC, serif" font-weight="700">Red Book</text>
+  <text x="1160" y="268" fill="#6D6258" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">给要先建立判断的人</text>
+  <text x="648" y="642" fill="#FFF8EE" font-size="44" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">当读者不只有人，还有 agent，资料库就必须变成入口</text>
+</svg>

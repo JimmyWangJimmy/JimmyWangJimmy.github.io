@@ -1,0 +1,17 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4F0E8"/>
+  <rect x="70" y="72" width="1460" height="756" rx="34" fill="#FCFBF8" stroke="#DED5C9" stroke-width="2"/>
+  <rect x="120" y="120" width="560" height="660" rx="28" fill="#2E3943"/>
+  <path d="M764 172H1410V780H764L862 636L948 514L1034 422L1128 304L1234 172Z" fill="#E6D8C2"/>
+  <path d="M890 172H1410V780H840L924 650L1002 544L1088 434L1188 302L1298 172Z" fill="#C4A77D"/>
+  <text x="164" y="214" fill="#D9E4E8" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" letter-spacing="4">DEBUGGING / ENVIRONMENT</text>
+  <text x="164" y="318" fill="#FFFFFF" font-size="78" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">为什么很多环境问题</text>
+  <text x="164" y="398" fill="#FFFFFF" font-size="78" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">看起来随机</text>
+  <text x="164" y="476" fill="#CFDADE" font-size="38" font-family="Avenir Next, PingFang SC, sans-serif">其实都指向同一类脆弱性</text>
+  <text x="164" y="610" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">PATH</text>
+  <text x="164" y="664" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">代理</text>
+  <text x="164" y="718" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">权限 / 版本 / 进程托管</text>
+  <text x="846" y="258" fill="#5E4A35" font-size="54" font-family="Georgia, PingFang SC, serif" font-weight="700">Fragile Boundaries</text>
+  <text x="846" y="338" fill="#6D5E4E" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">随机感往往来自边界没对齐</text>
+  <text x="846" y="664" fill="#FFF7EE" font-size="44" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">不是玄学，而是路径、网络和上下文在互相打架</text>
+</svg>

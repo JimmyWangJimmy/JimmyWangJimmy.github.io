@@ -1,0 +1,16 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F3F0E9"/>
+  <rect x="70" y="72" width="1460" height="756" rx="34" fill="#FCFBF7" stroke="#DDD4C9" stroke-width="2"/>
+  <rect x="118" y="120" width="566" height="660" rx="28" fill="#2A3C4A"/>
+  <rect x="742" y="120" width="676" height="206" rx="24" fill="#D9C39F"/>
+  <rect x="742" y="356" width="676" height="180" rx="24" fill="#BFD4CE"/>
+  <rect x="742" y="566" width="676" height="214" rx="24" fill="#ECE2D5"/>
+  <text x="164" y="214" fill="#D9E5EA" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" letter-spacing="4">HUMAN + AI / AGENT</text>
+  <text x="164" y="326" fill="#FFFFFF" font-size="76" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">做金融审计 Agent 时</text>
+  <text x="164" y="406" fill="#FFFFFF" font-size="76" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">我最早放弃掉的 3 个天真想法</text>
+  <text x="164" y="492" fill="#CAD8DE" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif">PDF 不是天然结构化输入，规则也不该一次性全塞进去</text>
+  <text x="786" y="224" fill="#5D4934" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">1. 把 PDF 丢给模型，它自然会读懂</text>
+  <text x="786" y="454" fill="#29524B" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">2. 把所有规则都给模型，它就会更全面</text>
+  <text x="786" y="676" fill="#55483A" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">3. 一次性给结论就够了</text>
+  <text x="786" y="744" fill="#6A5E54" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">真正有价值的不是魔法 prompt，而是足够诚实的流程设计</text>
+</svg>

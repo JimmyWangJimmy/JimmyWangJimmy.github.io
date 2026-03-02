@@ -1,0 +1,21 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EFE7"/>
+  <rect x="72" y="72" width="1456" height="756" rx="34" fill="#FCFBF7" stroke="#DDD4C9" stroke-width="2"/>
+  <rect x="118" y="118" width="530" height="664" rx="28" fill="#203B44"/>
+  <rect x="694" y="118" width="350" height="188" rx="24" fill="#DCC7A4"/>
+  <rect x="1082" y="118" width="336" height="188" rx="24" fill="#C8DAD8"/>
+  <rect x="694" y="338" width="724" height="444" rx="24" fill="#EFE6D8"/>
+  <text x="166" y="214" fill="#DCE8EC" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" letter-spacing="4">DEBUGGING / DATA SYSTEM</text>
+  <text x="166" y="326" fill="#FFFFFF" font-size="82" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">从多源脏数据到可查询 API</text>
+  <text x="166" y="414" fill="#C8DADF" font-size="38" font-family="Avenir Next, PingFang SC, sans-serif">一个金融监管处罚系统真正难的地方</text>
+  <text x="166" y="560" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">抓取</text>
+  <text x="166" y="618" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">清洗</text>
+  <text x="166" y="676" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">结构化</text>
+  <text x="166" y="734" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">查询与调度</text>
+  <text x="746" y="220" fill="#614B33" font-size="44" font-family="Georgia, PingFang SC, serif" font-weight="700">Raw Sources</text>
+  <text x="1128" y="220" fill="#29544E" font-size="44" font-family="Georgia, PingFang SC, serif" font-weight="700">Storage</text>
+  <text x="746" y="462" fill="#4F4439" font-size="56" font-family="Georgia, PingFang SC, serif" font-weight="700">真正难的不是把公告抓下来</text>
+  <text x="746" y="536" fill="#6E6357" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">而是把分散、松散、脆弱的信息收敛成别人真的能放心查询的系统</text>
+  <circle cx="1306" cy="666" r="86" fill="#203B44" fill-opacity="0.08"/>
+  <circle cx="1188" cy="700" r="34" fill="#D0B487" fill-opacity="0.28"/>
+</svg>
