@@ -386,7 +386,9 @@ body {
 
 .pillar-hero,
 .resource-card,
-.pillar-empty {
+.pillar-empty,
+.reading-feature-card,
+.reading-note-card {
   background: var(--surface);
   border: 1px solid rgba(255, 255, 255, 0.7);
   box-shadow: var(--shadow);
@@ -428,6 +430,42 @@ body {
   margin-top: 18px;
   padding: 22px 24px;
   border-radius: 22px;
+}
+
+.reading-showcase {
+  display: grid;
+  grid-template-columns: 1.45fr 0.75fr;
+  gap: 20px;
+}
+
+.reading-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.reading-feature-card {
+  border-radius: 26px;
+  padding: 24px;
+}
+
+.reading-feature-card:first-child {
+  grid-column: 1 / -1;
+}
+
+.reading-side-notes {
+  display: grid;
+  gap: 18px;
+}
+
+.reading-note-card {
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.reading-note-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .resource-grid {
@@ -527,6 +565,8 @@ a:hover {
   .hero,
   .about-copy,
   .resource-grid,
+  .reading-showcase,
+  .reading-feature-grid,
   .feature-grid,
   .topic-grid,
   .post-grid {
