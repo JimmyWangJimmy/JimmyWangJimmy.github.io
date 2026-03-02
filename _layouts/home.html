@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-{% assign featured_posts = site.posts | slice: 0, 3 %}
 {% assign latest_posts = site.posts | slice: 0, 9 %}
 {% assign default_cover = '/_posts/img/post_placeholder_cover.svg' | relative_url %}
+{% assign hero_post = latest_posts[0] %}
 
 <div class="home-shell">
   <section class="hero">
@@ -35,11 +35,11 @@ layout: default
     <div class="hero-panel">
       <div class="signal-card">
         <p class="signal-label">最近更新</p>
-        <h2><a href="{{ featured_posts[0].url | relative_url }}">{{ featured_posts[0].title }}</a></h2>
-        <p>{{ featured_posts[0].summary | default: featured_posts[0].excerpt | strip_html | strip_newlines | truncate: 130 }}</p>
+        <h2><a href="{{ hero_post.url | relative_url }}">{{ hero_post.title }}</a></h2>
+        <p>{{ hero_post.summary | default: hero_post.excerpt | strip_html | strip_newlines | truncate: 130 }}</p>
         <div class="signal-meta">
-          <span>{{ featured_posts[0].date | date: "%Y-%m-%d" }}</span>
-          <span>{{ featured_posts[0].categories | join: " · " }}</span>
+          <span>{{ hero_post.date | date: "%Y-%m-%d" }}</span>
+          <span>{{ hero_post.categories | join: " · " }}</span>
         </div>
       </div>
     </div>
@@ -49,22 +49,27 @@ layout: default
     <div class="section-heading">
       <p class="section-kicker">Featured</p>
       <h2>精选文章</h2>
-      <p>先从这几篇看，能最快理解我这个博客的内容密度和写作方向。</p>
+      <p>这里不是按最新排序，而是每个栏目各选一篇代表作。先从这三篇看，最容易理解这个站点的三条主线。</p>
     </div>
     <div class="feature-grid">
-      {% for post in featured_posts %}
-      <article class="feature-card">
-        {% assign cover = post.cover | default: default_cover %}
-        <a class="card-cover-link" href="{{ post.url | relative_url }}">
-          <div class="card-cover" style="background-image: linear-gradient(180deg, rgba(15, 23, 42, 0.08), rgba(15, 23, 42, 0.18)), url('{{ cover | relative_url }}');"></div>
-        </a>
-        <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p>{{ post.summary | default: post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
-        {% if post.categories.size > 0 %}
-        <p class="post-tags">{{ post.categories | join: " · " }}</p>
-        {% endif %}
-      </article>
+      {% for pillar in site.data.pillars %}
+        {% assign target_title = pillar.featured_posts[0] %}
+        {% for post in site.posts %}
+          {% if post.title == target_title %}
+          <article class="feature-card">
+            {% assign cover = post.cover | default: default_cover %}
+            <a class="card-cover-link" href="{{ post.url | relative_url }}">
+              <div class="card-cover" style="background-image: linear-gradient(180deg, rgba(15, 23, 42, 0.08), rgba(15, 23, 42, 0.18)), url('{{ cover | relative_url }}');"></div>
+            </a>
+            <p class="post-date">{{ pillar.title }} · {{ post.date | date: "%Y-%m-%d" }}</p>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p>{{ post.summary | default: post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+            {% if post.categories.size > 0 %}
+            <p class="post-tags">{{ post.categories | join: " · " }}</p>
+            {% endif %}
+          </article>
+          {% endif %}
+        {% endfor %}
       {% endfor %}
     </div>
   </section>
