@@ -81,6 +81,9 @@
     - title: 这一栏会继续长什么
       body: 读书、观影、歌单、阶段复盘，以及那些技术之外但会反过来影响技术判断的内容。
   project_links:
+    - title: 豆瓣精华整理
+      url: /douban-jingxuan/
+      note: 把书、影、音、日记和广播从豆瓣素材库整理进博客的公开入口。
     - title: 豆瓣主页
       url: https://www.douban.com/people/189701523/
       note: 公开的书、影、音和阶段性输入来源。
