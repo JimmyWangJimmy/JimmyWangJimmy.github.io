@@ -1,0 +1,17 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F3EFE7"/>
+  <rect x="72" y="74" width="1456" height="752" rx="34" fill="#FCFBF7" stroke="#DCD2C6" stroke-width="2"/>
+  <rect x="120" y="122" width="520" height="656" rx="28" fill="#243746"/>
+  <path d="M742 708C814 666 874 616 926 554C978 492 1018 420 1046 340C1074 260 1098 188 1118 122H1462V778H742V708Z" fill="#D9C6A3"/>
+  <path d="M742 656C806 624 860 582 904 530C948 478 984 418 1012 352C1040 286 1068 210 1094 122H1304C1276 242 1244 344 1208 428C1172 512 1128 586 1076 650C1024 714 960 756 884 778H742V656Z" fill="#AD8A5D"/>
+  <text x="168" y="214" fill="#D9E6EC" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" letter-spacing="4">READING / THINKING</text>
+  <text x="168" y="324" fill="#FFFFFF" font-size="88" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">工作一年之后</text>
+  <text x="168" y="410" fill="#C8D8DF" font-size="40" font-family="Avenir Next, PingFang SC, sans-serif">重新整理什么值得长期投入</text>
+  <text x="168" y="520" fill="#FFFFFF" font-size="32" font-family="Avenir Next, PingFang SC, sans-serif">判断力</text>
+  <text x="168" y="578" fill="#FFFFFF" font-size="32" font-family="Avenir Next, PingFang SC, sans-serif">表达能力</text>
+  <text x="168" y="636" fill="#FFFFFF" font-size="32" font-family="Avenir Next, PingFang SC, sans-serif">身体与节奏</text>
+  <text x="168" y="694" fill="#FFFFFF" font-size="32" font-family="Avenir Next, PingFang SC, sans-serif">兴趣与工作方式</text>
+  <text x="818" y="248" fill="#5D4630" font-size="56" font-family="Georgia, PingFang SC, serif" font-weight="700">Long-term</text>
+  <text x="818" y="324" fill="#5D4630" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">不是更快，而是更稳</text>
+  <text x="818" y="708" fill="#FFF7EE" font-size="48" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">有些东西不会立刻见效，但会决定几年后的站位</text>
+</svg>

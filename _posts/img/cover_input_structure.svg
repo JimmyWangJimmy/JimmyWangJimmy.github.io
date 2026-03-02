@@ -1,0 +1,21 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F5F1E8"/>
+  <rect x="74" y="76" width="1452" height="748" rx="36" fill="#FFFDF8" stroke="#D7CEC1" stroke-width="2"/>
+  <rect x="132" y="124" width="432" height="652" rx="28" fill="#1B4D5C"/>
+  <rect x="598" y="124" width="402" height="312" rx="28" fill="#E6D7B6"/>
+  <rect x="1034" y="124" width="434" height="312" rx="28" fill="#BFD6D1"/>
+  <rect x="598" y="464" width="870" height="312" rx="28" fill="#EDE5D8"/>
+  <text x="170" y="220" fill="#E8F2F4" font-size="36" font-family="Avenir Next, PingFang SC, sans-serif" letter-spacing="4">READING / THINKING</text>
+  <text x="170" y="328" fill="#FFFFFF" font-size="92" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">最近的输入结构</text>
+  <text x="170" y="412" fill="#CFE2E6" font-size="42" font-family="Avenir Next, PingFang SC, sans-serif">金融 / AI / 传记</text>
+  <text x="170" y="478" fill="#CFE2E6" font-size="42" font-family="Avenir Next, PingFang SC, sans-serif">为什么会在同一个书单里相遇</text>
+  <text x="640" y="214" fill="#6B5334" font-size="52" font-family="Georgia, PingFang SC, serif" font-weight="700">System</text>
+  <text x="640" y="280" fill="#6B5334" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">风险、判断、噪音与信号</text>
+  <text x="1076" y="214" fill="#244A46" font-size="52" font-family="Georgia, PingFang SC, serif" font-weight="700">Structure</text>
+  <text x="1076" y="280" fill="#244A46" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">工作流、工具与现实接缝</text>
+  <text x="640" y="560" fill="#4E4236" font-size="60" font-family="Georgia, PingFang SC, serif" font-weight="700">不是三排书，而是一种校准自己的方式</text>
+  <text x="640" y="638" fill="#6D6256" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">当金融训练系统感，AI训练结构感，传记和文学把人重新拉回来</text>
+  <circle cx="1330" cy="630" r="96" fill="#1B4D5C" fill-opacity="0.1"/>
+  <circle cx="1210" cy="678" r="44" fill="#A7855E" fill-opacity="0.2"/>
+  <circle cx="1376" cy="692" r="26" fill="#6D948E" fill-opacity="0.35"/>
+</svg>

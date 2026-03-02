@@ -3,6 +3,7 @@ layout: post
 title: "最近的输入结构：金融、AI、传记为什么同时出现在我的书单里"
 date: 2026-03-02 10:00:00 +0800
 categories: 阅读 思考 书单
+cover: /_posts/img/cover_input_structure.svg
 pillars:
   - 阅读与思考
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "工作一年之后，我开始重新整理什么是值得长期投入的东西"
 date: 2026-03-02 10:20:00 +0800
 categories: 阅读 思考 复盘
+cover: /_posts/img/cover_long_term_investment.svg
 pillars:
   - 阅读与思考
 ---

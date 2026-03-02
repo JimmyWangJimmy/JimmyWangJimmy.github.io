@@ -3,6 +3,7 @@ layout: post
 title: "最近循环的 10 张专辑，像一份不太稳定但诚实的状态记录"
 date: 2026-03-02 10:40:00 +0800
 categories: 阅读 思考 音乐
+cover: /_posts/img/cover_music_state_record.svg
 pillars:
   - 阅读与思考
 ---
