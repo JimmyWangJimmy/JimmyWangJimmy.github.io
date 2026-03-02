@@ -1,0 +1,32 @@
+<svg width="1600" height="920" viewBox="0 0 1600 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="920" rx="40" fill="#F6F2EB"/>
+  <rect x="60" y="60" width="1480" height="800" rx="32" fill="#FFFDF9" stroke="#E5DBCF" stroke-width="2"/>
+  <text x="112" y="140" fill="#102231" font-size="52" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">判断训练闭环</text>
+  <text x="112" y="188" fill="#5B6A77" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">这批金融书吸引我的，不是答案，而是它们如何训练人在复杂系统里保持克制和结构感。</text>
+
+  <circle cx="800" cy="492" r="282" fill="#F7FBFA" stroke="#C9DED8" stroke-width="3"/>
+  <circle cx="800" cy="492" r="148" fill="#102231"/>
+  <text x="732" y="474" fill="#FFFFFF" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">更稳的</text>
+  <text x="686" y="520" fill="#FFFFFF" font-size="46" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">判断结构</text>
+
+  <rect x="690" y="146" width="220" height="96" rx="24" fill="#E4F3EE" stroke="#98CFC2" stroke-width="2"/>
+  <text x="738" y="203" fill="#0E6B63" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">信号识别</text>
+
+  <rect x="1126" y="386" width="250" height="96" rx="24" fill="#E8EEF9" stroke="#A6BCE2" stroke-width="2"/>
+  <text x="1170" y="444" fill="#2C4E88" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">承认不确定</text>
+
+  <rect x="1036" y="678" width="250" height="96" rx="24" fill="#F7EBDD" stroke="#DEBB8D" stroke-width="2"/>
+  <text x="1094" y="736" fill="#9B5A18" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">设置约束</text>
+
+  <rect x="316" y="678" width="250" height="96" rx="24" fill="#F2EAF8" stroke="#CDB0E1" stroke-width="2"/>
+  <text x="372" y="736" fill="#6F3D96" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">接受误判</text>
+
+  <rect x="226" y="386" width="250" height="96" rx="24" fill="#FBEFEF" stroke="#E3B8B8" stroke-width="2"/>
+  <text x="276" y="444" fill="#8A3D3D" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">回看偏差</text>
+
+  <path d="M802 242C975 246 1112 308 1184 392" stroke="#7CB7A9" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1272 484C1298 564 1270 628 1212 690" stroke="#85A9DD" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1032 728C936 792 662 794 568 730" stroke="#D7B181" stroke-width="5" stroke-linecap="round"/>
+  <path d="M438 678C366 618 334 556 350 482" stroke="#B686D2" stroke-width="5" stroke-linecap="round"/>
+  <path d="M474 392C544 312 664 250 800 242" stroke="#D18E8E" stroke-width="5" stroke-linecap="round"/>
+</svg>

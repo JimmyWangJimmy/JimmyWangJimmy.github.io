@@ -505,6 +505,34 @@ body {
   box-shadow: var(--shadow);
 }
 
+.post-content figure {
+  margin: 28px 0 34px;
+}
+
+.post-content .article-figure {
+  padding: 18px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.post-content .article-figure img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  border-radius: 18px;
+  box-shadow: none;
+}
+
+.post-content figcaption {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
 .post-hero {
   margin: 36px 0 32px;
 }
