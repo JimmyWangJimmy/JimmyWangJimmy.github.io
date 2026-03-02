@@ -1,0 +1,16 @@
+<svg width="1600" height="920" viewBox="0 0 1600 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="920" rx="40" fill="#F6F2EB"/>
+  <rect x="56" y="56" width="1488" height="808" rx="32" fill="#FFFDF9" stroke="#E5DBCF" stroke-width="2"/>
+  <text x="110" y="140" fill="#102231" font-size="52" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">普通日期的横截面价值</text>
+  <text x="110" y="188" fill="#5B6A77" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">一个普通日期不解释生活，但能把当时的节奏、情绪和注意力分配截下来。</text>
+  <rect x="220" y="310" width="1160" height="300" rx="28" fill="#E9E0D0"/>
+  <line x1="380" y1="310" x2="380" y2="610" stroke="#CDBCA0" stroke-width="2"/>
+  <line x1="620" y1="310" x2="620" y2="610" stroke="#CDBCA0" stroke-width="2"/>
+  <line x1="860" y1="310" x2="860" y2="610" stroke="#CDBCA0" stroke-width="2"/>
+  <line x1="1100" y1="310" x2="1100" y2="610" stroke="#CDBCA0" stroke-width="2"/>
+  <text x="256" y="682" fill="#102231" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif">身体状态</text>
+  <text x="498" y="682" fill="#102231" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif">注意力</text>
+  <text x="744" y="682" fill="#102231" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif">情绪底色</text>
+  <text x="977" y="682" fill="#102231" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif">时间节奏</text>
+  <text x="1207" y="682" fill="#102231" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif">生活纹理</text>
+</svg>

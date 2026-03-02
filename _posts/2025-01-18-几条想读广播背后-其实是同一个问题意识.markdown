@@ -3,6 +3,7 @@ layout: post
 title: "几条想读广播背后，其实是同一个问题意识"
 date: 2025-01-18 20:30:00 +0800
 categories: 广播 书单 思考
+cover: /_posts/img/cover_read_broadcasts.svg
 summary: 把几条“想读”广播放在一起看，会发现它们不是零散兴趣，而是在共同指向同一个问题意识：如何在复杂系统里形成判断。
 pillars:
   - 阅读与思考
@@ -15,6 +16,11 @@ pillars:
 今天想读《主动投资组合管理》，明天想读《因子投资：方法与实践》，后面又把《大衰退》或者《实战AI大模型》放进清单里。标题之间的距离看起来很大，像是从不同方向突然拐出来的兴趣。
 
 但把这几条广播放在一起看，我越来越不觉得它们是散的。相反，它们背后其实一直在问同一个问题。
+
+<figure class="article-figure">
+  <img src="/_posts/img/diagram_broadcast_question_map.svg" alt="几条想读广播背后的共同问题图，展示不同书目如何共同指向复杂系统里的判断形成" />
+  <figcaption>广播表面上是零散的“想读”，放在一起之后却会浮出一个很明确的内部问题：复杂系统里的判断到底是怎么形成的。</figcaption>
+</figure>
 
 ## 看起来在换题材，其实在追同一种东西
 

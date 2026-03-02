@@ -3,6 +3,7 @@ layout: post
 title: "螳螂捕蝉，黄雀在后：很多竞争叙事最后暴露的，其实是位置感"
 date: 2024-08-18 20:30:00 +0800
 categories: 观察 关系 思考
+cover: /_posts/img/cover_mantis_oriole.svg
 summary: 很多看起来只是输赢的故事，最后真正暴露出来的不是技巧，而是每个人所处的位置、盲区和对局面的误判。
 pillars:
   - 阅读与思考
