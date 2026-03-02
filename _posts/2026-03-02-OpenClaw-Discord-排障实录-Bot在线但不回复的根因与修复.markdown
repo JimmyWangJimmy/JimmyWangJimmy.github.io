@@ -36,6 +36,11 @@ pillars:
 
 如果你也遇到“bot 在线但不回复”的问题，这篇可以直接当 runbook 用。
 
+<figure class="article-figure">
+  <img src="/_posts/img/diagram_openclaw_discord_flow.svg" alt="OpenClaw Discord 故障分层图，展示 gateway、schema、guild 策略和出站代理四层问题" />
+  <figcaption>这次最容易误判的地方，是每一层看起来都像“快好了”。只有把链路分层，才会发现它其实是四层问题叠加。</figcaption>
+</figure>
+
 ## 1. 先说本质：为什么这个问题特别容易误判
 
 这次故障最迷惑人的地方，在于每一层看起来都“像是快好了”。

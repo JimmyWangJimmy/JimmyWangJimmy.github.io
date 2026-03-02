@@ -1,0 +1,31 @@
+<svg width="1600" height="960" viewBox="0 0 1600 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="960" rx="40" fill="#F7F3EC"/>
+  <rect x="60" y="60" width="1480" height="840" rx="32" fill="#FFFCF8" stroke="#E6DDD1" stroke-width="2"/>
+  <text x="112" y="146" fill="#102231" font-size="52" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">长期投入地图</text>
+  <text x="112" y="194" fill="#5B6A77" font-size="26" font-family="Avenir Next, PingFang SC, sans-serif">工作一年之后，真正值得长期投入的不是更多技巧，而是能慢慢塑造人的几类基础能力。</text>
+
+  <circle cx="800" cy="520" r="136" fill="#102231"/>
+  <text x="712" y="510" fill="#FFFFFF" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">长期投入的</text>
+  <text x="706" y="556" fill="#FFFFFF" font-size="46" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">核心组合</text>
+
+  <rect x="692" y="220" width="216" height="104" rx="24" fill="#E7F6F1" stroke="#9DD4C7" stroke-width="2"/>
+  <text x="746" y="282" fill="#0E6B63" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">判断力</text>
+
+  <rect x="1114" y="394" width="216" height="104" rx="24" fill="#E9F0FA" stroke="#ADC2E7" stroke-width="2"/>
+  <text x="1160" y="456" fill="#2F4E87" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">表达力</text>
+
+  <rect x="992" y="714" width="216" height="104" rx="24" fill="#F8EDDF" stroke="#E1BE91" stroke-width="2"/>
+  <text x="1046" y="776" fill="#9B5A18" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">身体感</text>
+
+  <rect x="392" y="714" width="216" height="104" rx="24" fill="#F2EAF8" stroke="#CDB1E0" stroke-width="2"/>
+  <text x="458" y="776" fill="#6E3C95" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">兴趣面</text>
+
+  <rect x="270" y="394" width="216" height="104" rx="24" fill="#FCEFE7" stroke="#E5C0A8" stroke-width="2"/>
+  <text x="300" y="456" fill="#A05B2A" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">工作方式</text>
+
+  <path d="M804 324C918 342 1044 368 1120 402" stroke="#7BB8AA" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1180 500C1170 590 1140 660 1090 714" stroke="#88AADD" stroke-width="5" stroke-linecap="round"/>
+  <path d="M978 768C908 810 690 810 620 768" stroke="#D7B181" stroke-width="5" stroke-linecap="round"/>
+  <path d="M510 714C448 656 418 594 410 500" stroke="#B887D0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M486 406C556 372 680 344 796 324" stroke="#D9AA8E" stroke-width="5" stroke-linecap="round"/>
+</svg>

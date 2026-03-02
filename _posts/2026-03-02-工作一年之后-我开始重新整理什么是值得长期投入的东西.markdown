@@ -19,6 +19,11 @@ pillars:
 
 我越来越觉得，工作一年之后最重要的收获，不是学会了多少具体技能，而是开始重新整理：到底什么东西值得长期投入。
 
+<figure class="article-figure">
+  <img src="/_posts/img/diagram_long_term_investment_map.svg" alt="长期投入地图，展示判断力、表达力、身体感、兴趣面和工作方式之间的关系" />
+  <figcaption>把这一年的感受压成图之后会更直观：真正值得长期投入的，不是更多技巧，而是这五类会慢慢塑造人的基础能力。</figcaption>
+</figure>
+
 ## 第一类，值得长期投入的是判断力
 
 刚开始做事的时候，人很容易把“会不会”看得太重。

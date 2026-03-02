@@ -17,6 +17,11 @@ pillars:
 
 > 本文旨在为团队成员或博客读者提供一个"避坑指南"。在 Windows 环境下，开发工具的链路由于环境变量、路径转义和 Node.js 版本管理器的存在，变得异常脆弱。
 
+<figure class="article-figure">
+  <img src="/_posts/img/diagram_mcp_windows_path_flow.svg" alt="Windows MCP 连接故障链路图，展示 npx、NVM、STDIO 和绝对路径修复之间的关系" />
+  <figcaption>这类红点故障最容易让人误会成“插件抽风”。把执行链路拆开后就会发现，真正的问题藏在 Windows 包装脚本、NVM 路径和 STDIO 杂音之间。</figcaption>
+</figure>
+
 ## 1. 背景：为什么你的 MCP 永远是"红点"？
 
 最近在配置 Insforge MCP 扩展时，遇到了一个极具代表性的问题：明明 API Key 正确、网络通畅，但在 VS Code 插件（如 CodeGeeX 或 Trae）中，MCP 服务始终报错 `Connection closed` 或 `Connection failed`。
