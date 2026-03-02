@@ -8,9 +8,9 @@
     - 根因定位与修复
     - 环境、代理、工具链问题
   featured_posts:
-    - OpenClaw Discord 排障实录：Bot 在线但不回复的根因与修复
-    - 彻底终结 MCP 连接地狱：Windows 环境下的路径排查与环境优化实战
-    - 解决ERROR: Permission to .git denied to deploy key fatal: Could not read from remote repository.
+    - "OpenClaw Discord 排障实录：Bot 在线但不回复的根因与修复"
+    - "彻底终结 MCP 连接地狱：Windows 环境下的路径排查与环境优化实战"
+    - "解决ERROR: Permission to .git denied to deploy key fatal: Could not read from remote repository."
   side_notes:
     - title: 这一栏写什么
       body: 从表面现象到根因定位，再到最小可用修复，重点是把故障真正拆开，而不是停在经验口令。
@@ -36,8 +36,8 @@
     - Agent / MCP / OpenClaw 实践
     - 人机协作的边界与方法
   featured_posts:
-    - OpenClaw Discord 排障实录：Bot 在线但不回复的根因与修复
-    - 彻底终结 MCP 连接地狱：Windows 环境下的路径排查与环境优化实战
+    - "OpenClaw Discord 排障实录：Bot 在线但不回复的根因与修复"
+    - "彻底终结 MCP 连接地狱：Windows 环境下的路径排查与环境优化实战"
     - Spring AI Demo
   side_notes:
     - title: 这一栏关注什么
@@ -70,9 +70,9 @@
     - 月度输入与状态切片
     - 方法论与长期判断
   featured_posts:
-    - 最近的输入结构：金融、AI、传记为什么同时出现在我的书单里
-    - 工作一年之后，我开始重新整理什么是值得长期投入的东西
-    - 最近循环的 10 张专辑，像一份不太稳定但诚实的状态记录
+    - "最近的输入结构：金融、AI、传记为什么同时出现在我的书单里"
+    - "工作一年之后，我开始重新整理什么是值得长期投入的东西"
+    - "最近循环的 10 张专辑，像一份不太稳定但诚实的状态记录"
   side_notes:
     - title: 最近的输入方向
       body: 金融、AI、传记、音乐，这几条线并不是分散兴趣，而是在共同校准判断、节奏和工作方式。
