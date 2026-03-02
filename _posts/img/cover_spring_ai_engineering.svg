@@ -1,0 +1,18 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F3F0E8"/>
+  <rect x="70" y="72" width="1460" height="756" rx="34" fill="#FCFBF8" stroke="#DED5CA" stroke-width="2"/>
+  <rect x="118" y="120" width="520" height="660" rx="28" fill="#163A2F"/>
+  <rect x="688" y="120" width="330" height="204" rx="24" fill="#C8DFC6"/>
+  <rect x="1052" y="120" width="366" height="204" rx="24" fill="#DCC8A9"/>
+  <rect x="688" y="358" width="730" height="422" rx="24" fill="#ECE5D8"/>
+  <text x="164" y="214" fill="#D6EFE4" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" letter-spacing="4">HUMAN + AI / ENGINEERING</text>
+  <text x="164" y="322" fill="#FFFFFF" font-size="88" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">Spring AI Demo</text>
+  <text x="164" y="406" fill="#C7DFD2" font-size="38" font-family="Avenir Next, PingFang SC, sans-serif">AI 真正进入工程后，最先卡人的往往不是模型</text>
+  <text x="164" y="586" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">仓库</text>
+  <text x="164" y="640" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">依赖</text>
+  <text x="164" y="694" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif">版本与接入方式</text>
+  <text x="740" y="246" fill="#2E5B3A" font-size="46" font-family="Georgia, PingFang SC, serif" font-weight="700">Spring</text>
+  <text x="1096" y="246" fill="#654E36" font-size="46" font-family="Georgia, PingFang SC, serif" font-weight="700">AI</text>
+  <text x="740" y="506" fill="#4E4438" font-size="54" font-family="Georgia, PingFang SC, serif" font-weight="700">真正的第一道门不是 prompt，而是构建系统</text>
+  <text x="740" y="584" fill="#6B6054" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif">当模型能力进入后端工程，依赖和运行方式也必须像正常系统一样被认真处理</text>
+</svg>

@@ -3,7 +3,7 @@ layout: post
 title:  "Spring AI Demo"
 date:   2024-04-24 23:11:42 +0800
 categories: AI Java Spring
-cover: /_posts/img/cover_spring_ai_demo.svg
+cover: /_posts/img/cover_spring_ai_engineering.svg
 summary: 一次很早期的 Spring AI 上手记录，重点不在概念，而在依赖仓库、版本和接入方式这些真正会卡住启动的地方。
 pillars:
   - 与AI共生
