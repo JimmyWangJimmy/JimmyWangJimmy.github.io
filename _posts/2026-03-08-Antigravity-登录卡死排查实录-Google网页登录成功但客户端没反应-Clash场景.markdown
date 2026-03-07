@@ -1,6 +1,6 @@
 ---
 title: "Antigravity 登录卡死排查实录：Google 网页已登录，但客户端没反应（Clash 场景）"
-date: 2026-03-08 09:00:00 +0800
+date: 2026-03-07 12:00:00 +0800
 categories: [拆问题]
 tags: [macOS, Antigravity, OAuth, Google Login, Clash, 代理, 排障]
 summary: "浏览器里 Google 已登录，但 Antigravity 仍停在登录页。根因是 OAuth 最后一步 token 交换没有走 Clash 代理，本文给出证据链、原理和可复用排查清单。"
