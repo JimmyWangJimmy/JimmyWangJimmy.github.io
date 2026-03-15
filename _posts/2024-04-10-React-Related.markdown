@@ -1,114 +1,119 @@
 ---
 layout: post
-title:  "React Related"
-date:   2024-04-10 19:05:42 +0800
-categories: jekyll update
+title: "刚开始学 React 时，真正反复绊住我的其实不是框架，而是 JavaScript 本身"
+date: 2024-04-10 19:05:42 +0800
+categories: [与AI共生]
+summary: "React 入门早期最容易卡住的，经常不是 JSX 或组件概念，而是数组拷贝、`map` 返回值、状态不可变这些 JavaScript 基础没有真正吃透。"
+pillars:
+  - 与AI共生
 ---
 
-- [Egghead Beginner Guide To React](https://egghead.io/courses/the-beginner-s-guide-to-react) 
-the new functional ones.
+刚开始学 React 的时候，我以为最难的是框架本身。
 
-#### 创建React应用程序
+后来越学越觉得，真正最容易反复绊住人的，往往不是 React，而是 JavaScript 基础在组件和状态场景里突然变得不能再含糊。
+
+## 第一步：先把项目真正跑起来
+
+现在回头看，React 入门最好的起点还是尽快把一个最小项目跑起来。
+
+例如用 Vite：
+
 ```shell
 npm create vite@latest filename -- --template react
-```
-```shell
 cd filename
-```
-```shell
 npm install
-```
-```shell
 npm run dev
 ```
 
-移除`App.css` `Index.css`文件 `assets`文件夹
+这一步的价值不是“创建了一个项目”，而是让你尽快进入能改、能刷、能观察状态变化的环境。
 
-修改`App.jsx`文件
+很多理解如果只停在教程文字里，很难真正变成自己的东西。
+
+## React 入门最早会卡住什么
+
+### 1. 状态不是随便改的
+
+一旦开始用 `useState`，就会很快碰到一个问题：  
+数组和对象不能像以前那样随手改完再继续用。
+
+比如状态是数组：
+
 ```jsx
-import { useState } from 'react'
-const App = () => {
-  const [count, setCount] = useState(0)
-  const handleClick = () => {
-    setCount(count + 1)
-  }
-  return (
-    <div>
-      <button onClick={handleClick}>Hello World{count}</button>
-    </div>
-  )
-}
-```
-
-修改`Main.jsx`文件
-```jsx
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-
-import App from './App'
-
-ReactDOM.createRoot(document.getElementById('root')).render(<App />)
-```
-
-
-###### 使用 Spread Syntax方法
-
-·[MDN Spread_syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
-<br>
-什么时候用到Spread Syntax方法？
-```text
-在使用conditional state的时候，将一个数组作为状态，比如
 const [state, setState] = useState([])
-此时如果使用setState去更新状态，就会涉及到对原state数组的更新，但是由于const的限制，我们无法直接对state进行修改，所以我们需要使用Spread Syntax方法，将原state数组展开，然后再进行更新。
-具体的setState方法如下：
+```
+
+如果你要新增一项，更自然的写法是：
+
+```jsx
 setState([...state, newItem])
 ```
 
-举个例子：
-我的初始状态是一个空数组
-```jsx
-const [votes, setVotes] = useState(anecdotes.map(() => 0))
-```
+这里用到的不是 React 特技，而是一个更基本的原则：  
+状态更新要尽量基于“新值”，而不是直接修改原值。
 
-这是创建一个copy数组的方法，使用Spread Syntax方法和slice方法
+### 2. `map` 不是“写了就会返回”
 
-```jsx
-const copy = [...votes.slice(0, selected), votes[selected]+1,  ...votes.slice(selected+1)]
-```
+这个坑我当时也踩过。
 
-###### 创建数组
-Array(anecdotes.length).fill(0)
+比如本来想把对象数组提取成名字数组，正确写法是：
 
-anecdotes.map(() => 0)
-
-
-###### 运行`npm i`解决 `npm run dev`报错:`'vite' 不是内部或外部命令，也不是可运行的程序或批处理文件。`
-
-
-###### '{}'的使用注意
-我的初始状态设置中有一个数组
-```jsx
-  const [persons, setPersons] = useState([
-    { name: 'Arto Hellas' },{ name: 'Ada Lovelace' },{ name: 'Dan Abramov'}
-  ]) 
-```
-我想要使用map函数将其中的name属性单独构建一个数组，正确的做法如下：
 ```jsx
 const personnames = persons.map(person => person.name)
 ```
-浏览器使用console.log(personnames)输出结果为：
+
+但如果写成这样：
+
 ```jsx
-(3) ['Arto Hellas', 'Ada Lovelace', 'Dan Abramov']
+const personnames = persons.map(person => { person.name })
 ```
 
-如果不小心加上了一个可恶的'{}'，就会出现：
+结果就会变成一堆 `undefined`。
+
+原因不是 React，而是 JavaScript 箭头函数在使用 `{}` 时，需要显式 `return`。
+
+这类问题特别典型：  
+看起来像是“框架没工作”，实际上是语言本身的规则还没真正内化。
+
+### 3. 拷贝数组这件事，比想象中更重要
+
+像下面这种写法：
+
 ```jsx
-const personnames = persons.map(person => {person.name})
-```
-浏览器使用console.log(personnames)输出结果为：
-```jsx
-(3) [undefined, undefined, undefined]
+const copy = [...votes.slice(0, selected), votes[selected] + 1, ...votes.slice(selected + 1)]
 ```
 
-原因在于，当我们使用{}时，我们需要在{}中使用return关键字，否则会返回undefined。
-更深层的原因是：
+第一次看会觉得很绕，但它背后其实是在解决一个很核心的问题：
+
+如何在不直接修改原状态的前提下，生成一个新的状态结果。
+
+一旦这个思路开始建立，很多 React 状态更新就会突然顺很多。
+
+## 为什么我现在会把这些问题归到“React 入门的真正门槛”
+
+因为 React 最容易制造一种误解：
+
+好像问题都来自框架本身。
+
+实际上很多早期报错、渲染异常、状态不更新，根因是下面这些基础问题：
+
+- 数组和对象怎么拷贝
+- `map` / `filter` / `slice` 到底返回什么
+- 箭头函数什么时候隐式返回
+- 状态更新为什么不能依赖“原地修改”
+
+这些东西在普通 JavaScript 里可能还能模糊着用，但进了 React 之后，它们会被放大得非常明显。
+
+## 我后来怎么理解 React 学习曲线
+
+现在回头看，React 入门并不是“先学框架，再补基础”。  
+更真实的过程其实是：
+
+React 会不断逼你重新学习 JavaScript。
+
+也正因为这样，它才是一个很好的训练场。  
+你会在一次次组件、状态、列表渲染和事件处理里，慢慢把以前会但不稳的基础真正补牢。
+
+所以如果刚开始学 React 总觉得自己哪里不顺，不一定说明你不适合它。  
+很多时候只是框架正在逼你面对一个更真实的问题：
+
+你对 JavaScript 的理解，究竟是“看过”，还是“真的会用”。
