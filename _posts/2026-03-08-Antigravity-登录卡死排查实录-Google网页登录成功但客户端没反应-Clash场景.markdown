@@ -4,6 +4,8 @@ date: 2026-03-07 12:00:00 +0800
 categories: [拆问题]
 tags: [macOS, Antigravity, OAuth, Google Login, Clash, 代理, 排障]
 summary: "浏览器里 Google 已登录，但 Antigravity 仍停在登录页。根因是 OAuth 最后一步 token 交换没有走 Clash 代理，本文给出证据链、原理和可复用排查清单。"
+pillars:
+  - 拆问题
 ---
 
 最近在 macOS 上安装 Google Antigravity 后，我遇到一个非常迷惑的问题：
