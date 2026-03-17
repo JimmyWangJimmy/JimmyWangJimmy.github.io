@@ -1,98 +1,74 @@
+---
+layout: post
+title: "SpringBoot + Vue 全栈开发：从教学知识点到可交付项目，中间真正要补的是什么"
+date: 2024-05-27 20:30:00 +0800
+categories: [拆问题]
+summary: "学完 SpringBoot + Vue 的知识点不等于能稳定交付全栈项目，真正要补的是开发反馈速度、接口边界、参数规范和文件上传等基础工程能力。"
+pillars:
+  - 拆问题
+---
 
-SpringBoot + MybatisPlus 后端程序开发
-Web前端：Vue + ElementUI
-### 第一讲：
-B/S架构：前后端分离
-优点：分散性高、维护方便、开发简单、共享性高、总拥有成本低
+SpringBoot + Vue 这条路线入门资料很多，但真正做项目时，大家最容易卡住的不是“不会写 Controller”，而是工程链路没有补齐。
 
-浏览器向Web服务器发送请求，Web服务器向数据库发送请求，数据库返回数据给Web服务器，Web服务器返回数据给浏览器。
+我把这段学习里最有价值的部分整理成三层：开发效率、接口边界、常见业务能力。
 
-工具介绍：IDEA
-构建工具Maven。项目管理工具，对Java项目进行自动化构建和依赖管理。
-作用：项目构建、依赖管理、统一开发结构。
+## 1. 开发效率层：先把反馈速度提上来
 
-### 第二讲：SpringBoot快速上手
-SpringBoot是Spring的一个项目，简化了Spring的开发流程，提供了一些默认配置，开箱即用。
-SSM：Spring + SpringMVC + Mybatis
-SpringBoot：简化了SSM的开发流程。
-- 遵循“约定优于配置”的原则
-- 内嵌Tomcat、Jetty等服务器，无需部署WAR包。
-- 提供定制化启动器starter，简化Maven配置，开箱即用
-- 纯Java配置，没有XML配置文件
-- 提供生产级的服务监控方案，如安全监控、性能监控、应用监控等
+SpringBoot 项目里，最影响节奏的通常是“每改一次都等很久”。
 
-开发环境热部署
-- SpringBoot-devtools， 设置热部署
-1.加入依赖：
-```xml
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-devtools</artifactId>
-</dependency>
-```
+所以最先该做的是热部署链路：
 
-2.application.properties中加入：
+- 引入 `spring-boot-devtools`
+- 在配置里打开重启相关参数
+- IDE 侧开启自动编译
 
-```properties
-spring.devtools.restart.enabled=true
-spring.devtools.restart.additional-paths=src/main/java
-```
+这一层做好之后，后面的接口联调和页面迭代才会稳定，不然你会被重复等待打断。
 
-3.设置中选中Build Project automatically -> apply -> OK
-4.ctrl + shift + alt + / -> Registry -> compiler.automake.allow.when.app.running
+## 2. 接口边界层：把 Controller 约定清楚
 
-### 第三讲：SpringBootController Web入门+路由映射+参数传递+数据响应
-spring-boot-starter-web启动器：包括web、webMVC、json、tomcat等基础依赖组件，提供Web开发场景所需的所有底层依赖。
-webMVC：SpringMVC的简化版，提供了一套基于注解的Web开发模式。
-json: JSON数据解析组件
-tomcat：内嵌Tomcat服务器
+全栈联调里最容易发生的误差，是后端和前端对“接口到底怎么收发”理解不一致。
 
-控制器：Controller
-- @Controller：标识一个类是SpringMVC的Controller，返回的数据是页面和数据
-- @RestController：标识一个类是SpringMVC的Controller，返回数据是JSON格式
+这里最值得尽快固定的是：
 
-现在使用前后端分离的开发模式，所以使用@RestController，仅返回数据
+- 使用 `@RestController` 做前后端分离接口
+- 路由映射按资源语义拆分（`GET/POST/PUT/DELETE`）
+- 参数来源明确区分：
+  - `@RequestParam`
+  - `@PathVariable`
+  - `@RequestBody`
 
-#### 路由映射
-- @RequestMapping：主要负责URL路由映射
-属性：value(URL路径)、method、params、headers
+这一步不是“注解背得多”，而是边界变得稳定。  
+边界一旦稳定，前后端都能减少猜测。
 
-Method属性：限定请求方式 GET、POST、PUT、DELETE
-注解：@GetMapping、@PostMapping、@PutMapping、@DeleteMapping
+## 3. 常见业务层：文件上传和静态资源不要临时拼
 
+很多项目到中期才补这块，结果返工很重。
 
-#### 参数传递
-- @RequestParam：参数映射。将请求参数绑定到控制器的方法参数上，接收的参数来自HTTP请求体，或url的QueryString。
-- @PathVariable：用来处理动态的URL，URL值作为控制器中处理方法的参数。
-- @RequestBody：接收的参数是来自requestBody中，即请求体。
+像文件上传这类功能，建议早点把规则定掉：
 
-#### 数据响应
+- multipart 请求路径
+- 文件大小限制
+- 静态资源访问路径
+- 上传后访问策略
 
-接口调试工具：
-- apipost 
-- postman
+例如在配置里提前设置上传大小限制，就能避免上线后才遇到“前端传得上去，后端直接拒绝”的问题。
 
-### 第四讲：SpringBoot文件上传+拦截器
-完成了基础学习，开始进阶学习。
+## 为什么这条路线常常“学得会，做不稳”
 
-静态资源访问
-- 定义过滤规则和静态资源位置
-```
-spring.mvc.static-path-pattern=/static/**
-spring.resources.static-locations=classpath:/static/
-```
+因为知识点学习和项目交付是两种能力。
 
-文件上传原理
-- 上传文件的本质是将文件的二进制流传输到服务器
-表单的enctype属性规定在发送到服务器之前应该如何对表单数据进行编码。
-当表单的enctype="application/x-www-form-urlencoded"（默认）时，form表单中的数据格式为键值对: key1=value1&key2=value2
-当表单的enctype="multipart/form-data"时，form表单中的数据格式为二进制流数据
+教程里关注的是“这项功能怎么做”，  
+项目里真正考验的是“这套系统能不能持续稳定迭代”。
 
-SpringBoot实现文件上传功能
-修改文件上传大小限制
-```properties
-spring.servlet.multipart.max-file-size=10MB
-spring.servlet.multipart.max-request-size=10MB
-```
+中间这段差距，通常要靠工程动作补齐：
 
+- 开发反馈速度
+- 接口文档和参数规范
+- 请求/响应结构统一
+- 联调流程稳定
 
+## 这篇的核心结论
+
+SpringBoot + Vue 真正的分水岭，不是会不会写某个接口，而是能不能把前后端协作链路变成一个可重复、可维护的系统。
+
+一旦这层建起来，后面功能扩展会顺很多；这层没建好，项目越往后越容易“每加一个功能都像重新开工”。
