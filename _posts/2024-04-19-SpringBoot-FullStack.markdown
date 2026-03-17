@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "SpringBoot Full Stack"
+title: "SpringBoot 全栈起步清单：把后端基础能力先搭稳"
 date:   2024-04-19 15:32:42 +0800
 categories: [拆问题]
-summary: "这篇是早期 SpringBoot + MyBatis + Vue 全栈学习笔记，核心价值在于把常见基础问题（热部署、Swagger、ORM、分页与多表查询）整理成可回查的工程清单。"
+summary: "这篇是早期 SpringBoot + MyBatis + Vue 全栈学习清单，核心价值在于把热部署、Swagger、ORM、分页和多表查询这些基础能力先搭稳。"
 pillars:
   - 拆问题
 ---

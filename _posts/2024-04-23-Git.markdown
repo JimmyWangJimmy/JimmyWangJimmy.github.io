@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "解决ERROR: Permission to .git denied to deploy key fatal: Could not read from remote repository."
+title: "Git 推送报错排查：Permission denied to deploy key 怎么处理"
 date:   2024-04-23 00:59:42 +0800
 categories: [拆问题]
 summary: "部署密钥权限导致 Git 推送失败时，最快的应急路径是把 remote 从 SSH 切到 HTTPS，先恢复可推送能力。"
@@ -9,8 +9,9 @@ pillars:
   - 拆问题
 ---
 
-解决
-ERROR: Permission to .git denied to deploy key fatal: Could not read from remote repository.
+报错原文：
+
+`ERROR: Permission to .git denied to deploy key fatal: Could not read from remote repository.`
 
 一种解决的可能：切换为https方式
 使用`git clone`命令时 使用了ssh，

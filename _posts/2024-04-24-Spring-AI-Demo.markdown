@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Spring AI Demo"
+title: "Spring AI 接入实录：第一个卡点往往不是模型，而是依赖与仓库"
 date:   2024-04-24 23:11:42 +0800
-categories: AI Java Spring
+categories: [与AI共生]
 cover: /assets/post-media/cover_spring_ai_engineering.svg
-summary: 一次很早期的 Spring AI 上手记录，重点不在概念，而在依赖仓库、版本和接入方式这些真正会卡住启动的地方。
+summary: 一次早期 Spring AI 上手记录，重点不在概念，而在依赖仓库、版本和接入方式这些真正会卡住启动的工程问题。
 pillars:
   - 与AI共生
 ---

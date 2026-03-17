@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "坠落的审判"
+title: "观影《坠落的审判》：判断一个人，为什么总比判断一件事更难"
 date:   2024-04-01 00:59:42 +0800
-categories: 电影 观影 思考
+categories: [阅读与思考]
 summary: 《坠落的审判》最打动人的地方，不只是悬疑推进，而是它不断逼人承认：判断一个人，远比判断一件事更难。
 cover: /assets/post-media/cover_anatomy_of_a_fall.svg
 pillars:

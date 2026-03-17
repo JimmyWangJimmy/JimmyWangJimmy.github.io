@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "我的第一篇Blog"
+title: "我的第一篇 Blog：也是我和 AI 协作写作的起点"
 date:   2024-03-29 00:22:42 +0800
-categories: 写作 AI 博客
+categories: [与AI共生]
 summary: 回头看这篇很短的起点文，真正值得留下来的不是“博客开张”，而是那时我已经第一次把 AI 放进了写作流程。
 cover: /assets/post-media/cover_first_blog_ai.svg
 pillars:

@@ -2,7 +2,7 @@
 layout: post
 title: "搭 Node.js 本地服务时，真正高频的几个小坑"
 date: 2024-04-18 20:00:00 +0800
-categories: Node.js 本地开发 工程化
+categories: [拆问题]
 summary: 本地 Node.js 服务最容易浪费时间的，不是业务逻辑，而是自动重启、代理残留、默认脚本和调试上下文这些很小但很高频的坑。
 pillars:
   - 拆问题

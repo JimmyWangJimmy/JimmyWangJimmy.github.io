@@ -2,7 +2,7 @@
 layout: post
 title: "Jekyll 文章显示不全时，我是怎么定位的"
 date: 2024-04-25 20:00:00 +0800
-categories: Jekyll 建站 排障
+categories: [拆问题]
 summary: 博客文章“显示不全”看起来像前端问题，实际往往和分页、配置、文件命名甚至编码都有关系，关键是先把问题缩到生成阶段还是渲染阶段。
 pillars:
   - 拆问题

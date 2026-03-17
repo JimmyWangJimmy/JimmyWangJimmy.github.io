@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "SpringBoot FullStack FrontEnd Vue"
+title: "SpringBoot 对接 Vue 前端实战笔记：从语法到联调"
 date:   2024-04-27 00:45:00 +0800
 categories: [拆问题]
-summary: "这篇记录了 Vue 前端从基础语法到项目联调的完整学习路径，尤其适合作为 SpringBoot 后端对接前端时的实操备忘。"
+summary: "这篇记录了 Vue 前端从基础语法到项目联调的实践路径，适合作为 SpringBoot 后端对接前端时的长期备忘。"
 pillars:
   - 拆问题
 cover: /assets/post-media/cover_springboot_vue.svg
