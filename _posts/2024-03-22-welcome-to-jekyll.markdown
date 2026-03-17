@@ -1,29 +1,49 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-03-22 17:32:42 +0800
-categories: jekyll update
+title: "我为什么没有删掉第一篇 Jekyll 默认文章"
+date: 2024-03-22 17:32:42 +0800
+categories: [阅读与思考]
+summary: "很多人会第一时间删掉 Jekyll 默认文章，但保留并改写它，反而是理解博客系统结构最轻量、最有效的一步。"
+pillars:
+  - 阅读与思考
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+刚开始搭博客时，Jekyll 会自动生成一篇 `Welcome to Jekyll`。
 
-`YEAR-MONTH-DAY-title.MARKUP`
+很多教程都会建议直接删掉它。  
+我后来没有这么做，而是把它当成“第一块脚手架”。
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## 这篇默认文章真正有用的地方
 
-Jekyll also offers powerful support for code snippets:
+它其实在帮你做三件事：
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+- 告诉你 `_posts` 目录和文件命名规则
+- 示范 front matter（标题、日期、分类）
+- 示范代码块和链接在页面里的渲染方式
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+这些都不是“最终内容”，但它们是博客可持续写作的地基。
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## 为什么我建议先改写，不要秒删
+
+如果一上来就删，容易发生两件事：
+
+- 你知道“博客能发文”，但不知道“文章为什么会被系统识别”
+- 你会写内容，但对模板、日期、分类、渲染规则理解很浅
+
+保留并改写这篇默认文章，相当于在真实站点里做一次最小演练。
+
+## 我现在对这一步的理解
+
+第一篇文章的价值，不在于内容深度，而在于它能帮你建立发布闭环：
+
+1. 新建一篇文章  
+2. 让它被系统识别  
+3. 让它在页面正确展示  
+4. 再开始长期写作
+
+这件事一旦打通，后面写什么都更稳。
+
+## 一句话结论
+
+默认文章不是“无用模板”，它是一个最低成本的上手样本。  
+先理解它，再替换它，比直接删除更适合长期维护博客。

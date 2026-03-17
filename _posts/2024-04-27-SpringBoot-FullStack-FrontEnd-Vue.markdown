@@ -2,7 +2,10 @@
 layout: post
 title:  "SpringBoot FullStack FrontEnd Vue"
 date:   2024-04-27 00:45:00 +0800
-categories: jekyll update
+categories: [拆问题]
+summary: "这篇记录了 Vue 前端从基础语法到项目联调的完整学习路径，尤其适合作为 SpringBoot 后端对接前端时的实操备忘。"
+pillars:
+  - 拆问题
 cover: /assets/post-media/cover_springboot_vue.svg
 ---
 前言：Draft版本。

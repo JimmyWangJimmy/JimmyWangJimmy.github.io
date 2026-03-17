@@ -2,7 +2,10 @@
 layout: post
 title:  "SpringBoot Full Stack"
 date:   2024-04-19 15:32:42 +0800
-categories: jekyll update
+categories: [拆问题]
+summary: "这篇是早期 SpringBoot + MyBatis + Vue 全栈学习笔记，核心价值在于把常见基础问题（热部署、Swagger、ORM、分页与多表查询）整理成可回查的工程清单。"
+pillars:
+  - 拆问题
 ---
 ## Resouces
 -[1天搞定SpringBoot+Vue全栈开发](https://www.bilibili.com/video/BV1nV4y1s7ZN/)

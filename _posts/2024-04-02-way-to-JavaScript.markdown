@@ -1,10 +1,40 @@
 ---
 layout: post
-title:  "Way to JavaScript"
-date:   2024-04-02 17:59:42 +0800
-categories: jekyll update
+title: "JavaScript 学习路线：从课程收藏到可执行练习，差的不是资源而是路径"
+date: 2024-04-02 17:59:42 +0800
+categories: [与AI共生]
+summary: "JavaScript 学习最常见的问题不是找不到课程，而是缺少把课程内容转成可执行练习的路径。"
+pillars:
+  - 与AI共生
 ---
 
-### Courses:
-- JavaScript: [Understanding the Weird Parts](https://www.udemy.com/share/101XjU/) On Udemy 
+我当时收藏了一门课：
 
+- [JavaScript: Understanding the Weird Parts](https://www.udemy.com/share/101XjU/)
+
+后来发现，学习停滞通常不在“课程不够好”，而在“看完后不知道怎么落到自己的项目里”。
+
+## 我后来总结的更有效路线
+
+1. 先学一门完整课程，但只抓主线概念  
+2. 每学一个概念，马上在自己项目里写一个最小例子  
+3. 把例子做成可复用片段，而不是一次性笔记  
+4. 每周回顾一轮：哪些概念已经能不查文档写出来
+
+## 为什么这样更稳
+
+因为 JavaScript 真正难的地方在“语义细节”，不是“知道这个 API 存在”。
+
+你只有在真实代码里反复用，才会真正把：
+
+- 作用域
+- this 绑定
+- 原型链
+- 异步模型
+
+这些概念变成稳定能力。
+
+## 一句话结论
+
+资源不是瓶颈，路径才是。  
+把“看课”改成“看课 + 最小实作 + 周复盘”，JavaScript 学习会明显更稳。

@@ -1,10 +1,29 @@
-FLy.io
+---
+layout: post
+title: "Fly.io 初次部署速记：Windows 下最容易漏掉的两步"
+date: 2024-05-12 10:00:00 +0800
+categories: [拆问题]
+summary: "Fly.io 初次上手的核心不是命令多，而是安装后先完成登录与项目绑定，否则后续命令看起来都像“执行了但没生效”。"
+pillars:
+  - 拆问题
+---
 
-windows安装
-```
+这是一篇当时的部署速记，核心只有两步：
+
+## 1. 先安装 CLI（Windows）
+
+```powershell
 pwsh -Command "iwr https://fly.io/install.ps1 -useb | iex"
 ```
 
-```
+## 2. 马上完成登录
+
+```shell
 fly auth login
 ```
+
+如果这一步没做，后面很多部署命令会表现成“命令能跑，但项目状态不对”。
+
+## 一句话结论
+
+Fly.io 初次部署最关键的是先把 CLI 和认证链路打通，再谈构建和发布。
