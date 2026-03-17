@@ -1,29 +1,47 @@
 ---
 layout: post
-title: "Fly.io 初次部署速记：Windows 下最容易漏掉的两步"
+title: "Fly.io 初次部署：两步能跑，五步才稳定"
 date: 2024-05-12 10:00:00 +0800
 categories: [拆问题]
-summary: "Fly.io 初次上手的核心不是命令多，而是安装后先完成登录与项目绑定，否则后续命令看起来都像“执行了但没生效”。"
+summary: "Fly.io 首次部署常见误区是“CLI 能用就算完成”。真正稳定上线至少要补齐认证、应用绑定、环境变量、健康检查和日志回看。"
 pillars:
   - 拆问题
 ---
 
-这是一篇当时的部署速记，核心只有两步：
+最开始记录 Fly.io 的时候只写了两行命令。  
+它能帮你“跑起来”，但还不足以保证“跑得稳”。
 
-## 1. 先安装 CLI（Windows）
+## 最小可用两步
 
 ```powershell
 pwsh -Command "iwr https://fly.io/install.ps1 -useb | iex"
-```
-
-## 2. 马上完成登录
-
-```shell
 fly auth login
 ```
 
-如果这一步没做，后面很多部署命令会表现成“命令能跑，但项目状态不对”。
+这两步只解决了 CLI 安装和认证。
+
+## 稳定上线建议补齐的五步
+
+1. 初始化应用：`fly launch`
+2. 核对区域和实例规格：`fly status`
+3. 配置密钥：`fly secrets set KEY=VALUE`
+4. 查看实时日志：`fly logs`
+5. 校验健康检查：`fly checks list`
+
+## 为什么这五步重要
+
+- `fly launch` 决定了应用和配置是否绑定正确
+- `secrets` 决定了生产是否能连数据库等外部服务
+- `logs` 和 `checks` 决定了故障出现时你能否快速定位
+
+## 快速排障顺序
+
+1. `fly status` 看实例是否启动
+2. `fly logs` 看是否启动即崩溃
+3. `fly secrets list` 看关键环境变量是否存在
+4. `fly checks list` 看健康探针是否连续失败
 
 ## 一句话结论
 
-Fly.io 初次部署最关键的是先把 CLI 和认证链路打通，再谈构建和发布。
+Fly.io 的门槛不高，但“能部署”和“可运维”是两件事。  
+把 launch、secrets、logs、checks 补齐，后续稳定性会高很多。
