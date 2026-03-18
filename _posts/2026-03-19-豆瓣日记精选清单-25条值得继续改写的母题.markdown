@@ -1,0 +1,60 @@
+---
+layout: post
+title: "豆瓣日记精选清单：25条值得继续改写的母题"
+date: 2026-03-19 00:58:00 +0800
+categories: [阅读与思考]
+tags: [豆瓣, 日记精选, 写作素材, 母题]
+summary: "在 97 篇日记里筛出 25 条可持续改写素材，覆盖生存处境、方法训练、AI实验与长期判断四类母题，作为后续博客连载底稿。"
+pillars:
+  - 阅读与思考
+---
+
+这份清单的目的不是“展示收藏”，而是建立可持续改写的素材队列。  
+选入标准：可迁移、可展开、可与当前阶段形成对话。
+
+## A. 处境与选择
+
+1. [羊城求生记](https://www.douban.com/note/777180205/)
+2. [最后的十五天](https://www.douban.com/note/821878436/)
+3. [如果自己被拿来刷KPI之 —— 一个小时准备产品经理面试（×）](https://www.douban.com/note/850376500/)
+4. [我的公考故事](https://www.douban.com/note/859958809/)
+5. [工作一年](https://www.douban.com/note/874456735/)
+
+## B. 方法与训练
+
+1. [语言思维](https://www.douban.com/note/702788077/)
+2. [记忆抢救 001](https://www.douban.com/note/730041762/)
+3. [记忆抢救　002](https://www.douban.com/note/824158228/)
+4. [写作为了欺骗](https://www.douban.com/note/844921831/)
+5. [录（技术版）](https://www.douban.com/note/845536603/)
+
+## C. AI 与认知工具
+
+1. [利用chatgpt快速入门（x）了解（√）](https://www.douban.com/note/846553893/)
+2. [利用chatgpt提高人际交往与沟通能力](https://www.douban.com/note/846554042/)
+3. [ChatGPT生成知识笔记测试](https://www.douban.com/note/846960565/)
+4. [自我简介集](https://www.douban.com/note/847085174/)
+5. [一份迟来的XX](https://www.douban.com/note/847086193/)
+
+## D. 长期问题与精神线索
+
+1. [什么是爱?](https://www.douban.com/note/712169046/)
+2. [有感](https://www.douban.com/note/711302061/)
+3. [乘兴而来](https://www.douban.com/note/754954290/)
+4. [再读《我的精神家园》](https://www.douban.com/note/850704511/)
+5. [2023年](https://www.douban.com/note/859131537/)
+6. [三件事](https://www.douban.com/note/860032813/)
+7. [三月记事](https://www.douban.com/note/863327363/)
+8. [六月十六日](https://www.douban.com/note/863327395/)
+9. [2024年7月7日](https://www.douban.com/note/863936650/)
+10. [从半颗牙齿说起](https://www.douban.com/note/872257054/)
+
+## 我将怎么继续写
+
+后续会按这 25 条做系列化改写，每篇遵循同一结构：
+
+1. 当时在写什么（原场景）
+2. 现在怎么看（重读判断）
+3. 对今天有什么用（可执行结论）
+
+这会把“旧日记”真正转成“可复用知识资产”。
