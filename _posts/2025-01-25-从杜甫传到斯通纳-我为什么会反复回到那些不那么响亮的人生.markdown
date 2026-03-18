@@ -2,7 +2,8 @@
 layout: post
 title: "从《杜甫传》到《斯通纳》：我为什么会反复回到那些不那么响亮的人生"
 date: 2025-01-25 20:40:00 +0800
-categories: 阅读 文学 传记
+categories: [阅读与思考]
+tags: [阅读, 文学, 传记]
 cover: /assets/post-media/cover_dufu_stoner.svg
 summary: 《杜甫传》和《斯通纳》都不靠戏剧性取胜，但它们会把一个人如何在时代、命运和沉默中坚持活着这件事照得很深。
 pillars:

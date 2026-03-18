@@ -2,7 +2,8 @@
 layout: post
 title: "几条想读广播背后，其实是同一个问题意识"
 date: 2025-01-18 20:30:00 +0800
-categories: 广播 书单 思考
+categories: [阅读与思考]
+tags: [广播, 书单, 思考]
 cover: /assets/post-media/cover_read_broadcasts.svg
 summary: 把几条“想读”广播放在一起看，会发现它们不是零散兴趣，而是在共同指向同一个问题意识：如何在复杂系统里形成判断。
 pillars:

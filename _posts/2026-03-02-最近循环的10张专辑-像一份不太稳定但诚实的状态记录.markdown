@@ -2,7 +2,8 @@
 layout: post
 title: "最近循环的 10 张专辑，像一份不太稳定但诚实的状态记录"
 date: 2026-02-20 10:40:00 +0800
-categories: 阅读 思考 音乐
+categories: [阅读与思考]
+tags: [阅读, 思考, 音乐]
 cover: /assets/post-media/cover_music_state_record.svg
 summary: 有时候播放列表比日记更诚实，这 10 张反复循环的专辑，像一份能把这个阶段气压显影出来的状态记录。
 pillars:

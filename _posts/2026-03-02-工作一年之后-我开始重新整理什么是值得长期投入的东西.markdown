@@ -2,7 +2,8 @@
 layout: post
 title: "工作一年之后，我开始重新整理什么是值得长期投入的东西"
 date: 2025-07-06 10:20:00 +0800
-categories: 阅读 思考 复盘
+categories: [阅读与思考]
+tags: [阅读, 思考, 复盘]
 cover: /assets/post-media/cover_long_term_investment.svg
 summary: 工作一年之后，真正值得长期投入的东西慢慢变得更清楚了：判断力、表达、身体、兴趣，以及一套自己的工作方式。
 pillars:
