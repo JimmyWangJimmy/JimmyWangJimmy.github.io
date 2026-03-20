@@ -16,10 +16,33 @@
 
     <script type="module">
       import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+
+      const convertMermaidCodeBlocks = () => {
+        const blocks = document.querySelectorAll("pre code.language-mermaid");
+        blocks.forEach((code) => {
+          const pre = code.closest("pre");
+          if (!pre || pre.dataset.mermaidConverted === "1") return;
+
+          const graph = document.createElement("div");
+          graph.className = "mermaid";
+          graph.textContent = code.textContent || "";
+
+          pre.dataset.mermaidConverted = "1";
+          pre.replaceWith(graph);
+        });
+      };
+
+      convertMermaidCodeBlocks();
+
       mermaid.initialize({
         startOnLoad: true,
         securityLevel: "loose",
         theme: "default"
+      });
+
+      // Render diagrams that may appear after initial load.
+      mermaid.run({
+        querySelector: ".mermaid"
       });
     </script>
   </body>
