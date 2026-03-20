@@ -29,4 +29,3 @@ flowchart TD
 
 好书不是给你答案，而是给你一面“长期对照镜”。
 
-原始日记：<https://www.douban.com/note/850704511/>

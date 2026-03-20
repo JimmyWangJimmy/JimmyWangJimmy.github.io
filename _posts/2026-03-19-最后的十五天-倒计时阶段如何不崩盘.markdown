@@ -29,4 +29,3 @@ flowchart LR
 
 最后十五天应该提升的是“控制力”，不是“兴奋度”。
 
-原始日记：<https://www.douban.com/note/821471183/>

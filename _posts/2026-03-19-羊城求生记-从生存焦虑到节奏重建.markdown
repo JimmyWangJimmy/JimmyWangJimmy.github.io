@@ -33,4 +33,3 @@ flowchart LR
 先把系统稳住，再谈大幅进步。  
 这不是保守，而是长期主义。
 
-原始日记：<https://www.douban.com/note/791613255/>

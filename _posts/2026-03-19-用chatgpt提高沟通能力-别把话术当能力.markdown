@@ -34,4 +34,3 @@ flowchart TD
 把 AI 当“语言加速器”有效，  
 把 AI 当“关系替代器”危险。
 
-原始日记：<https://www.douban.com/note/846554042/>

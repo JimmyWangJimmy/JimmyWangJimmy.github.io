@@ -30,4 +30,3 @@ flowchart LR
 日期写作不是流水账，而是未来复盘的数据源。  
 越具体，越有长期价值。
 
-原始日记：<https://www.douban.com/note/863327395/>

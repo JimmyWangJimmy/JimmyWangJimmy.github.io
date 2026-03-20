@@ -32,4 +32,3 @@ flowchart TD
 技术日记不是“学习证明”，  
 而是“下次故障时的应急手册”。
 
-原始日记：<https://www.douban.com/note/837022351/>

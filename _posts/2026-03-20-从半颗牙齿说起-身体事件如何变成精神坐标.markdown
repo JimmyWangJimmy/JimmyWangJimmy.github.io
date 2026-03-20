@@ -30,4 +30,3 @@ flowchart TD
 
 想写出有穿透力的文本，少用抽象形容词，多保留身体证据。
 
-原始日记：<https://www.douban.com/note/872257054/>

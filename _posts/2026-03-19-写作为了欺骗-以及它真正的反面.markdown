@@ -35,4 +35,3 @@ flowchart LR
 写作不是“把自己说好”，而是“把自己看清”。  
 看清之后，才谈得上改变。
 
-原始日记：<https://www.douban.com/note/835882442/>

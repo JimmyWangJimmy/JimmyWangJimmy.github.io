@@ -29,4 +29,3 @@ flowchart LR
 当你发现“空气先变”，先做三件事：  
 减变量、稳作息、重新定义本月主线。
 
-原始日记：<https://www.douban.com/note/863327363/>

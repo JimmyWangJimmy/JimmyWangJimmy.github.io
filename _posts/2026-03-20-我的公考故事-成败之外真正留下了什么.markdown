@@ -30,4 +30,3 @@ flowchart LR
 结果会过去，能力结构会留下。  
 这才是“故事之外”最重要的部分。
 
-原始日记：<https://www.douban.com/note/859958809/>

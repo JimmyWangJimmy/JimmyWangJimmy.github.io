@@ -31,4 +31,3 @@ flowchart TD
 不要把短句当半成品。  
 它是高密度线索，只是需要二次加工。
 
-原始日记：<https://www.douban.com/note/711302061/>

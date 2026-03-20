@@ -31,4 +31,3 @@ flowchart TD
 外部大脑的价值，不在存储容量，  
 而在关键时刻的调用速度与判断质量。
 
-原始日记：<https://www.douban.com/note/729369149/>

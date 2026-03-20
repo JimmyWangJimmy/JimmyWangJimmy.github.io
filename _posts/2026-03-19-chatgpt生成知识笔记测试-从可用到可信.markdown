@@ -38,4 +38,3 @@ flowchart TD
 
 当这三条成立，AI 才不是“笔记制造机”，而是“学习放大器”。
 
-原始日记：<https://www.douban.com/note/846716357/>
