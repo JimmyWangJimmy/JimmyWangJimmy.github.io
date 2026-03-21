@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="680" viewBox="0 0 980 680">
+<rect width="980" height="680" fill="#ffffff"/>
+<text x="40" y="45" font-size="30" font-family="Arial, sans-serif" fill="#10233f" font-weight="700">Stitch 场景价值-成本矩阵</text>
+<rect x="100" y="110" width="760" height="480" fill="#f9fbff" stroke="#d7e3f5"/>
+<line x1="100" y1="590" x2="860" y2="590" stroke="#2b3b5b" stroke-width="2"/>
+<line x1="100" y1="590" x2="100" y2="110" stroke="#2b3b5b" stroke-width="2"/>
+<text x="680" y="635" font-size="18" font-family="Arial" fill="#2b3b5b">预期业务价值（高→）</text>
+<text x="20" y="140" transform="rotate(-90 20,140)" font-size="18" font-family="Arial" fill="#2b3b5b">实施成本/风险（高↑）</text>
+<rect x="580" y="380" width="280" height="210" fill="#e7f2ff" opacity="0.7"/>
+<text x="605" y="415" font-size="20" font-family="Arial" fill="#1b4f9f" font-weight="700">优先落地区</text>
+
+<g font-family="Arial" font-size="15" fill="#1f2f4f">
+  <circle cx="700" cy="430" r="10" fill="#2b6ef2"/><text x="715" y="435">需求探索</text>
+  <circle cx="670" cy="470" r="10" fill="#2b6ef2"/><text x="685" y="475">原型评审</text>
+  <circle cx="640" cy="500" r="10" fill="#2b6ef2"/><text x="655" y="505">跨团队对齐</text>
+  <circle cx="360" cy="220" r="10" fill="#f28a2b"/><text x="375" y="225">设计系统治理</text>
+  <circle cx="300" cy="190" r="10" fill="#f28a2b"/><text x="315" y="195">品牌精修</text>
+  <circle cx="420" cy="280" r="10" fill="#e24a4a"/><text x="435" y="285">直接产码上线</text>
+</g>
+</svg>

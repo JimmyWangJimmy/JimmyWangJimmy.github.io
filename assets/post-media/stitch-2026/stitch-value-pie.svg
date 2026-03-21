@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="460" viewBox="0 0 940 460">
+<rect width="940" height="460" fill="#ffffff"/>
+<text x="40" y="45" font-size="30" font-family="Arial" fill="#10233f" font-weight="700">Stitch 价值构成（建议观测）</text>
+<g transform="translate(250,250)">
+  <path d="M0,0 L0,-170 A170,170 0 0,1 161.9,-51.6 Z" fill="#2b6ef2"/>
+  <path d="M0,0 L161.9,-51.6 A170,170 0 0,1 86.8,146.2 Z" fill="#4f8df7"/>
+  <path d="M0,0 L86.8,146.2 A170,170 0 0,1 -86.8,146.2 Z" fill="#86b2fb"/>
+  <path d="M0,0 L-86.8,146.2 A170,170 0 0,1 0,-170 Z" fill="#b9d3ff"/>
+</g>
+<g font-family="Arial" font-size="18" fill="#1f2f4f">
+  <rect x="520" y="120" width="18" height="18" fill="#2b6ef2"/><text x="550" y="135">需求-设计对齐速度提升（35%）</text>
+  <rect x="520" y="165" width="18" height="18" fill="#4f8df7"/><text x="550" y="180">原型试错成本下降（30%）</text>
+  <rect x="520" y="210" width="18" height="18" fill="#86b2fb"/><text x="550" y="225">跨角色沟通效率提升（20%）</text>
+  <rect x="520" y="255" width="18" height="18" fill="#b9d3ff"/><text x="550" y="270">代码/设计交接效率（15%）</text>
+</g>
+</svg>

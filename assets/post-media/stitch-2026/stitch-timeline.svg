@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<rect width="1200" height="300" fill="#f8fbff"/>
+<text x="40" y="40" font-size="28" font-family="Arial, sans-serif" fill="#10233f" font-weight="700">Stitch 公开能力演进（官方信息整理）</text>
+<line x1="80" y1="150" x2="1120" y2="150" stroke="#5b6b8c" stroke-width="4"/>
+<g font-family="Arial, sans-serif" fill="#1b2b4b">
+  <circle cx="180" cy="150" r="12" fill="#2b6ef2"/>
+  <text x="140" y="95" font-size="20" font-weight="700">2025-05</text>
+  <text x="95" y="205" font-size="16">I/O 首次强调</text>
+  <text x="85" y="228" font-size="16">多模态生成 UI</text>
+
+  <circle cx="430" cy="150" r="12" fill="#2b6ef2"/>
+  <text x="390" y="95" font-size="20" font-weight="700">2025-08</text>
+  <text x="350" y="205" font-size="16">能力曝光扩大</text>
+  <text x="340" y="228" font-size="16">强调快速起稿</text>
+
+  <circle cx="700" cy="150" r="12" fill="#2b6ef2"/>
+  <text x="635" y="95" font-size="20" font-weight="700">2026-03-18</text>
+  <text x="625" y="205" font-size="16">vibe design 更新</text>
+  <text x="602" y="228" font-size="16">AI canvas + design agent</text>
+
+  <circle cx="980" cy="150" r="12" fill="#2b6ef2"/>
+  <text x="940" y="95" font-size="20" font-weight="700">2026-03</text>
+  <text x="900" y="205" font-size="16">Gemini 3 集成</text>
+  <text x="850" y="228" font-size="16">Prototypes + 质量提升</text>
+</g>
+</svg>

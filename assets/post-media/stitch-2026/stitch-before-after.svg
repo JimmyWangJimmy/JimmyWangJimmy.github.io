@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420">
+<rect width="1280" height="420" fill="#ffffff"/>
+<text x="40" y="45" font-size="30" font-family="Arial" fill="#10233f" font-weight="700">传统路径 vs Stitch 路径（前期对齐效率）</text>
+<rect x="50" y="80" width="560" height="300" rx="14" fill="#fff7f2" stroke="#f0c8ad"/>
+<text x="80" y="120" font-size="22" font-family="Arial" fill="#8a4b2f" font-weight="700">传统路径</text>
+<rect x="80" y="145" width="220" height="52" rx="10" fill="#ffe7d7"/><text x="190" y="178" text-anchor="middle" font-size="16" font-family="Arial">口头讨论反复</text>
+<rect x="340" y="145" width="220" height="52" rx="10" fill="#ffe7d7"/><text x="450" y="178" text-anchor="middle" font-size="16" font-family="Arial">低保真往返</text>
+<rect x="80" y="230" width="220" height="52" rx="10" fill="#ffe7d7"/><text x="190" y="263" text-anchor="middle" font-size="16" font-family="Arial">高保真初稿</text>
+<rect x="340" y="230" width="220" height="52" rx="10" fill="#ffe7d7"/><text x="450" y="263" text-anchor="middle" font-size="16" font-family="Arial">流程问题后置暴露</text>
+<line x1="300" y1="171" x2="340" y2="171" stroke="#d98555" stroke-width="3"/>
+<line x1="190" y1="197" x2="190" y2="230" stroke="#d98555" stroke-width="3"/>
+<line x1="300" y1="256" x2="340" y2="256" stroke="#d98555" stroke-width="3"/>
+
+<rect x="670" y="80" width="560" height="300" rx="14" fill="#f2f8ff" stroke="#b9d3f0"/>
+<text x="700" y="120" font-size="22" font-family="Arial" fill="#1f4f88" font-weight="700">Stitch 路径</text>
+<rect x="700" y="145" width="220" height="52" rx="10" fill="#e3f0ff"/><text x="810" y="178" text-anchor="middle" font-size="16" font-family="Arial">多模态输入</text>
+<rect x="960" y="145" width="220" height="52" rx="10" fill="#e3f0ff"/><text x="1070" y="178" text-anchor="middle" font-size="16" font-family="Arial">并行方案生成</text>
+<rect x="700" y="230" width="220" height="52" rx="10" fill="#e3f0ff"/><text x="810" y="263" text-anchor="middle" font-size="16" font-family="Arial">快速原型连接</text>
+<rect x="960" y="230" width="220" height="52" rx="10" fill="#e3f0ff"/><text x="1070" y="263" text-anchor="middle" font-size="16" font-family="Arial">早期流程评审</text>
+<line x1="920" y1="171" x2="960" y2="171" stroke="#2b6ef2" stroke-width="3"/>
+<line x1="810" y1="197" x2="810" y2="230" stroke="#2b6ef2" stroke-width="3"/>
+<line x1="920" y1="256" x2="960" y2="256" stroke="#2b6ef2" stroke-width="3"/>
+</svg>
