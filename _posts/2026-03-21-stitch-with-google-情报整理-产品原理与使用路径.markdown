@@ -9,6 +9,12 @@ pillars:
   - 与AI共生
 ---
 
+![Stitch 最终效果](/assets/post-media/stitch-2026/scope-final-effect.png)
+
+```text
+A bold landing page for an indie hacker product called Scope. It helps solo founders track focus, habits, and shipping progress. Include a dramatic hero section, waitlist CTA, feature cards, social proof, pricing, and a warm editorial visual style with rich gradients and strong typography.
+```
+
 最近很多人在问：`stitch.withgoogle.com` 到底是什么，能不能真正进入团队工作流，而不是只做 demo？
 
 我尽量用一种“真的能帮你做决策”的方式来写这篇：不只讲它有什么功能，而是讲它在真实产品里能解决什么、不能解决什么、应该放在流程哪里。
@@ -18,14 +24,6 @@ pillars:
 1. 一个快速起 MVP 首页和落地页的起稿器。  
 2. 一个把模糊想法变成可演示原型的工作台。  
 3. 一个帮你把设计系统、信息结构和前端骨架先搭起来的加速器。
-
-先看我实测跑出来的最终效果，下面紧跟着就是对应提示词：
-
-![Stitch 最终效果](/assets/post-media/stitch-2026/scope-final-effect.png)
-
-```text
-A bold landing page for an indie hacker product called Scope. It helps solo founders track focus, habits, and shipping progress. Include a dramatic hero section, waitlist CTA, feature cards, social proof, pricing, and a warm editorial visual style with rich gradients and strong typography.
-```
 
 这是一个 `Scope Landing Page Concept`，比前一个工作台例子更有视觉张力，也更像独立开发者会真的拿去做的产品首页。  
 如果你的目标是快速做出能发给别人看、能收 waitlist、能验证方向的页面，这种结果比后台面板更值得优先跑。
