@@ -19,9 +19,13 @@ pillars:
 2. 一个把模糊想法变成可演示原型的工作台。  
 3. 一个帮你把设计系统、信息结构和前端骨架先搭起来的加速器。
 
-先看我实测跑出来、也更适合独立开发者展示的一版结果：
+先看我实测跑出来的最终效果，下面紧跟着就是对应提示词：
 
-![Stitch landing page 实测](/assets/post-media/stitch-2026/scope-landing-concept-live.png)
+![Stitch 最终效果](/assets/post-media/stitch-2026/scope-final-effect.png)
+
+```text
+A bold landing page for an indie hacker product called Scope. It helps solo founders track focus, habits, and shipping progress. Include a dramatic hero section, waitlist CTA, feature cards, social proof, pricing, and a warm editorial visual style with rich gradients and strong typography.
+```
 
 这是一个 `Scope Landing Page Concept`，比前一个工作台例子更有视觉张力，也更像独立开发者会真的拿去做的产品首页。  
 如果你的目标是快速做出能发给别人看、能收 waitlist、能验证方向的页面，这种结果比后台面板更值得优先跑。
