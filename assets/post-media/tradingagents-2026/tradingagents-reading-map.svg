@@ -1,0 +1,39 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F7F1E8"/>
+  <rect x="60" y="60" width="1480" height="780" rx="36" fill="#FFFDF8" stroke="#DCCFBE" stroke-width="2"/>
+  <text x="100" y="132" fill="#2C241E" font-size="42" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">TradingAgents 使用经验阅读地图</text>
+  <text x="100" y="172" fill="#7A6756" font-size="22" font-family="Avenir Next, PingFang SC, sans-serif">四份原始文档不是重复劳动，而是四个不同层级的理解入口</text>
+
+  <rect x="100" y="240" width="300" height="180" rx="24" fill="#F3E2C8" stroke="#C89E63" stroke-width="2"/>
+  <text x="132" y="290" fill="#7D4A10" font-size="20" font-family="Avenir Next, PingFang SC, sans-serif">01</text>
+  <text x="132" y="332" fill="#2C241E" font-size="32" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">系统说明书</text>
+  <text x="132" y="372" fill="#5F5146" font-size="20" font-family="Avenir Next, PingFang SC, sans-serif">看清架构、Agent 角色、</text>
+  <text x="132" y="402" fill="#5F5146" font-size="20" font-family="Avenir Next, PingFang SC, sans-serif">数据流和状态管理</text>
+
+  <rect x="460" y="240" width="300" height="180" rx="24" fill="#F8ECD9" stroke="#D7B789" stroke-width="2"/>
+  <text x="492" y="290" fill="#9B5F17" font-size="20" font-family="Avenir Next, PingFang SC, sans-serif">02</text>
+  <text x="492" y="332" fill="#2C241E" font-size="32" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">术语手册</text>
+  <text x="492" y="372" fill="#5F5146" font-size="20" font-family="Avenir Next, PingFang SC, sans-serif">把报告里的金融黑话</text>
+  <text x="492" y="402" fill="#5F5146" font-size="20" font-family="Avenir Next, PingFang SC, sans-serif">翻译成能操作的理解</text>
+
+  <rect x="820" y="240" width="300" height="180" rx="24" fill="#E8F1EC" stroke="#89A98E" stroke-width="2"/>
+  <text x="852" y="290" fill="#406247" font-size="20" font-family="Avenir Next, PingFang SC, sans-serif">03</text>
+  <text x="852" y="332" fill="#2C241E" font-size="32" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">执行报告</text>
+  <text x="852" y="372" fill="#5F5146" font-size="20" font-family="Avenir Next, PingFang SC, sans-serif">用一份压缩复盘，看</text>
+  <text x="852" y="402" fill="#5F5146" font-size="20" font-family="Avenir Next, PingFang SC, sans-serif">NVDA 是怎样被判成 SELL</text>
+
+  <rect x="1180" y="240" width="300" height="180" rx="24" fill="#E9ECF7" stroke="#98A4D1" stroke-width="2"/>
+  <text x="1212" y="290" fill="#5262A9" font-size="20" font-family="Avenir Next, PingFang SC, sans-serif">04</text>
+  <text x="1212" y="332" fill="#2C241E" font-size="32" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">详细报告</text>
+  <text x="1212" y="372" fill="#5F5146" font-size="20" font-family="Avenir Next, PingFang SC, sans-serif">追到 Prompt、工具调用、</text>
+  <text x="1212" y="402" fill="#5F5146" font-size="20" font-family="Avenir Next, PingFang SC, sans-serif">Token 和完整数据流</text>
+
+  <path d="M400 330H452" stroke="#B98D52" stroke-width="4" stroke-linecap="round"/>
+  <path d="M760 330H812" stroke="#B98D52" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1120 330H1172" stroke="#B98D52" stroke-width="4" stroke-linecap="round"/>
+
+  <rect x="270" y="560" width="1060" height="180" rx="28" fill="#2F2C24"/>
+  <text x="320" y="620" fill="#F6E9D5" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">最后得到的不是“一份股票建议”，而是四层理解：</text>
+  <text x="320" y="670" fill="#FFFFFF" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">系统怎么想  ->  数据怎么进  ->  分歧怎么产生  ->  决策怎么收敛</text>
+  <text x="320" y="714" fill="#D9C8B5" font-size="22" font-family="Avenir Next, PingFang SC, sans-serif">这也是这套项目对独立研究者最有价值的地方：它不只是替你给结论，而是把结论的形成过程摊开。</text>
+</svg>

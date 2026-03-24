@@ -1,0 +1,51 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="980" fill="#F6F4EE"/>
+  <text x="100" y="110" fill="#2B2520" font-size="42" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">NVDA 这次分析是怎样一步步收敛到 SELL 的</text>
+  <text x="100" y="152" fill="#7B6B5F" font-size="22" font-family="Avenir Next, PingFang SC, sans-serif">最有意思的不是结果，而是不同 Agent 在哪里分歧、哪里达成一致</text>
+
+  <rect x="110" y="220" width="260" height="120" rx="22" fill="#F8D9D9" stroke="#D67C7C" stroke-width="2"/>
+  <text x="145" y="272" fill="#7B1E1E" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">技术分析</text>
+  <text x="145" y="312" fill="#413833" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">BEARISH</text>
+
+  <rect x="410" y="220" width="260" height="120" rx="22" fill="#F8EED8" stroke="#C9A864" stroke-width="2"/>
+  <text x="445" y="272" fill="#8C6618" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">情绪分析</text>
+  <text x="445" y="312" fill="#413833" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">HOLD</text>
+
+  <rect x="710" y="220" width="260" height="120" rx="22" fill="#F3ECD9" stroke="#B79F72" stroke-width="2"/>
+  <text x="745" y="272" fill="#6F5B35" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">新闻分析</text>
+  <text x="745" y="312" fill="#413833" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">区间震荡</text>
+
+  <rect x="1010" y="220" width="260" height="120" rx="22" fill="#DDF1E4" stroke="#6DA07E" stroke-width="2"/>
+  <text x="1045" y="272" fill="#2B6A3F" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">基本面分析</text>
+  <text x="1045" y="312" fill="#413833" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">BUY</text>
+
+  <path d="M240 370L500 470" stroke="#B69A7A" stroke-width="4"/>
+  <path d="M540 370L590 470" stroke="#B69A7A" stroke-width="4"/>
+  <path d="M840 370L680 470" stroke="#B69A7A" stroke-width="4"/>
+  <path d="M1140 370L770 470" stroke="#B69A7A" stroke-width="4"/>
+
+  <rect x="430" y="470" width="340" height="120" rx="24" fill="#F4E2E2" stroke="#C58B8B" stroke-width="2"/>
+  <text x="470" y="522" fill="#7A2222" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">Bull vs Bear 辩论</text>
+  <text x="470" y="564" fill="#413833" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">Bull 有增长故事，Bear 抓住估值与库存</text>
+
+  <rect x="860" y="470" width="340" height="120" rx="24" fill="#EFE7F8" stroke="#9E83C6" stroke-width="2"/>
+  <text x="900" y="522" fill="#5E3E8B" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">Research Manager</text>
+  <text x="900" y="564" fill="#413833" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">Deep Think 判给 Bear -> SELL</text>
+
+  <path d="M770 530H840" stroke="#8B6C4C" stroke-width="4" stroke-linecap="round"/>
+
+  <rect x="540" y="670" width="240" height="110" rx="22" fill="#FDE8C9" stroke="#D8A65E" stroke-width="2"/>
+  <text x="585" y="720" fill="#8C5B17" font-size="30" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">Trader</text>
+  <text x="585" y="758" fill="#413833" font-size="24" font-family="Avenir Next, PingFang SC, sans-serif">SELL</text>
+
+  <rect x="860" y="650" width="390" height="150" rx="24" fill="#FFF7EA" stroke="#D6B27B" stroke-width="2"/>
+  <text x="900" y="702" fill="#76511B" font-size="28" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">三方风控辩论</text>
+  <text x="900" y="740" fill="#413833" font-size="22" font-family="Avenir Next, PingFang SC, sans-serif">激进: 大力做空</text>
+  <text x="900" y="770" fill="#413833" font-size="22" font-family="Avenir Next, PingFang SC, sans-serif">保守: 小仓位、加对冲</text>
+  <text x="900" y="800" fill="#413833" font-size="22" font-family="Avenir Next, PingFang SC, sans-serif">中立: 等触发位确认后分批</text>
+
+  <path d="M780 725H848" stroke="#8B6C4C" stroke-width="4" stroke-linecap="round"/>
+
+  <rect x="540" y="850" width="710" height="90" rx="22" fill="#2E2A23"/>
+  <text x="580" y="905" fill="#FBE9D0" font-size="34" font-family="Avenir Next, PingFang SC, sans-serif" font-weight="700">最终裁决：SELL，但不是无脑做空，而是有触发条件、有仓位控制、有对冲结构的 SELL</text>
+</svg>
