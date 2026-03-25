@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "我如何把 TradingAgents 用成一套 AI 投研实验室：从系统读懂到 NVDA 全链路复盘"
-date: 2026-03-24 23:20:00 +0800
+date: 2026-03-24 23:00:00 +0800
 categories: [与AI共生]
 tags: [TradingAgents, Multi-Agent, 金融分析, AI投研, NVDA, LangGraph]
 summary: "基于四份一手输出文档，我把这次 TradingAgents 的真实使用过程整理成一篇完整长文：既讲系统怎么搭，也讲 NVDA 这次分析为什么最后会收敛到 SELL，更讲我自己真正得到的使用经验。"
