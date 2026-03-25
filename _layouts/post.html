@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+{% assign has_sidebar = false %}
+{% if page.summary or page.toc or page.intro_points or page.article_stats %}
+  {% assign has_sidebar = true %}
+{% endif %}
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   {% if page.cover %}
   <header class="post-hero">
@@ -18,16 +23,35 @@ layout: default
       <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
       {% if page.subtitle %}
       <p class="post-subtitle">{{ page.subtitle }}</p>
+      {% elsif page.summary %}
+      <p class="post-subtitle">{{ page.summary }}</p>
+      {% endif %}
+      {% if page.pillars or page.tags %}
+      <div class="post-taxonomy">
+        {% if page.pillars %}
+          {% for pillar in page.pillars limit: 3 %}
+          <span class="post-chip post-chip-strong">{{ pillar }}</span>
+          {% endfor %}
+        {% endif %}
+        {% if page.tags %}
+          {% for tag in page.tags limit: 4 %}
+          <span class="post-chip">{{ tag }}</span>
+          {% endfor %}
+        {% endif %}
+      </div>
       {% endif %}
     </div>
   </header>
   {% else %}
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+  <header class="post-header post-header-rich">
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: "%Y-%m-%d" }}
       </time>
+      {% if page.categories %}
+      <span class="post-meta-sep">·</span>
+      <span>{{ page.categories | join: " · " }}</span>
+      {% endif %}
       {% if page.author %}
         • {% for author in page.author %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -36,11 +60,85 @@ layout: default
         {% endfor %}
       {% endif %}
     </p>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    {% if page.subtitle %}
+    <p class="post-subtitle">{{ page.subtitle }}</p>
+    {% elsif page.summary %}
+    <p class="post-subtitle">{{ page.summary }}</p>
+    {% endif %}
+    {% if page.pillars or page.tags %}
+    <div class="post-taxonomy">
+      {% if page.pillars %}
+        {% for pillar in page.pillars limit: 3 %}
+        <span class="post-chip post-chip-strong">{{ pillar }}</span>
+        {% endfor %}
+      {% endif %}
+      {% if page.tags %}
+        {% for tag in page.tags limit: 4 %}
+        <span class="post-chip">{{ tag }}</span>
+        {% endfor %}
+      {% endif %}
+    </div>
+    {% endif %}
   </header>
   {% endif %}
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+  <div class="post-shell{% if has_sidebar %} post-shell-with-aside{% endif %}">
+    {% if has_sidebar %}
+    <aside class="post-aside">
+      {% if page.summary %}
+      <section class="post-side-card">
+        <p class="post-side-kicker">导读</p>
+        <p>{{ page.summary }}</p>
+      </section>
+      {% endif %}
+
+      {% if page.intro_points %}
+      <section class="post-side-card">
+        <p class="post-side-kicker">阅读建议</p>
+        <ul class="post-side-list">
+          {% for point in page.intro_points %}
+          <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+
+      {% if page.toc %}
+      <nav class="post-side-card post-side-toc" aria-label="文章目录">
+        <p class="post-side-kicker">目录</p>
+        <ol class="post-side-list post-side-toc-list">
+          {% for item in page.toc %}
+          <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ol>
+      </nav>
+      {% endif %}
+    </aside>
+    {% endif %}
+
+    <div class="post-main">
+      {% if page.article_stats %}
+      <section class="post-intro-panel">
+        <div class="post-intro-heading">
+          <p class="post-side-kicker">阅读地图</p>
+          <h2>先知道这篇怎么读，再往下看细节</h2>
+        </div>
+        <div class="post-stats-grid">
+          {% for stat in page.article_stats %}
+          <div class="post-stat-card">
+            <span class="post-stat-value">{{ stat.value }}</span>
+            <span class="post-stat-label">{{ stat.label }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
+      <div class="post-content e-content" itemprop="articleBody">
+        {{ content }}
+      </div>
+    </div>
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>

@@ -559,10 +559,218 @@ body {
   margin: 0 8px;
 }
 
+.post-header-rich {
+  margin: 40px 0 28px;
+  padding: 34px 38px;
+  border-radius: 30px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(255, 250, 241, 0.7)),
+    radial-gradient(circle at top right, rgba(15, 118, 110, 0.10), transparent 26%);
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+}
+
+.post-title {
+  margin: 10px 0 0;
+  font-size: clamp(2.2rem, 4vw, 4rem);
+  line-height: 1.04;
+  letter-spacing: -0.045em;
+}
+
 .post-subtitle {
   margin-top: 10px;
   color: var(--muted);
-  font-size: 1.05rem;
+  max-width: 44rem;
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.post-taxonomy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.post-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.post-chip-strong {
+  background: rgba(223, 244, 241, 0.85);
+  color: var(--accent-strong);
+}
+
+.post-shell {
+  display: block;
+}
+
+.post-shell-with-aside {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 30px;
+  align-items: start;
+}
+
+.post-aside {
+  position: sticky;
+  top: 92px;
+  display: grid;
+  gap: 16px;
+}
+
+.post-side-card,
+.post-intro-panel {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.76);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+}
+
+.post-side-card {
+  padding: 18px 18px 20px;
+  border-radius: 24px;
+}
+
+.post-side-card p:last-child,
+.post-side-card ul:last-child,
+.post-side-card ol:last-child {
+  margin-bottom: 0;
+}
+
+.post-side-kicker {
+  margin: 0 0 10px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.post-side-list {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+.post-side-list li + li {
+  margin-top: 10px;
+}
+
+.post-side-toc-list a,
+.post-side-toc-list a:visited {
+  color: var(--text);
+}
+
+.post-main {
+  min-width: 0;
+}
+
+.post-intro-panel {
+  margin-bottom: 26px;
+  padding: 26px 28px;
+  border-radius: 28px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(247, 245, 237, 0.86)),
+    radial-gradient(circle at top right, rgba(251, 191, 36, 0.12), transparent 28%);
+}
+
+.post-intro-heading {
+  margin-bottom: 18px;
+}
+
+.post-intro-heading h2 {
+  margin: 0;
+  font-size: clamp(1.5rem, 2.4vw, 2.15rem);
+  letter-spacing: -0.03em;
+}
+
+.post-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.post-stat-card {
+  padding: 16px 16px 14px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(23, 33, 43, 0.08);
+}
+
+.post-stat-value {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.post-stat-label {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.post-content {
+  max-width: 760px;
+  padding: 0 4px 0 0;
+  font-size: 1.06rem;
+  line-height: 1.92;
+}
+
+.post-content > *:first-child {
+  margin-top: 0;
+}
+
+.post-content h2,
+.post-content h3 {
+  color: var(--text);
+  letter-spacing: -0.03em;
+}
+
+.post-content h2 {
+  margin-top: 72px;
+  margin-bottom: 16px;
+  font-size: clamp(1.8rem, 2.8vw, 2.5rem);
+  line-height: 1.14;
+}
+
+.post-content h3 {
+  margin-top: 36px;
+  margin-bottom: 10px;
+  font-size: 1.34rem;
+  line-height: 1.25;
+}
+
+.post-content p,
+.post-content li {
+  color: rgba(23, 33, 43, 0.92);
+}
+
+.post-content ul,
+.post-content ol {
+  padding-left: 1.4rem;
+}
+
+.post-content li + li {
+  margin-top: 10px;
+}
+
+.post-content hr {
+  margin: 42px 0;
+  border: 0;
+  border-top: 1px solid rgba(23, 33, 43, 0.08);
 }
 
 .post-content blockquote {
@@ -597,7 +805,9 @@ a:hover {
   .pillar-feature-grid,
   .feature-grid,
   .topic-grid,
-  .post-grid {
+  .post-grid,
+  .post-shell-with-aside,
+  .post-stats-grid {
     grid-template-columns: 1fr;
   }
 
@@ -607,6 +817,15 @@ a:hover {
   .about-shell,
   .pillar-hero {
     padding: 28px;
+  }
+
+  .post-aside {
+    position: static;
+    order: 2;
+  }
+
+  .post-content {
+    max-width: none;
   }
 }
 
@@ -655,5 +874,25 @@ a:hover {
 
   .post-hero-body {
     padding: 22px 22px 6px;
+  }
+
+  .post-header-rich,
+  .post-intro-panel,
+  .post-side-card {
+    padding: 22px;
+    border-radius: 22px;
+  }
+
+  .post-title {
+    font-size: clamp(1.9rem, 10vw, 2.6rem);
+  }
+
+  .post-content {
+    font-size: 1rem;
+    line-height: 1.84;
+  }
+
+  .post-content h2 {
+    margin-top: 52px;
   }
 }
