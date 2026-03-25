@@ -186,16 +186,20 @@ Trader 后面又额外加了五个实时数据点，包括 Put/Call ratio 抬升
 
 <h3 id="appendix-a">附录 A. TradingAgents 系统设计与实现说明书</h3>
 
-{{ include_relative tradingagents_manual.md | markdownify }}
+{% capture appendix_a %}{% include tradingagents_manual_full.md %}{% endcapture %}
+{{ appendix_a | markdownify }}
 
 <h3 id="appendix-b">附录 B. TradingAgents 金融术语手册</h3>
 
-{{ include_relative financial_terms_handbook.md | markdownify }}
+{% capture appendix_b %}{% include financial_terms_handbook_full.md %}{% endcapture %}
+{{ appendix_b | markdownify }}
 
 <h3 id="appendix-c">附录 C. NVDA 执行复盘报告</h3>
 
-{{ include_relative nvda_execution_report.md | markdownify }}
+{% capture appendix_c %}{% include nvda_execution_report_full.md %}{% endcapture %}
+{{ appendix_c | markdownify }}
 
 <h3 id="appendix-d">附录 D. NVDA 详细执行报告</h3>
 
-{{ include_relative nvda_detailed_execution_report.md | markdownify }}
+{% capture appendix_d %}{% include nvda_detailed_execution_report_full.md %}{% endcapture %}
+{{ appendix_d | markdownify }}
