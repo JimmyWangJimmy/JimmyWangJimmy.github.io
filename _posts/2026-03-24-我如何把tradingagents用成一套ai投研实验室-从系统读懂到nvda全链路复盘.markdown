@@ -180,3 +180,24 @@ _posts/nvda_detailed_execution_report.md
 ```
 
 如果这篇文章解决的是“怎么理解这套系统”，那四份底稿解决的就是“怎么回到一手证据里去检查我说得对不对”。
+
+<h2 id="raw-documents">附录：四份原始文档全文</h2>
+
+下面四份文档按原样保留，直接全文展示，不做删减，不做二次改写。  
+你既可以把前面的长文当导读，也可以从这里直接进入一手材料。
+
+## 附录 A. TradingAgents 系统设计与实现说明书
+
+{{ include_relative tradingagents_manual.md | markdownify }}
+
+## 附录 B. TradingAgents 金融术语手册
+
+{{ include_relative financial_terms_handbook.md | markdownify }}
+
+## 附录 C. NVDA 执行复盘报告
+
+{{ include_relative nvda_execution_report.md | markdownify }}
+
+## 附录 D. NVDA 详细执行报告
+
+{{ include_relative nvda_detailed_execution_report.md | markdownify }}
