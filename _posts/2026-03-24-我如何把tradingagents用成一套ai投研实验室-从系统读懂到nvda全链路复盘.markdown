@@ -172,12 +172,10 @@ Trader 后面又额外加了五个实时数据点，包括 Put/Call ratio 抬升
 
 这篇长文背后的四份原始文件我都保留了，没有删减：
 
-```text
-_posts/tradingagents_manual.md
-_posts/financial_terms_handbook.md
-_posts/nvda_execution_report.md
-_posts/nvda_detailed_execution_report.md
-```
+1. [附录 A. TradingAgents 系统设计与实现说明书](#appendix-a)
+2. [附录 B. TradingAgents 金融术语手册](#appendix-b)
+3. [附录 C. NVDA 执行复盘报告](#appendix-c)
+4. [附录 D. NVDA 详细执行报告](#appendix-d)
 
 如果这篇文章解决的是“怎么理解这套系统”，那四份底稿解决的就是“怎么回到一手证据里去检查我说得对不对”。
 
@@ -186,18 +184,18 @@ _posts/nvda_detailed_execution_report.md
 下面四份文档按原样保留，直接全文展示，不做删减，不做二次改写。  
 你既可以把前面的长文当导读，也可以从这里直接进入一手材料。
 
-## 附录 A. TradingAgents 系统设计与实现说明书
+<h3 id="appendix-a">附录 A. TradingAgents 系统设计与实现说明书</h3>
 
 {{ include_relative tradingagents_manual.md | markdownify }}
 
-## 附录 B. TradingAgents 金融术语手册
+<h3 id="appendix-b">附录 B. TradingAgents 金融术语手册</h3>
 
 {{ include_relative financial_terms_handbook.md | markdownify }}
 
-## 附录 C. NVDA 执行复盘报告
+<h3 id="appendix-c">附录 C. NVDA 执行复盘报告</h3>
 
 {{ include_relative nvda_execution_report.md | markdownify }}
 
-## 附录 D. NVDA 详细执行报告
+<h3 id="appendix-d">附录 D. NVDA 详细执行报告</h3>
 
 {{ include_relative nvda_detailed_execution_report.md | markdownify }}
