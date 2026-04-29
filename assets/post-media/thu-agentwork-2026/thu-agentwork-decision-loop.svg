@@ -1,0 +1,37 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#FBF6EE"/>
+  <text x="90" y="110" fill="#2D2A27" font-family="Georgia, serif" font-size="44" font-weight="700">仓库里最重要的，不是脚本，而是决策回路</text>
+  <text x="90" y="150" fill="#6F655C" font-family="Helvetica, Arial, sans-serif" font-size="22">每一次小修补都在解决一个真实摩擦点，然后把它沉淀成新的工程结构。</text>
+
+  <circle cx="270" cy="350" r="126" fill="#F4E1BE"/>
+  <text x="206" y="322" fill="#2D2A27" font-family="Georgia, serif" font-size="30" font-weight="700">跑起来</text>
+  <text x="170" y="360" fill="#4E443C" font-family="Helvetica, Arial, sans-serif" font-size="20">先拿到第一批 PDF</text>
+  <text x="186" y="390" fill="#4E443C" font-family="Helvetica, Arial, sans-serif" font-size="20">验证链路是通的</text>
+
+  <circle cx="600" cy="240" r="126" fill="#FBECD7"/>
+  <text x="532" y="212" fill="#2D2A27" font-family="Georgia, serif" font-size="30" font-weight="700">遇到摩擦</text>
+  <text x="490" y="250" fill="#4E443C" font-family="Helvetica, Arial, sans-serif" font-size="20">TLS 卡顿、推送超时</text>
+  <text x="498" y="280" fill="#4E443C" font-family="Helvetica, Arial, sans-serif" font-size="20">单任务过大、目录混乱</text>
+
+  <circle cx="930" cy="350" r="126" fill="#F4E1BE"/>
+  <text x="850" y="322" fill="#2D2A27" font-family="Georgia, serif" font-size="30" font-weight="700">发明小结构</text>
+  <text x="822" y="360" fill="#4E443C" font-family="Helvetica, Arial, sans-serif" font-size="20">关代理、切 shard、批量推送</text>
+  <text x="834" y="390" fill="#4E443C" font-family="Helvetica, Arial, sans-serif" font-size="20">manifest、failure、重构脚本</text>
+
+  <circle cx="600" cy="520" r="126" fill="#2F3027"/>
+  <text x="526" y="492" fill="#F7F1E8" font-family="Georgia, serif" font-size="30" font-weight="700">沉淀契约</text>
+  <text x="492" y="530" fill="#E7D9C3" font-family="Helvetica, Arial, sans-serif" font-size="20">字段、schema、SQL、计划</text>
+  <text x="500" y="560" fill="#E7D9C3" font-family="Helvetica, Arial, sans-serif" font-size="20">把经验变成下一阶段起点</text>
+
+  <path d="M381 308C433 276 451 269 476 262" stroke="#A4662D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M722 267C780 284 805 299 823 312" stroke="#A4662D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M849 454C792 482 749 492 714 500" stroke="#A4662D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M486 501C432 490 381 468 332 433" stroke="#A4662D" stroke-width="6" stroke-linecap="round"/>
+
+  <polygon points="470,251 486,250 476,264" fill="#A4662D"/>
+  <polygon points="816,303 827,314 811,316" fill="#A4662D"/>
+  <polygon points="709,493 715,508 699,503" fill="#A4662D"/>
+  <polygon points="340,427 329,436 333,420" fill="#A4662D"/>
+
+  <text x="90" y="690" fill="#6F655C" font-family="Helvetica, Arial, sans-serif" font-size="20">这也是我认为 AI 协作最有价值的方式：不是替人假装一把做完，而是在每个阻塞点上加一块最小、可复用、可验证的新结构。</text>
+</svg>
